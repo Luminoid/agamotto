@@ -1463,16 +1463,6 @@ html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
     if (lo > 200 && hi < 1300 && hi - lo < hi * 0.35) { thumps = []; EGGS.dune(); }
   });
 
-  // a fallback for an icon that's hard to find: three quick taps on the hint line play the page's egg
-  let hintTaps = [];
-  $("foot-egg").addEventListener("click", () => {
-    const t = performance.now();
-    hintTaps = [...hintTaps.filter((x) => t - x < 1500), t];
-    if (hintTaps.length < 3) return;
-    hintTaps = [];
-    EGGS[state.tab === "all" ? "agamotto" : state.tab]();
-  });
-
   // Marvel: reach the end of the page and stay through the credits
   let creditsT, creditsTab = null;
   if ("IntersectionObserver" in window) new IntersectionObserver(([e]) => {

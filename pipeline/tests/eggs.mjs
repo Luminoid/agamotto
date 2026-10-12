@@ -59,8 +59,7 @@ for (const [f, trigger, wait, played] of cases) {
   check(`${f} egg plays`, (await ev(played)) === true, await state());
   await shot(`egg-${f}.png`);
 }
-// icons appear only on their own franchise (and All); the wand toggles Lumos off again; three taps on the hint line
-// play the page's egg too
+// icons appear only on their own franchise (and All); the wand toggles Lumos off again; the hint line is plain text
 await page("dune");
 check("no other franchise's icons on Dune", (await ev(`document.querySelectorAll(".egg-pin").length`)) === 0);
 await page("all");
@@ -68,7 +67,7 @@ check("All carries every icon", (await ev(`document.querySelectorAll(".egg-pin")
 await page("wizarding"); await tap("wizarding"); await sleep(300); await tap("wizarding"); await sleep(400);
 check("second wand tap ends Lumos", (await ev(`!document.querySelector(".egg-dark")`)) === true);
 await page("westeros"); await ev(`const h = document.getElementById("foot-egg"); h.click(); h.click(); h.click();`); await sleep(500);
-check("hint triple-tap plays the egg", (await ev(toastHas("Winter is here"))) === true);
+check("taps on the hint line play nothing", (await ev(`!document.querySelector(".egg-toast") && document.getElementById("egg").childElementCount === 0`)) === true);
 // Marvel: scroll to the end and wait through the credits
 await page("marvel");
 await ev(`scrollTo(0, document.body.scrollHeight)`); await sleep(3400);
