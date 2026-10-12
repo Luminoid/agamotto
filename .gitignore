@@ -1,0 +1,17 @@
+# fetch/enrich caches: Wikipedia, Wikidata, Douban and RT responses plus IMDb datasets (~550 MB, rebuildable)
+pipeline/cache/
+pipeline/imdb/
+
+# headless Chrome profiles the Douban scripts create; they hold cookies
+pipeline/chrome-profile*/
+
+# test screenshots
+pipeline/tests/*.png
+
+__pycache__/
+.claude/
+*.log
+.DS_Store
+
+# build output for the claude.ai preview (make build writes it)
+pipeline/artifact.html

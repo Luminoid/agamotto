@@ -1,0 +1,2737 @@
+{
+ "x-men-tas": {
+  "subjects": [
+   {
+    "id": "4089692",
+    "title": "X战警 第一季",
+    "r": 8.6,
+    "n": 1557,
+    "year": 1992,
+    "eps": 13,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "4089692:X战警 第一季:tt0103584"
+  ]
+ },
+ "x-men-97": {
+  "subjects": [
+   {
+    "id": "35659891",
+    "title": "X战警97 第一季",
+    "r": 8.7,
+    "n": 7283,
+    "year": 2024,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "36010991",
+    "title": "X战警97 第二季",
+    "r": 7.1,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35659891:X战警97 第一季:tt16026746"
+  ]
+ },
+ "x-men-evolution": {
+  "subjects": [
+   {
+    "id": "3704329",
+    "title": "X战警：进化 第一季",
+    "r": 7.9,
+    "n": 369,
+    "year": 2000,
+    "eps": 13,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3704329:X战警：进化 第一季:tt0247827"
+  ]
+ },
+ "wolverine-x-men": {
+  "subjects": [
+   {
+    "id": "3793707",
+    "title": "金刚狼与X战警",
+    "r": 8.4,
+    "n": 1184,
+    "year": 2009,
+    "eps": 26,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3793707:金刚狼与X战警:tt0772145"
+  ]
+ },
+ "legion": {
+  "subjects": [
+   {
+    "id": "26641716",
+    "title": "大群 第一季",
+    "r": 7.9,
+    "n": 30295,
+    "year": 2017,
+    "eps": 8,
+    "season": 1
+   },
+   {
+    "id": "26997532",
+    "title": "大群 第二季",
+    "r": 8.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "30238131",
+    "title": "大群 第三季",
+    "r": 8.7,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2983986:基督再临:tt1038686",
+   "26641716:大群 第一季:tt5114356"
+  ]
+ },
+ "the-gifted": {
+  "subjects": [
+   {
+    "id": "26908002",
+    "title": "天赋异禀 第一季",
+    "r": 7.5,
+    "n": 79026,
+    "year": 2017,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "27623045",
+    "title": "天赋异禀 第二季",
+    "r": 7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30279996:超凡少年:tt9136312",
+   "26908002:天赋异禀 第一季:tt4396630"
+  ]
+ },
+ "creature-commandos": {
+  "subjects": [
+   {
+    "id": "36226804",
+    "title": "生物突击队 第一季",
+    "r": 8.1,
+    "n": 5549,
+    "year": 2024,
+    "eps": 7,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36226804:生物突击队 第一季:tt26545355"
+  ]
+ },
+ "peacemaker": {
+  "subjects": [
+   {
+    "id": "35209701",
+    "title": "和平使者 第一季",
+    "r": 8.7,
+    "n": 55514,
+    "year": 2022,
+    "eps": 8,
+    "season": 1
+   },
+   {
+    "id": "35773267",
+    "title": "和平使者 第二季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35209701:和平使者 第一季:tt13146488"
+  ]
+ },
+ "lanterns": {
+  "subjects": [
+   {
+    "id": "36225837",
+    "title": "绿灯军团",
+    "r": 8,
+    "n": 10833,
+    "year": 2026,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36225837:绿灯军团:tt26545992"
+  ]
+ },
+ "clayface": {
+  "subjects": [
+   {
+    "id": "37154591",
+    "title": "泥面人",
+    "r": null,
+    "n": 0,
+    "year": 2026,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "37154591:泥面人:tt34890576"
+  ]
+ },
+ "the-penguin": {
+  "subjects": [
+   {
+    "id": "35604181",
+    "title": "企鹅人 第一季",
+    "r": 8.6,
+    "n": 32147,
+    "year": 2024,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35604181:企鹅人 第一季:tt15435876"
+  ]
+ },
+ "arrow": {
+  "subjects": [
+   {
+    "id": "10527257",
+    "title": "绿箭侠 第一季",
+    "r": 7.5,
+    "n": 38802,
+    "year": 2012,
+    "eps": 23,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "10527257:绿箭侠 第一季:tt2193021"
+  ]
+ },
+ "flash-2014": {
+  "subjects": [
+   {
+    "id": "24883222",
+    "title": "闪电侠 第一季",
+    "r": 7.8,
+    "n": 37183,
+    "year": 2014,
+    "eps": 23,
+    "season": 1
+   },
+   {
+    "id": "26289459",
+    "title": "闪电侠 第二季",
+    "r": 7.7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26749151",
+    "title": "闪电侠 第三季",
+    "r": 7,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "26952099",
+    "title": "闪电侠 第四季",
+    "r": 6.8,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "30223133",
+    "title": "闪电侠 第五季",
+    "r": 6.6,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "30450396",
+    "title": "闪电侠 第六季",
+    "r": 6.7,
+    "n": 0,
+    "year": null,
+    "season": 6
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3011317:闪电侠:tt0439572",
+   "24883222:闪电侠 第一季:tt3107288"
+  ]
+ },
+ "supergirl-tv": {
+  "subjects": [
+   {
+    "id": "25987068",
+    "title": "超级少女 第一季",
+    "r": 6.6,
+    "n": 7900,
+    "year": 2015,
+    "eps": 20,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25987068:超级少女 第一季:tt4016454"
+  ]
+ },
+ "legends": {
+  "subjects": [
+   {
+    "id": "26358783",
+    "title": "明日传奇 第一季",
+    "r": 6.4,
+    "n": 7127,
+    "year": 2016,
+    "eps": 16,
+    "season": 1
+   },
+   {
+    "id": "26749014",
+    "title": "明日传奇 第二季",
+    "r": 7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26952097",
+    "title": "明日传奇 第三季",
+    "r": 7.5,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "30280073",
+    "title": "明日传奇 第四季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "30450388",
+    "title": "明日传奇 第五季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "34941660",
+    "title": "明日传奇 第六季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 6
+   },
+   {
+    "id": "35435641",
+    "title": "明日传奇 第七季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 7
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26358783:明日传奇 第一季:tt4532368"
+  ]
+ },
+ "black-lightning": {
+  "subjects": [
+   {
+    "id": "26868388",
+    "title": "黑霹雳 第一季",
+    "r": 6.3,
+    "n": 897,
+    "year": 2018,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "30336297",
+    "title": "黑霹雳 第二季",
+    "r": 6,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "30450379",
+    "title": "黑霹雳 第三季",
+    "r": 5.9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "34941658",
+    "title": "黑霹雳 第四季",
+    "r": 6.6,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "4297254:黑色闪电:tt1569364",
+   "1306314:黑色闪电:tt0339130",
+   "26868388:黑霹雳 第一季:tt6045840"
+  ]
+ },
+ "batwoman": {
+  "subjects": [
+   {
+    "id": "30279863",
+    "title": "蝙蝠女侠 第一季",
+    "r": 5.6,
+    "n": 2034,
+    "year": 2019,
+    "eps": 20,
+    "season": 1
+   },
+   {
+    "id": "34941657",
+    "title": "蝙蝠女侠 第二季",
+    "r": 5.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35397513",
+    "title": "蝙蝠女侠 第三季",
+    "r": 5.7,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3172647:蝙蝠雌侠:tt0235608",
+   "30279863:蝙蝠女侠 第一季:tt8712204"
+  ]
+ },
+ "superman-lois": {
+  "subjects": [
+   {
+    "id": "34881451",
+    "title": "超人和露易丝 第一季",
+    "r": 7.9,
+    "n": 5764,
+    "year": 2021,
+    "eps": 15,
+    "season": 1
+   },
+   {
+    "id": "35382940",
+    "title": "超人和露易丝 第二季",
+    "r": 7.7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35811742",
+    "title": "超人和露易丝 第三季",
+    "r": 7.7,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "36442561",
+    "title": "超人和露易丝 第四季",
+    "r": 8.7,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "34881451:超人和露易丝 第一季:tt11192306"
+  ]
+ },
+ "btas": {
+  "subjects": [
+   {
+    "id": "2272384",
+    "title": "蝙蝠侠：动画版 第一季",
+    "r": 9.2,
+    "n": 5467,
+    "year": 1992,
+    "eps": 60,
+    "season": 1
+   },
+   {
+    "id": "26356561",
+    "title": "蝙蝠侠：动画版 第二季",
+    "r": 9.5,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26356574",
+    "title": "蝙蝠侠：动画版 第三季",
+    "r": 9.4,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "26356576",
+    "title": "蝙蝠侠：动画版 第四季",
+    "r": 9.1,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2272384:蝙蝠侠：动画版 第一季:tt0103359"
+  ]
+ },
+ "stas": {
+  "subjects": [
+   {
+    "id": "2148284",
+    "title": "超人动画版 第一季",
+    "r": 8.5,
+    "n": 2405,
+    "year": 1996,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "26593322",
+    "title": "超人动画版 第二季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26593324",
+    "title": "超人动画版 第三季",
+    "r": 9.1,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2148284:超人动画版 第一季:tt0115378"
+  ]
+ },
+ "justice-league-tas": {
+  "subjects": [
+   {
+    "id": "2079168",
+    "title": "正义联盟 第一季",
+    "r": 8.8,
+    "n": 2714,
+    "year": 2001,
+    "eps": 26,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2079168:正义联盟 第一季:tt0275137"
+  ]
+ },
+ "jlu": {
+  "subjects": [
+   {
+    "id": "10567034",
+    "title": "无限正义联盟 第一季",
+    "r": 8.9,
+    "n": 1273,
+    "year": 2004,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "10567924",
+    "title": "无限正义联盟 第二季",
+    "r": 9.3,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "10567925",
+    "title": "无限正义联盟 第三季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "10567034:无限正义联盟 第一季:tt6025022"
+  ]
+ },
+ "batman-beyond": {
+  "subjects": [
+   {
+    "id": "3688942",
+    "title": "未来蝙蝠侠 第一季",
+    "r": 8.3,
+    "n": 523,
+    "year": 1999,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "26292027",
+    "title": "未来蝙蝠侠 第二季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26292066",
+    "title": "未来蝙蝠侠 第三季",
+    "r": 8.4,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26650748:未来蝙蝠侠:tt3643216",
+   "3688942:未来蝙蝠侠 第一季:tt0147746"
+  ]
+ },
+ "wonder-woman-tv": {
+  "subjects": [
+   {
+    "id": "2003096",
+    "title": "神奇女侠 第一季",
+    "r": 7.7,
+    "n": 1090,
+    "year": 1976,
+    "eps": 13,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2003096:神奇女侠 第一季:tt0074074"
+  ]
+ },
+ "lois-clark": {
+  "subjects": [
+   {
+    "id": "1421103",
+    "title": "新超人 第一季",
+    "r": 8.9,
+    "n": 6575,
+    "year": 1993,
+    "eps": 21,
+    "season": 1
+   },
+   {
+    "id": "19967433",
+    "title": "新超人 第二季",
+    "r": 9.1,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "19967435",
+    "title": "新超人 第三季",
+    "r": 8.8,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "19967437",
+    "title": "新超人 第四季",
+    "r": 8.5,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1421103:新超人 第一季:tt0106057"
+  ]
+ },
+ "gotham": {
+  "subjects": [
+   {
+    "id": "25733164",
+    "title": "哥谭 第一季",
+    "r": 8.6,
+    "n": 54886,
+    "year": 2014,
+    "eps": 22,
+    "season": 1
+   },
+   {
+    "id": "26306790",
+    "title": "哥谭 第二季",
+    "r": 8.8,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26752161",
+    "title": "哥谭 第三季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "27041364",
+    "title": "哥谭 第四季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "30221883",
+    "title": "哥谭 第五季",
+    "r": 8.5,
+    "n": 0,
+    "year": null,
+    "season": 5
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "4895077:跨入阴阳界:tt0095246",
+   "25733164:哥谭 第一季:tt3749900"
+  ]
+ },
+ "lucifer": {
+  "subjects": [
+   {
+    "id": "26385614",
+    "title": "路西法 第一季",
+    "r": 7.6,
+    "n": 15757,
+    "year": 2016,
+    "eps": 13,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26385614:路西法 第一季:tt4052886"
+  ]
+ },
+ "titans": {
+  "subjects": [
+   {
+    "id": "2137327",
+    "title": "泰坦 第一季",
+    "r": 7.8,
+    "n": 13745,
+    "year": 2018,
+    "eps": 11,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35233878:巨蟒博尤纳:tt10377864",
+   "2137327:泰坦 第一季:tt1043813"
+  ]
+ },
+ "doom-patrol": {
+  "subjects": [
+   {
+    "id": "30222729",
+    "title": "末日巡逻队 第一季",
+    "r": 8,
+    "n": 12151,
+    "year": 2019,
+    "eps": 15,
+    "season": 1
+   },
+   {
+    "id": "33462298",
+    "title": "末日巡逻队 第二季",
+    "r": 8.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35203920",
+    "title": "末日巡逻队 第三季",
+    "r": 8,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "35629866",
+    "title": "末日巡逻队 第四季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30222729:末日巡逻队 第一季:tt8416494"
+  ]
+ },
+ "watchmen-tv": {
+  "subjects": [
+   {
+    "id": "26635374",
+    "title": "守望者",
+    "r": 8.4,
+    "n": 25626,
+    "year": 2019,
+    "eps": 9,
+    "season": 1
+   },
+   {
+    "id": "1972698",
+    "title": "守望者",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 1
+   },
+   {
+    "id": "6008279",
+    "title": "守望者",
+    "r": 7,
+    "n": 0,
+    "year": null,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1972698:守望者:tt0409459",
+   "26635374:守望者:tt7049682"
+  ]
+ },
+ "harley-quinn": {
+  "subjects": [
+   {
+    "id": "27205208",
+    "title": "哈莉·奎茵 第一季",
+    "r": 9,
+    "n": 17601,
+    "year": 2019,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "34971115",
+    "title": "哈莉·奎茵 第二季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35206948",
+    "title": "哈莉·奎茵 第三季",
+    "r": 8.4,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "36080718",
+    "title": "哈莉·奎茵 第四季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "36550744",
+    "title": "哈莉·奎茵 第五季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 5
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "27205208:哈莉·奎茵 第一季:tt7658402"
+  ]
+ },
+ "pennyworth": {
+  "subjects": [
+   {
+    "id": "30224319",
+    "title": "潘尼沃斯 第一季",
+    "r": 8,
+    "n": 5150,
+    "year": 2019,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "34875225",
+    "title": "潘尼沃斯 第二季",
+    "r": 7.9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35628413",
+    "title": "潘尼沃斯 第三季",
+    "r": 7.5,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30224319:潘尼沃斯 第一季:tt8425532"
+  ]
+ },
+ "stargirl": {
+  "subjects": [
+   {
+    "id": "30283264",
+    "title": "逐星女 第一季",
+    "r": 6.5,
+    "n": 2207,
+    "year": 2020,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "35133687",
+    "title": "逐星女 第二季",
+    "r": 7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35457305",
+    "title": "逐星女 第三季",
+    "r": 7.6,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26664834:星星女孩:tt4858674",
+   "30283264:逐星女 第一季:tt8722888"
+  ]
+ },
+ "sandman": {
+  "subjects": [
+   {
+    "id": "25793471",
+    "title": "睡魔 第一季",
+    "r": 7.6,
+    "n": 37530,
+    "year": 2022,
+    "eps": 11,
+    "season": 1
+   },
+   {
+    "id": "36142770",
+    "title": "睡魔 第二季",
+    "r": 6.7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35132324:睡魔:tt12326830",
+   "25793471:睡魔 第一季:tt1751634"
+  ]
+ },
+ "caped-crusader": {
+  "subjects": [
+   {
+    "id": "35467048",
+    "title": "蝙蝠侠：披风斗士 第一季",
+    "r": 7.2,
+    "n": 867,
+    "year": 2024,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "36309216",
+    "title": "蝙蝠侠：披风斗士 第二季",
+    "r": 7.7,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35467048:蝙蝠侠：披风斗士 第一季:tt14681596"
+  ]
+ },
+ "young-jedi": {
+  "subjects": [
+   {
+    "id": "35917079",
+    "title": "星球大战：少年绝地历险记 第一季",
+    "r": null,
+    "n": 0,
+    "year": 2023,
+    "eps": 26,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35917079:星球大战：少年绝地历险记 第一季:tt20674124"
+  ]
+ },
+ "acolyte": {
+  "subjects": [
+   {
+    "id": "35058564",
+    "title": "星球大战：侍者",
+    "r": 5.6,
+    "n": 4118,
+    "year": 2024,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35058564:星球大战：侍者:tt12262202"
+  ]
+ },
+ "tales-jedi": {
+  "subjects": [
+   {
+    "id": "35915735",
+    "title": "星球大战：绝地传奇",
+    "r": 8.5,
+    "n": 3112,
+    "year": 2022,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35915735:星球大战：绝地传奇:tt20723374"
+  ]
+ },
+ "clone-wars": {
+  "subjects": [
+   {
+    "id": "1901329",
+    "title": "星球大战：克隆人战争 第一季",
+    "r": 8.6,
+    "n": 5070,
+    "year": 2008,
+    "eps": 22,
+    "season": 1
+   },
+   {
+    "id": "4316826",
+    "title": "星球大战：克隆人战争 第二季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "5342708",
+    "title": "星球大战：克隆人战争 第三季",
+    "r": 9.2,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "6839760",
+    "title": "星球大战：克隆人战争 第四季",
+    "r": 9.2,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "17658236",
+    "title": "星球大战：克隆人战争 第五季",
+    "r": 9.3,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "25829220",
+    "title": "星球大战：克隆人战争 第六季",
+    "r": 9.3,
+    "n": 0,
+    "year": null,
+    "season": 6
+   },
+   {
+    "id": "30280509",
+    "title": "星球大战：克隆人战争 第七季",
+    "r": 9.5,
+    "n": 0,
+    "year": null,
+    "season": 7
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2982853:星球大战：克隆战争:tt1185834",
+   "1901329:星球大战：克隆人战争 第一季:tt0458290"
+  ]
+ },
+ "tales-underworld": {
+  "subjects": [
+   {
+    "id": "37303729",
+    "title": "星球大战：黑市传说",
+    "r": 7.2,
+    "n": 752,
+    "year": 2025,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "37303729:星球大战：黑市传说:tt36414431"
+  ]
+ },
+ "tales-empire": {
+  "subjects": [
+   {
+    "id": "36840846",
+    "title": "星球大战：帝国传说",
+    "r": 7.2,
+    "n": 1113,
+    "year": 2024,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36840846:星球大战：帝国传说:tt32019314"
+  ]
+ },
+ "bad-batch": {
+  "subjects": [
+   {
+    "id": "35141102",
+    "title": "星球大战：异等小队 第一季",
+    "r": 8.4,
+    "n": 4440,
+    "year": 2021,
+    "eps": 16,
+    "season": 1
+   },
+   {
+    "id": "35554506",
+    "title": "星球大战：异等小队 第二季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "36353332",
+    "title": "星球大战：异等小队 第三季",
+    "r": 8.7,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35141102:星球大战：异等小队 第一季:tt12708542"
+  ]
+ },
+ "maul-shadow-lord": {
+  "subjects": [
+   {
+    "id": "37324518",
+    "title": "星球大战：摩尔-暗影之王",
+    "r": 8.7,
+    "n": 2056,
+    "year": 2026,
+    "eps": 10,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "37324518:星球大战：摩尔-暗影之王:tt36594331"
+  ]
+ },
+ "obi-wan": {
+  "subjects": [
+   {
+    "id": "27668664",
+    "title": "欧比旺",
+    "r": 6.7,
+    "n": 18504,
+    "year": 2022,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "27668664:欧比旺:tt8466564"
+  ]
+ },
+ "andor": {
+  "subjects": [
+   {
+    "id": "30376895",
+    "title": "安多 第一季",
+    "r": 9,
+    "n": 34460,
+    "year": 2022,
+    "eps": 12,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30376895:安多 第一季:tt9253284"
+  ]
+ },
+ "rebels": {
+  "subjects": [
+   {
+    "id": "25744676",
+    "title": "星球大战：义军崛起 第一季",
+    "r": 7.8,
+    "n": 1721,
+    "year": 2014,
+    "eps": 14,
+    "season": 1
+   },
+   {
+    "id": "26336943",
+    "title": "星球大战：义军崛起 第二季",
+    "r": 8.5,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26881043",
+    "title": "星球大战：义军崛起 第三季",
+    "r": 8.5,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "26995144",
+    "title": "星球大战：义军崛起 第四季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 4
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25744676:星球大战：义军崛起 第一季:tt2930604"
+  ]
+ },
+ "mandalorian": {
+  "subjects": [
+   {
+    "id": "30344167",
+    "title": "曼达洛人 第一季",
+    "r": 9.2,
+    "n": 128245,
+    "year": 2019,
+    "eps": 8,
+    "season": 1
+   },
+   {
+    "id": "34892527",
+    "title": "曼达洛人 第二季",
+    "r": 9.4,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "35048728",
+    "title": "曼达洛人 第三季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36723035:星球大战：曼达洛人与古古:tt30825738",
+   "30344167:曼达洛人 第一季:tt8111088"
+  ]
+ },
+ "boba-fett": {
+  "subjects": [
+   {
+    "id": "35291777",
+    "title": "波巴·费特之书",
+    "r": 8.4,
+    "n": 35442,
+    "year": 2021,
+    "eps": 7,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35291777:波巴·费特之书:tt13668894"
+  ]
+ },
+ "skeleton-crew": {
+  "subjects": [
+   {
+    "id": "35914830",
+    "title": "星球大战：骨干小队",
+    "r": 7,
+    "n": 3248,
+    "year": 2024,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35914830:星球大战：骨干小队:tt20600980"
+  ]
+ },
+ "ahsoka": {
+  "subjects": [
+   {
+    "id": "35284486",
+    "title": "阿索卡 第一季",
+    "r": 7.3,
+    "n": 11008,
+    "year": 2023,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35284486:阿索卡 第一季:tt13622776"
+  ]
+ },
+ "resistance": {
+  "subjects": [
+   {
+    "id": "30206932",
+    "title": "星球大战：抵抗组织 第一季",
+    "r": 6,
+    "n": 335,
+    "year": 2018,
+    "eps": 20,
+    "season": 1
+   },
+   {
+    "id": "31755513",
+    "title": "星球大战：抵抗组织 第二季",
+    "r": 6.4,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30206932:星球大战：抵抗组织 第一季:tt8336340"
+  ]
+ },
+ "clone-wars-2003": {
+  "subjects": [
+   {
+    "id": "1937412",
+    "title": "星球大战之克隆战争 第一季",
+    "r": 8.6,
+    "n": 830,
+    "year": 2003,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "26348029",
+    "title": "星球大战之克隆战争 第二季",
+    "r": 8.8,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26348030",
+    "title": "星球大战之克隆战争 第三季",
+    "r": 8.9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2982853:星球大战：克隆战争:tt1185834",
+   "1937412:星球大战之克隆战争 第一季:tt0361243"
+  ]
+ },
+ "visions": {
+  "subjects": [
+   {
+    "id": "35284557",
+    "title": "星球大战：幻境 第一季",
+    "r": 7.3,
+    "n": 5146,
+    "year": 2021,
+    "eps": 9,
+    "season": 1
+   },
+   {
+    "id": "35916889",
+    "title": "星球大战：幻境 第二季",
+    "r": 7.1,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "37324553",
+    "title": "星球大战：幻境 第三季",
+    "r": 6.6,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35284557:星球大战：幻境 第一季:tt13622982"
+  ]
+ },
+ "alien-earth": {
+  "subjects": [
+   {
+    "id": "35284531",
+    "title": "异形：地球 第一季",
+    "r": 6.4,
+    "n": 32400,
+    "year": 2025,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35284531:异形：地球 第一季:tt13623632"
+  ]
+ },
+ "skull-island-tv": {
+  "subjects": [
+   {
+    "id": "35730904",
+    "title": "骷髅岛",
+    "r": 5.9,
+    "n": 392,
+    "year": 2023,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26309788:金刚：骷髅岛:tt3731562",
+   "35730904:骷髅岛:tt13929756"
+  ]
+ },
+ "monarch": {
+  "subjects": [
+   {
+    "id": "35745750",
+    "title": "帝王计划：怪兽遗产 第一季",
+    "r": 6,
+    "n": 14458,
+    "year": 2023,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "36850546",
+    "title": "帝王计划：怪兽遗产 第二季",
+    "r": 5.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35745750:帝王计划：怪兽遗产 第一季:tt17220216"
+  ]
+ },
+ "minus-zero": {
+  "subjects": [
+   {
+    "id": "37100760",
+    "title": "哥斯拉-0.0",
+    "r": null,
+    "n": 0,
+    "year": 2026,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "37100760:哥斯拉-0.0:tt34384661"
+  ]
+ },
+ "singular-point": {
+  "via": "subject-page+manual",
+  "note": "Douban lists IMDb tt13229964 (typo of tt13229934); premiere date, episode count and title match",
+  "subjects": [
+   {
+    "id": "35214768",
+    "title": "哥斯拉：奇点",
+    "r": 8,
+    "n": 5509,
+    "year": 2021,
+    "eps": 13,
+    "season": 1
+   }
+  ]
+ },
+ "return-of-godzilla": {
+  "subjects": [
+   {
+    "id": "2059274",
+    "title": "哥斯拉之怪兽王复活",
+    "r": 7.3,
+    "n": 1192,
+    "year": 1984,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2059274:哥斯拉之怪兽王复活:tt9015178"
+  ]
+ },
+ "godzilla-the-series": {
+  "subjects": [
+   {
+    "id": "2567465",
+    "title": "哥斯拉 末世龙战",
+    "r": 7.7,
+    "n": 283,
+    "year": 1998,
+    "eps": 44,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2567465:哥斯拉 末世龙战:tt0177443"
+  ]
+ },
+ "apes-tv-1974": {
+  "subjects": [
+   {
+    "id": "3929952",
+    "title": "人猿星球",
+    "r": 7.7,
+    "n": 405,
+    "year": 1974,
+    "eps": 14,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3929952:人猿星球:tt0071033"
+  ]
+ },
+ "return-apes": {
+  "subjects": [
+   {
+    "id": "3929978",
+    "title": "重返人猿星球",
+    "r": null,
+    "n": 0,
+    "year": 1975,
+    "eps": 13,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3929978:重返人猿星球:tt0207267"
+  ]
+ },
+ "dune-prophecy": {
+  "subjects": [
+   {
+    "id": "34428979",
+    "title": "沙丘：预言 第一季",
+    "r": 8.1,
+    "n": 22779,
+    "year": 2024,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "34428979:沙丘：预言 第一季:tt10466872"
+  ]
+ },
+ "dune-part-three": {
+  "subjects": [
+   {
+    "id": "36787273",
+    "title": "沙丘3",
+    "r": null,
+    "n": 0,
+    "year": 2026,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36787273:沙丘3:tt31378509"
+  ]
+ },
+ "dune-2000": {
+  "subjects": [
+   {
+    "id": "1303766",
+    "title": "沙丘魔堡2000",
+    "r": 6.6,
+    "n": 384,
+    "year": 2000,
+    "eps": 3,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1303766:沙丘魔堡2000:tt0142032"
+  ]
+ },
+ "children-of-dune": {
+  "subjects": [
+   {
+    "id": "1308542",
+    "title": "沙丘之子",
+    "r": 7.3,
+    "n": 3013,
+    "year": 2003,
+    "eps": 3,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1308542:沙丘之子:tt0287839"
+  ]
+ },
+ "rings-of-power": {
+  "subjects": [
+   {
+    "id": "27190093",
+    "title": "指环王：力量之戒 第一季",
+    "r": 6.7,
+    "n": 30166,
+    "year": 2022,
+    "eps": 8,
+    "season": 1
+   },
+   {
+    "id": "34894011",
+    "title": "指环王：力量之戒 第二季",
+    "r": 7.3,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "27190093:指环王：力量之戒 第一季:tt7631058"
+  ]
+ },
+ "hp-hbo": {
+  "subjects": [
+   {
+    "id": "36343738",
+    "title": "哈利·波特与魔法石",
+    "r": null,
+    "n": 0,
+    "year": 2026,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1295038:哈利·波特与魔法石:tt0241527",
+   "36343738:哈利·波特与魔法石:tt13918446"
+  ]
+ },
+ "house-of-the-dragon": {
+  "subjects": [
+   {
+    "id": "34825964",
+    "title": "龙之家族 第一季",
+    "r": 8.7,
+    "n": 117269,
+    "year": 2022,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "36073279",
+    "title": "龙之家族 第二季",
+    "r": 7.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "36666949",
+    "title": "龙之家族 第三季",
+    "r": 7.1,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "34825964:龙之家族 第一季:tt11198330"
+  ]
+ },
+ "knight-seven-kingdoms": {
+  "subjects": [
+   {
+    "id": "35341071",
+    "title": "七王国的骑士 第一季",
+    "r": 8.8,
+    "n": 57814,
+    "year": 2026,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35341071:七王国的骑士 第一季:tt27497448"
+  ]
+ },
+ "game-of-thrones": {
+  "subjects": [
+   {
+    "id": "3016187",
+    "title": "权力的游戏 第一季",
+    "r": 9.5,
+    "n": 507201,
+    "year": 2011,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "6558062",
+    "title": "权力的游戏 第二季",
+    "r": 9.5,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "10590706",
+    "title": "权力的游戏 第三季",
+    "r": 9.5,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "23232876",
+    "title": "权力的游戏 第四季",
+    "r": 9.6,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "25826612",
+    "title": "权力的游戏 第五季",
+    "r": 9.4,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "25862357",
+    "title": "权力的游戏 第六季",
+    "r": 9.5,
+    "n": 0,
+    "year": null,
+    "season": 6
+   },
+   {
+    "id": "26235354",
+    "title": "权力的游戏 第七季",
+    "r": 9.2,
+    "n": 0,
+    "year": null,
+    "season": 7
+   },
+   {
+    "id": "26584183",
+    "title": "权力的游戏 第八季",
+    "r": 6,
+    "n": 0,
+    "year": null,
+    "season": 8
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3016187:权力的游戏 第一季:tt0944947"
+  ]
+ },
+ "inhumans": {
+  "subjects": [
+   {
+    "id": "25958810",
+    "title": "异人族",
+    "r": 4.4,
+    "n": 5043,
+    "year": 2017,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25958810:异人族:tt4154858"
+  ]
+ },
+ "cloak-dagger": {
+  "subjects": [
+   {
+    "id": "26767521",
+    "title": "斗篷与匕首 第一季",
+    "r": 6.7,
+    "n": 2684,
+    "year": 2018,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "30279311",
+    "title": "斗篷与匕首 第二季",
+    "r": 6.6,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "2998268:小鬼奇兵:tt0087065",
+   "26767521:斗篷与匕首 第一季:tt5614844"
+  ]
+ },
+ "helstrom": {
+  "subjects": [
+   {
+    "id": "33434931",
+    "title": "地狱风暴",
+    "r": 6.4,
+    "n": 2147,
+    "year": 2020,
+    "eps": 10,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "33434931:地狱风暴:tt10266874"
+  ]
+ },
+ "spider-noir": {
+  "subjects": [
+   {
+    "id": "36240199",
+    "title": "暗影蜘蛛侠",
+    "r": 7.2,
+    "n": 15576,
+    "year": 2026,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36240199:暗影蜘蛛侠:tt30460310"
+  ]
+ },
+ "first-class": {
+  "subjects": [
+   {
+    "id": "3168089",
+    "title": "X战警：第一战",
+    "r": 8.2,
+    "n": 360277,
+    "year": 2011,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3168089:X战警：第一战:tt1270798"
+  ]
+ },
+ "x2": {
+  "subjects": [
+   {
+    "id": "1305724",
+    "title": "X战警2",
+    "r": 7.7,
+    "n": 254947,
+    "year": 2003,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1305724:X战警2:tt0290334"
+  ]
+ },
+ "loki": {
+  "subjects": [
+   {
+    "id": "30331432",
+    "title": "洛基 第一季",
+    "r": 8.5,
+    "n": 163257,
+    "year": 2021,
+    "eps": 6,
+    "season": 1
+   },
+   {
+    "id": "35244032",
+    "title": "洛基 第二季",
+    "r": 9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30331432:洛基 第一季:tt9140554"
+  ]
+ },
+ "daredevil-netflix": {
+  "subjects": [
+   {
+    "id": "25769160",
+    "title": "夜魔侠 第一季",
+    "r": 8.5,
+    "n": 36526,
+    "year": 2015,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "26373110",
+    "title": "夜魔侠 第二季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26841619",
+    "title": "夜魔侠 第三季",
+    "r": 9.2,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1307311:超胆侠:tt0287978",
+   "35908203:夜魔侠：重生 第一季:tt18923754",
+   "25769160:夜魔侠 第一季:tt3322312"
+  ]
+ },
+ "smallville": {
+  "subjects": [
+   {
+    "id": "1401376",
+    "title": "超人前传 第一季",
+    "r": 7.9,
+    "n": 4798,
+    "year": 2001,
+    "eps": 21,
+    "season": 1
+   },
+   {
+    "id": "4236810",
+    "title": "超人前传 第二季",
+    "r": 7.9,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "3754833",
+    "title": "超人前传 第三季",
+    "r": 7.9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "3142797",
+    "title": "超人前传 第四季",
+    "r": 7.9,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "4304878",
+    "title": "超人前传 第五季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "4304882",
+    "title": "超人前传 第六季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 6
+   },
+   {
+    "id": "6008511",
+    "title": "超人前传 第七季",
+    "r": 7.9,
+    "n": 0,
+    "year": null,
+    "season": 7
+   },
+   {
+    "id": "3290608",
+    "title": "超人前传 第八季",
+    "r": 7.7,
+    "n": 0,
+    "year": null,
+    "season": 8
+   },
+   {
+    "id": "4059229",
+    "title": "超人前传 第九季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 9
+   },
+   {
+    "id": "5295022",
+    "title": "超人前传 第十季",
+    "r": 8.1,
+    "n": 0,
+    "year": null,
+    "season": 10
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1401376:超人前传 第一季:tt0279600"
+  ]
+ },
+ "eyes-of-wakanda": {
+  "subjects": [
+   {
+    "id": "35351082",
+    "title": "瓦坎达之眼",
+    "r": 6.2,
+    "n": 2098,
+    "year": 2025,
+    "eps": 4,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35351082:瓦坎达之眼:tt13968252"
+  ]
+ },
+ "what-if": {
+  "subjects": [
+   {
+    "id": "33408073",
+    "title": "假如…？ 第一季",
+    "r": 8.6,
+    "n": 58860,
+    "year": 2021,
+    "eps": 9,
+    "season": 1
+   },
+   {
+    "id": "35471943",
+    "title": "假如…？ 第二季",
+    "r": 6.4,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "36646983",
+    "title": "假如…？ 第三季",
+    "r": 4.9,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "33408073:假如…？ 第一季:tt10168312"
+  ]
+ },
+ "marvel-zombies": {
+  "subjects": [
+   {
+    "id": "35659892",
+    "title": "漫威丧尸 第一季",
+    "r": 6.6,
+    "n": 10549,
+    "year": 2025,
+    "eps": 4,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35659892:漫威丧尸 第一季:tt16027014"
+  ]
+ },
+ "fns-spider-man": {
+  "subjects": [
+   {
+    "id": "35659893",
+    "title": "你的好邻居蜘蛛侠 第一季",
+    "r": 8.4,
+    "n": 6235,
+    "year": 2025,
+    "eps": 10,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35659893:你的好邻居蜘蛛侠 第一季:tt16027074"
+  ]
+ },
+ "wandavision": {
+  "subjects": [
+   {
+    "id": "30331433",
+    "title": "旺达幻视",
+    "r": 9,
+    "n": 230770,
+    "year": 2021,
+    "eps": 9,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30331433:旺达幻视:tt9140560"
+  ]
+ },
+ "falcon-winter-soldier": {
+  "subjects": [
+   {
+    "id": "30367642",
+    "title": "猎鹰与冬兵",
+    "r": 7.4,
+    "n": 74553,
+    "year": 2021,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "30367642:猎鹰与冬兵:tt9208876"
+  ]
+ },
+ "moon-knight": {
+  "subjects": [
+   {
+    "id": "26358318",
+    "title": "月光骑士",
+    "r": 7.9,
+    "n": 122487,
+    "year": 2022,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26358318:月光骑士:tt10234724"
+  ]
+ },
+ "echo": {
+  "subjects": [
+   {
+    "id": "35412375",
+    "title": "回声",
+    "r": 4.5,
+    "n": 5658,
+    "year": 2024,
+    "eps": 5,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35412375:回声:tt13966962"
+  ]
+ },
+ "she-hulk": {
+  "subjects": [
+   {
+    "id": "34803800",
+    "title": "女浩克",
+    "r": 6,
+    "n": 28676,
+    "year": 2022,
+    "eps": 9,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "34803800:女浩克:tt10857160"
+  ]
+ },
+ "ms-marvel": {
+  "subjects": [
+   {
+    "id": "26358321",
+    "title": "惊奇少女",
+    "r": 5.5,
+    "n": 16782,
+    "year": 2022,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "26358321:惊奇少女:tt10857164"
+  ]
+ },
+ "hawkeye": {
+  "subjects": [
+   {
+    "id": "33406089",
+    "title": "鹰眼 第一季",
+    "r": 7.6,
+    "n": 52825,
+    "year": 2021,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "33406089:鹰眼 第一季:tt10160804"
+  ]
+ },
+ "werewolf-by-night": {
+  "subjects": [
+   {
+    "id": "35559854",
+    "title": "暗夜狼人",
+    "r": 6.5,
+    "n": 13611,
+    "year": 2022,
+    "eps": null,
+    "season": null
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35559854:暗夜狼人:tt15318872"
+  ]
+ },
+ "secret-invasion": {
+  "subjects": [
+   {
+    "id": "35284245",
+    "title": "秘密入侵",
+    "r": 4.7,
+    "n": 17621,
+    "year": 2023,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35284245:秘密入侵:tt13157618"
+  ]
+ },
+ "agatha": {
+  "subjects": [
+   {
+    "id": "35636428",
+    "title": "女巫阿加莎",
+    "r": 7.8,
+    "n": 23206,
+    "year": 2024,
+    "eps": 9,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35636428:女巫阿加莎:tt15571732"
+  ]
+ },
+ "born-again": {
+  "subjects": [
+   {
+    "id": "35908203",
+    "title": "夜魔侠：重生 第一季",
+    "r": 7.6,
+    "n": 13286,
+    "year": 2025,
+    "eps": 9,
+    "season": 1
+   },
+   {
+    "id": "36341343",
+    "title": "夜魔侠：重生 第二季",
+    "r": 8.3,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35908203:夜魔侠：重生 第一季:tt18923754"
+  ]
+ },
+ "ironheart": {
+  "subjects": [
+   {
+    "id": "35284247",
+    "title": "钢铁之心",
+    "r": 3.5,
+    "n": 6274,
+    "year": 2025,
+    "eps": 6,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35284247:钢铁之心:tt13623126"
+  ]
+ },
+ "wonder-man": {
+  "subjects": [
+   {
+    "id": "35932995",
+    "title": "奇迹人",
+    "r": 7.8,
+    "n": 8228,
+    "year": 2026,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "35932995:奇迹人:tt21066182"
+  ]
+ },
+ "visionquest": {
+  "subjects": [
+   {
+    "id": "36137784",
+    "title": "幻视任务",
+    "r": null,
+    "n": 0,
+    "year": 2026,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "36137784:幻视任务:tt23112594"
+  ]
+ },
+ "agent-carter": {
+  "subjects": [
+   {
+    "id": "25867544",
+    "title": "特工卡特 第一季",
+    "r": 8.4,
+    "n": 25842,
+    "year": 2015,
+    "eps": 8,
+    "season": 1
+   },
+   {
+    "id": "26384783",
+    "title": "特工卡特 第二季",
+    "r": 8.4,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25867544:特工卡特 第一季:tt3475734"
+  ]
+ },
+ "agents-of-shield": {
+  "subjects": [
+   {
+    "id": "19938222",
+    "title": "神盾局特工 第一季",
+    "r": 8.3,
+    "n": 94338,
+    "year": 2013,
+    "eps": 22,
+    "season": 1
+   },
+   {
+    "id": "25851827",
+    "title": "神盾局特工 第二季",
+    "r": 8.5,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "26384798",
+    "title": "神盾局特工 第三季",
+    "r": 8.4,
+    "n": 0,
+    "year": null,
+    "season": 3
+   },
+   {
+    "id": "26740391",
+    "title": "神盾局特工 第四季",
+    "r": 8.7,
+    "n": 0,
+    "year": null,
+    "season": 4
+   },
+   {
+    "id": "27042712",
+    "title": "神盾局特工 第五季",
+    "r": 8.8,
+    "n": 0,
+    "year": null,
+    "season": 5
+   },
+   {
+    "id": "30222722",
+    "title": "神盾局特工 第六季",
+    "r": 8.6,
+    "n": 0,
+    "year": null,
+    "season": 6
+   },
+   {
+    "id": "30380446",
+    "title": "神盾局特工 第七季",
+    "r": 9.2,
+    "n": 0,
+    "year": null,
+    "season": 7
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "19938222:神盾局特工 第一季:tt2364582"
+  ]
+ },
+ "jessica-jones": {
+  "subjects": [
+   {
+    "id": "25769161",
+    "title": "杰西卡·琼斯 第一季",
+    "r": 7.5,
+    "n": 15221,
+    "year": 2015,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "26710532",
+    "title": "杰西卡·琼斯 第二季",
+    "r": 7.8,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "30194636",
+    "title": "杰西卡·琼斯 第三季",
+    "r": 8.1,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25769161:杰西卡·琼斯 第一季:tt2357547"
+  ]
+ },
+ "luke-cage": {
+  "subjects": [
+   {
+    "id": "25769158",
+    "title": "卢克·凯奇 第一季",
+    "r": 7,
+    "n": 6119,
+    "year": 2016,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "26933677",
+    "title": "卢克·凯奇 第二季",
+    "r": 7.4,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25769158:卢克·凯奇 第一季:tt3322314"
+  ]
+ },
+ "iron-fist": {
+  "subjects": [
+   {
+    "id": "25769159",
+    "title": "铁拳 第一季",
+    "r": 5.5,
+    "n": 8043,
+    "year": 2017,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "27094210",
+    "title": "铁拳 第二季",
+    "r": 6.6,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "25769159:铁拳 第一季:tt3322310"
+  ]
+ },
+ "defenders": {
+  "subjects": [
+   {
+    "id": "26293633",
+    "title": "捍卫者联盟",
+    "r": 6.7,
+    "n": 9276,
+    "year": 2017,
+    "eps": 8,
+    "season": 1
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1297068:中南海保镖:tt0111835",
+   "26293633:捍卫者联盟:tt4230076"
+  ]
+ },
+ "punisher-netflix": {
+  "subjects": [
+   {
+    "id": "26710394",
+    "title": "惩罚者 第一季",
+    "r": 8.6,
+    "n": 32421,
+    "year": 2017,
+    "eps": 13,
+    "season": 1
+   },
+   {
+    "id": "27604388",
+    "title": "惩罚者 第二季",
+    "r": 8.2,
+    "n": 0,
+    "year": null,
+    "season": 2
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "1305686:惩罚者:tt0330793",
+   "37259325:惩罚者：最后一击:tt36042156",
+   "26710394:惩罚者 第一季:tt5675620"
+  ]
+ },
+ "runaways": {
+  "subjects": [
+   {
+    "id": "3080561",
+    "title": "离家童盟 第一季",
+    "r": 6.4,
+    "n": 3429,
+    "year": 2017,
+    "eps": 10,
+    "season": 1
+   },
+   {
+    "id": "27659399",
+    "title": "离家童盟 第二季",
+    "r": 6.5,
+    "n": 0,
+    "year": null,
+    "season": 2
+   },
+   {
+    "id": "33376099",
+    "title": "离家童盟 第三季",
+    "r": 7.3,
+    "n": 0,
+    "year": null,
+    "season": 3
+   }
+  ],
+  "via": "subject-page+imdb",
+  "tried": [
+   "3080561:离家童盟 第一季:tt1236246"
+  ]
+ }
+}

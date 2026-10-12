@@ -1,0 +1,6266 @@
+{
+ "eyes-of-wakanda": {
+  "main": {
+   "c": 92,
+   "cn": 39,
+   "cert": false,
+   "a": 51,
+   "name": "Eyes of Wakanda",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 39,
+    "cert": true,
+    "a": 51,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "captain-america-tfa": {
+  "main": {
+   "c": 80,
+   "cn": 274,
+   "cert": true,
+   "a": 75,
+   "name": "Captain America: The First Avenger",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "captain-marvel": {
+  "main": {
+   "c": 79,
+   "cn": 545,
+   "cert": true,
+   "a": 45,
+   "name": "Captain Marvel",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "iron-man": {
+  "main": {
+   "c": 94,
+   "cn": 278,
+   "cert": true,
+   "a": 91,
+   "name": "Iron Man",
+   "year": "2008",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "iron-man-2": {
+  "main": {
+   "c": 72,
+   "cn": 301,
+   "cert": true,
+   "a": 71,
+   "name": "Iron Man 2",
+   "year": "2010",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "incredible-hulk": {
+  "main": {
+   "c": 68,
+   "cn": 238,
+   "cert": false,
+   "a": 69,
+   "name": "The Incredible Hulk",
+   "year": "2008",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "thor": {
+  "main": {
+   "c": 77,
+   "cn": 294,
+   "cert": true,
+   "a": 76,
+   "name": "Thor",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "avengers": {
+  "main": {
+   "c": 91,
+   "cn": 364,
+   "cert": true,
+   "a": 91,
+   "name": "Marvel's the Avengers",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "iron-man-3": {
+  "main": {
+   "c": 79,
+   "cn": 327,
+   "cert": true,
+   "a": 78,
+   "name": "Iron Man 3",
+   "year": "2013",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "thor-dark-world": {
+  "main": {
+   "c": 67,
+   "cn": 292,
+   "cert": false,
+   "a": 74,
+   "name": "Thor: The Dark World",
+   "year": "2013",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "winter-soldier": {
+  "main": {
+   "c": 90,
+   "cn": 310,
+   "cert": true,
+   "a": 92,
+   "name": "Captain America: The Winter Soldier (2014)",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gotg": {
+  "main": {
+   "c": 91,
+   "cn": 339,
+   "cert": true,
+   "a": 92,
+   "name": "Guardians of the Galaxy",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gotg-2": {
+  "main": {
+   "c": 85,
+   "cn": 422,
+   "cert": true,
+   "a": 87,
+   "name": "Guardians of the Galaxy Vol. 2",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "age-of-ultron": {
+  "main": {
+   "c": 75,
+   "cn": 374,
+   "cert": true,
+   "a": 82,
+   "name": "Avengers: Age of Ultron",
+   "year": "2015",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ant-man": {
+  "main": {
+   "c": 83,
+   "cn": 342,
+   "cert": true,
+   "a": 85,
+   "name": "Ant-Man",
+   "year": "2015",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "civil-war": {
+  "main": {
+   "c": 90,
+   "cn": 433,
+   "cert": true,
+   "a": 89,
+   "name": "Captain America: Civil War",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "black-widow": {
+  "main": {
+   "c": 79,
+   "cn": 463,
+   "cert": true,
+   "a": 91,
+   "name": "Black Widow (2021)",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "black-panther": {
+  "main": {
+   "c": 96,
+   "cn": 527,
+   "cert": true,
+   "a": 79,
+   "name": "Black Panther (2018)",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "homecoming": {
+  "main": {
+   "c": 92,
+   "cn": 396,
+   "cert": true,
+   "a": 87,
+   "name": "Spider-Man: Homecoming",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "doctor-strange": {
+  "main": {
+   "c": 89,
+   "cn": 385,
+   "cert": true,
+   "a": 86,
+   "name": "Doctor Strange (2016)",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ragnarok": {
+  "main": {
+   "c": 93,
+   "cn": 437,
+   "cert": true,
+   "a": 87,
+   "name": "Thor: Ragnarok (2017)",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ant-man-wasp": {
+  "main": {
+   "c": 87,
+   "cn": 446,
+   "cert": true,
+   "a": 78,
+   "name": "Ant-Man and The Wasp",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "infinity-war": {
+  "main": {
+   "c": 85,
+   "cn": 486,
+   "cert": true,
+   "a": 92,
+   "name": "Avengers: Infinity War",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "endgame": {
+  "main": {
+   "c": 94,
+   "cn": 553,
+   "cert": true,
+   "a": 96,
+   "name": "Avengers: Endgame",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "loki": {
+  "main": {
+   "c": 87,
+   "cn": 226,
+   "cert": false,
+   "a": 87,
+   "name": "Loki",
+   "year": "2021",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 339,
+    "cert": true,
+    "a": 90,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   },
+   "2": {
+    "c": 82,
+    "cn": 179,
+    "cert": true,
+    "a": 83,
+    "name": "Season 2",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "what-if": {
+  "main": {
+   "c": 85,
+   "cn": 138,
+   "cert": false,
+   "a": 62,
+   "name": "What If...?",
+   "year": "2021",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 123,
+    "cert": true,
+    "a": 91,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   },
+   "2": {
+    "c": 88,
+    "cn": 32,
+    "cert": false,
+    "a": 62,
+    "name": "Season 2",
+    "year": "2023",
+    "seasons": null
+   },
+   "3": {
+    "c": 80,
+    "cn": 30,
+    "cert": false,
+    "a": 33,
+    "name": "Season 3",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "marvel-zombies": {
+  "main": {
+   "c": 66,
+   "cn": 35,
+   "cert": false,
+   "a": 67,
+   "name": "Marvel Zombies",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 66,
+    "cn": 35,
+    "cert": false,
+    "a": 67,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "wandavision": {
+  "main": {
+   "c": 92,
+   "cn": 198,
+   "cert": false,
+   "a": 88,
+   "name": "WandaVision",
+   "year": "2021",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 428,
+    "cert": true,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "falcon-winter-soldier": {
+  "main": {
+   "c": 85,
+   "cn": 38,
+   "cert": false,
+   "a": 80,
+   "name": "The Falcon and the Winter Soldier",
+   "year": "2021",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 85,
+    "cn": 336,
+    "cert": true,
+    "a": 80,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "shang-chi": {
+  "main": {
+   "c": 92,
+   "cn": 344,
+   "cert": true,
+   "a": 98,
+   "name": "Shang-Chi and the Legend of the Ten Rings",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "eternals": {
+  "main": {
+   "c": 48,
+   "cn": 416,
+   "cert": false,
+   "a": 77,
+   "name": "Eternals",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "far-from-home": {
+  "main": {
+   "c": 91,
+   "cn": 454,
+   "cert": true,
+   "a": 95,
+   "name": "Spider-Man: Far From Home",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "no-way-home": {
+  "main": {
+   "c": 93,
+   "cn": 430,
+   "cert": true,
+   "a": 97,
+   "name": "Spider-Man: No Way Home",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "multiverse-of-madness": {
+  "main": {
+   "c": 73,
+   "cn": 464,
+   "cert": false,
+   "a": 85,
+   "name": "Doctor Strange in the Multiverse of Madness",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hawkeye": {
+  "main": {
+   "c": 92,
+   "cn": 98,
+   "cert": false,
+   "a": 88,
+   "name": "Hawkeye",
+   "year": "2021",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 176,
+    "cert": true,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "moon-knight": {
+  "main": {
+   "c": 86,
+   "cn": 128,
+   "cert": false,
+   "a": 88,
+   "name": "Moon Knight",
+   "year": "2022",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 86,
+    "cn": 250,
+    "cert": true,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "wakanda-forever": {
+  "main": {
+   "c": 84,
+   "cn": 451,
+   "cert": true,
+   "a": 93,
+   "name": "Black Panther: Wakanda Forever",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "echo": {
+  "main": {
+   "c": 71,
+   "cn": 89,
+   "cert": false,
+   "a": 57,
+   "name": "Echo",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 71,
+    "cn": 89,
+    "cert": false,
+    "a": 57,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "she-hulk": {
+  "main": {
+   "c": 77,
+   "cn": 13,
+   "cert": false,
+   "a": 32,
+   "name": "She-Hulk: Attorney at Law",
+   "year": "2022",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 77,
+    "cn": 612,
+    "cert": true,
+    "a": 32,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "ms-marvel": {
+  "main": {
+   "c": 98,
+   "cn": 8,
+   "cert": false,
+   "a": 80,
+   "name": "Ms. Marvel",
+   "year": "2022",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 98,
+    "cn": 311,
+    "cert": true,
+    "a": 80,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "love-and-thunder": {
+  "main": {
+   "c": 64,
+   "cn": 448,
+   "cert": false,
+   "a": 76,
+   "name": "Thor: Love and Thunder",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "werewolf-by-night": {
+  "main": {
+   "c": 90,
+   "cn": 113,
+   "cert": true,
+   "a": 88,
+   "name": "Werewolf by Night",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gotg-holiday": {
+  "main": {
+   "c": 95,
+   "cn": 64,
+   "cert": true,
+   "a": 81,
+   "name": "The Guardians of the Galaxy Holiday Special",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "quantumania": {
+  "main": {
+   "c": 46,
+   "cn": 414,
+   "cert": false,
+   "a": 81,
+   "name": "Ant-Man and The Wasp: Quantumania",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gotg-3": {
+  "main": {
+   "c": 82,
+   "cn": 409,
+   "cert": true,
+   "a": 94,
+   "name": "Guardians of the Galaxy Vol. 3",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "secret-invasion": {
+  "main": {
+   "c": 53,
+   "cn": 105,
+   "cert": false,
+   "a": 43,
+   "name": "Secret Invasion",
+   "year": "2023",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 53,
+    "cn": 204,
+    "cert": false,
+    "a": 43,
+    "name": "Season 1",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "the-marvels": {
+  "main": {
+   "c": 63,
+   "cn": 377,
+   "cert": false,
+   "a": 79,
+   "name": "The Marvels",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "deadpool-wolverine": {
+  "main": {
+   "c": 77,
+   "cn": 421,
+   "cert": true,
+   "a": 94,
+   "name": "Deadpool & Wolverine",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "agatha": {
+  "main": {
+   "c": 84,
+   "cn": 110,
+   "cert": false,
+   "a": 82,
+   "name": "Agatha All Along",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 84,
+    "cn": 218,
+    "cert": true,
+    "a": 82,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "born-again": {
+  "main": {
+   "c": 86,
+   "cn": 195,
+   "cert": false,
+   "a": 82,
+   "name": "Daredevil: Born Again",
+   "year": "2025",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 87,
+    "cn": 224,
+    "cert": true,
+    "a": 79,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   },
+   "2": {
+    "c": 86,
+    "cn": 134,
+    "cert": true,
+    "a": 85,
+    "name": "Season 2",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "ironheart": {
+  "main": {
+   "c": 76,
+   "cn": 93,
+   "cert": false,
+   "a": 46,
+   "name": "Ironheart",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 76,
+    "cn": 131,
+    "cert": true,
+    "a": 46,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "brave-new-world": {
+  "main": {
+   "c": 46,
+   "cn": 368,
+   "cert": false,
+   "a": 75,
+   "name": "Captain America: Brave New World",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "thunderbolts": {
+  "main": {
+   "c": 88,
+   "cn": 385,
+   "cert": true,
+   "a": 93,
+   "name": "Thunderbolts*",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "wonder-man": {
+  "main": {
+   "c": 91,
+   "cn": 114,
+   "cert": false,
+   "a": 87,
+   "name": "Wonder Man",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 91,
+    "cn": 114,
+    "cert": true,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "punisher-one-last-kill": {
+  "main": {
+   "c": 73,
+   "cn": 74,
+   "cert": true,
+   "a": 78,
+   "name": "The Punisher: One Last Kill",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "fantastic-four-first-steps": {
+  "main": {
+   "c": 86,
+   "cn": 408,
+   "cert": true,
+   "a": 90,
+   "name": "The Fantastic Four: First Steps",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "brand-new-day": {
+  "main": {
+   "c": 90,
+   "cn": 437,
+   "cert": true,
+   "a": 97,
+   "name": "Spider-Man: Brand New Day",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "visionquest": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "VisionQuest",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "avengers-doomsday": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Avengers: Doomsday",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "agent-carter": {
+  "main": {
+   "c": 87,
+   "cn": 69,
+   "cert": false,
+   "a": 78,
+   "name": "Marvel's Agent Carter",
+   "year": "2015",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 98,
+    "cn": 48,
+    "cert": true,
+    "a": 84,
+    "name": "Season 1",
+    "year": "2015",
+    "seasons": null
+   },
+   "2": {
+    "c": 76,
+    "cn": 21,
+    "cert": true,
+    "a": 72,
+    "name": "Season 2",
+    "year": "2016",
+    "seasons": null
+   }
+  }
+ },
+ "agents-of-shield": {
+  "main": {
+   "c": 95,
+   "cn": 205,
+   "cert": false,
+   "a": 91,
+   "name": "Marvel's Agents of S.H.I.E.L.D.",
+   "year": "2013",
+   "seasons": 7
+  },
+  "seasons": {
+   "1": {
+    "c": 88,
+    "cn": 72,
+    "cert": true,
+    "a": 82,
+    "name": "Season 1",
+    "year": "2013",
+    "seasons": null
+   },
+   "2": {
+    "c": 91,
+    "cn": 33,
+    "cert": true,
+    "a": 92,
+    "name": "Season 2",
+    "year": "2014",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 22,
+    "cert": true,
+    "a": 92,
+    "name": "Season 3",
+    "year": "2015",
+    "seasons": null
+   },
+   "4": {
+    "c": 96,
+    "cn": 25,
+    "cert": false,
+    "a": 94,
+    "name": "Season 4",
+    "year": "2016",
+    "seasons": null
+   },
+   "5": {
+    "c": 100,
+    "cn": 23,
+    "cert": false,
+    "a": 93,
+    "name": "Season 5",
+    "year": "2017",
+    "seasons": null
+   },
+   "6": {
+    "c": 93,
+    "cn": 15,
+    "cert": false,
+    "a": 90,
+    "name": "Season 6",
+    "year": "2019",
+    "seasons": null
+   },
+   "7": {
+    "c": 100,
+    "cn": 15,
+    "cert": false,
+    "a": 94,
+    "name": "Season 7",
+    "year": "2020",
+    "seasons": null
+   }
+  }
+ },
+ "daredevil-netflix": {
+  "main": {
+   "c": 92,
+   "cn": 196,
+   "cert": false,
+   "a": 90,
+   "name": "Marvel's Daredevil",
+   "year": "2015",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 99,
+    "cn": 72,
+    "cert": true,
+    "a": 93,
+    "name": "Season 1",
+    "year": "2015",
+    "seasons": null
+   },
+   "2": {
+    "c": 81,
+    "cn": 57,
+    "cert": true,
+    "a": 89,
+    "name": "Season 2",
+    "year": "2016",
+    "seasons": null
+   },
+   "3": {
+    "c": 97,
+    "cn": 67,
+    "cert": true,
+    "a": 87,
+    "name": "Season 3",
+    "year": "2018",
+    "seasons": null
+   }
+  }
+ },
+ "jessica-jones": {
+  "main": {
+   "c": 83,
+   "cn": 210,
+   "cert": false,
+   "a": 80,
+   "name": "Marvel - Jessica Jones",
+   "year": "2015",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 94,
+    "cn": 81,
+    "cert": true,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2015",
+    "seasons": null
+   },
+   "2": {
+    "c": 82,
+    "cn": 89,
+    "cert": true,
+    "a": 67,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   },
+   "3": {
+    "c": 73,
+    "cn": 40,
+    "cert": false,
+    "a": 75,
+    "name": "Season 3",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "luke-cage": {
+  "main": {
+   "c": 88,
+   "cn": 135,
+   "cert": false,
+   "a": 71,
+   "name": "Marvel's Luke Cage",
+   "year": "2016",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 90,
+    "cn": 72,
+    "cert": true,
+    "a": 70,
+    "name": "Season 1",
+    "year": "2016",
+    "seasons": null
+   },
+   "2": {
+    "c": 86,
+    "cn": 63,
+    "cert": true,
+    "a": 67,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   }
+  }
+ },
+ "iron-fist": {
+  "main": {
+   "c": 38,
+   "cn": 134,
+   "cert": false,
+   "a": 66,
+   "name": "Marvel's Iron Fist",
+   "year": "2017",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 20,
+    "cn": 86,
+    "cert": false,
+    "a": 71,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   },
+   "2": {
+    "c": 56,
+    "cn": 48,
+    "cert": false,
+    "a": 60,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   }
+  }
+ },
+ "defenders": {
+  "main": {
+   "c": 78,
+   "cn": 101,
+   "cert": false,
+   "a": 70,
+   "name": "Marvel's The Defenders",
+   "year": "2017",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 78,
+    "cn": 101,
+    "cert": true,
+    "a": 70,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   }
+  }
+ },
+ "punisher-netflix": {
+  "main": {
+   "c": 64,
+   "cn": 120,
+   "cert": false,
+   "a": 79,
+   "name": "Marvel's The Punisher",
+   "year": "2017",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 68,
+    "cn": 82,
+    "cert": false,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   },
+   "2": {
+    "c": 61,
+    "cn": 38,
+    "cert": false,
+    "a": 70,
+    "name": "Season 2",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "inhumans": {
+  "main": {
+   "c": 10,
+   "cn": 48,
+   "cert": false,
+   "a": 42,
+   "name": "Marvel's Inhumans",
+   "year": "2017",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 10,
+    "cn": 48,
+    "cert": false,
+    "a": 42,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   }
+  }
+ },
+ "runaways": {
+  "main": {
+   "c": 84,
+   "cn": 119,
+   "cert": false,
+   "a": 63,
+   "name": "Marvel's Runaways",
+   "year": "2017",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 85,
+    "cn": 82,
+    "cert": true,
+    "a": 76,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   },
+   "2": {
+    "c": 84,
+    "cn": 25,
+    "cert": true,
+    "a": 78,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   },
+   "3": {
+    "c": 83,
+    "cn": 12,
+    "cert": false,
+    "a": 34,
+    "name": "Season 3",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "cloak-dagger": {
+  "main": {
+   "c": 87,
+   "cn": 61,
+   "cert": false,
+   "a": 56,
+   "name": "Cloak and Dagger",
+   "year": "2018",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 54,
+    "cert": true,
+    "a": 63,
+    "name": "Season 1",
+    "year": "2018",
+    "seasons": null
+   },
+   "2": {
+    "c": 86,
+    "cn": 7,
+    "cert": false,
+    "a": 48,
+    "name": "Season 2",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "helstrom": {
+  "main": {
+   "c": 27,
+   "cn": 26,
+   "cert": false,
+   "a": 71,
+   "name": "Marvel's Helstrom",
+   "year": "2020",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 27,
+    "cn": 26,
+    "cert": false,
+    "a": 71,
+    "name": "Season 1",
+    "year": "2020",
+    "seasons": null
+   }
+  }
+ },
+ "madame-web": {
+  "main": {
+   "c": 10,
+   "cn": 270,
+   "cert": false,
+   "a": 53,
+   "name": "Madame Web",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "venom": {
+  "main": {
+   "c": 31,
+   "cn": 365,
+   "cert": false,
+   "a": 80,
+   "name": "Venom (2018)",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "venom-carnage": {
+  "main": {
+   "c": 58,
+   "cn": 282,
+   "cert": false,
+   "a": 83,
+   "name": "Venom: Let There Be Carnage",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "morbius": {
+  "main": {
+   "c": 15,
+   "cn": 288,
+   "cert": false,
+   "a": 71,
+   "name": "Morbius",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "venom-last-dance": {
+  "main": {
+   "c": 40,
+   "cn": 225,
+   "cert": false,
+   "a": 79,
+   "name": "Venom: The Last Dance",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "kraven": {
+  "main": {
+   "c": 15,
+   "cn": 161,
+   "cert": false,
+   "a": 72,
+   "name": "Kraven the Hunter",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "into-spider-verse": {
+  "main": {
+   "c": 97,
+   "cn": 398,
+   "cert": true,
+   "a": 93,
+   "name": "Spider-Man: Into the Spider-Verse",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "across-spider-verse": {
+  "main": {
+   "c": 95,
+   "cn": 399,
+   "cert": true,
+   "a": 95,
+   "name": "Spider-Man: Across the Spider-Verse",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "spider-man-2002": {
+  "main": {
+   "c": 90,
+   "cn": 278,
+   "cert": true,
+   "a": 67,
+   "name": "Spider-Man",
+   "year": "2002",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "spider-man-2": {
+  "main": {
+   "c": 93,
+   "cn": 276,
+   "cert": true,
+   "a": 82,
+   "name": "Spider-Man 2",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "spider-man-3": {
+  "main": {
+   "c": 62,
+   "cn": 261,
+   "cert": false,
+   "a": 51,
+   "name": "Spider-Man 3",
+   "year": "2007",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "amazing-spider-man": {
+  "main": {
+   "c": 71,
+   "cn": 336,
+   "cert": true,
+   "a": 77,
+   "name": "The Amazing Spider-Man",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "amazing-spider-man-2": {
+  "main": {
+   "c": 50,
+   "cn": 317,
+   "cert": false,
+   "a": 64,
+   "name": "The Amazing Spider-Man 2",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "blade": {
+  "main": {
+   "c": 59,
+   "cn": 113,
+   "cert": false,
+   "a": 78,
+   "name": "Blade",
+   "year": "1998",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "blade-2": {
+  "main": {
+   "c": 57,
+   "cn": 149,
+   "cert": false,
+   "a": 68,
+   "name": "Blade II",
+   "year": "2002",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "blade-trinity": {
+  "main": {
+   "c": 24,
+   "cn": 163,
+   "cert": false,
+   "a": 58,
+   "name": "Blade: Trinity",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "spider-noir": {
+  "main": {
+   "c": 92,
+   "cn": 114,
+   "cert": false,
+   "a": 90,
+   "name": "Spider-Noir",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 114,
+    "cert": true,
+    "a": 90,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "daredevil-2003": {
+  "main": {
+   "c": 42,
+   "cn": 229,
+   "cert": false,
+   "a": 35,
+   "name": "Daredevil",
+   "year": "2003",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hulk-2003": {
+  "main": {
+   "c": 63,
+   "cn": 237,
+   "cert": false,
+   "a": 29,
+   "name": "Hulk",
+   "year": "2003",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "punisher-2004": {
+  "main": {
+   "c": 30,
+   "cn": 169,
+   "cert": false,
+   "a": 63,
+   "name": "The Punisher",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "elektra": {
+  "main": {
+   "c": 11,
+   "cn": 164,
+   "cert": false,
+   "a": 29,
+   "name": "Elektra",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "fantastic-four-2005": {
+  "main": {
+   "c": 28,
+   "cn": 217,
+   "cert": false,
+   "a": 45,
+   "name": "Fantastic Four",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ghost-rider": {
+  "main": {
+   "c": 28,
+   "cn": 137,
+   "cert": false,
+   "a": 48,
+   "name": "Ghost Rider",
+   "year": "2007",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "silver-surfer": {
+  "main": {
+   "c": 38,
+   "cn": 173,
+   "cert": false,
+   "a": 51,
+   "name": "Fantastic Four: Rise of the Silver Surfer",
+   "year": "2007",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "punisher-war-zone": {
+  "main": {
+   "c": 29,
+   "cn": 110,
+   "cert": false,
+   "a": 42,
+   "name": "Punisher: War Zone",
+   "year": "2008",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ghost-rider-2": {
+  "main": {
+   "c": 18,
+   "cn": 119,
+   "cert": false,
+   "a": 31,
+   "name": "Ghost Rider: Spirit of Vengeance",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "fantastic-four-2015": {
+  "main": {
+   "c": 9,
+   "cn": 263,
+   "cert": false,
+   "a": 18,
+   "name": "Fantastic Four (2015)",
+   "year": "2015",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "first-class": {
+  "main": {
+   "c": 86,
+   "cn": 295,
+   "cert": true,
+   "a": 87,
+   "name": "X-Men: First Class",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "days-of-future-past": {
+  "main": {
+   "c": 90,
+   "cn": 331,
+   "cert": true,
+   "a": 91,
+   "name": "X-Men: Days of Future Past",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "origins-wolverine": {
+  "main": {
+   "c": 37,
+   "cn": 255,
+   "cert": false,
+   "a": 58,
+   "name": "X-Men Origins: Wolverine",
+   "year": "2009",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "apocalypse": {
+  "main": {
+   "c": 47,
+   "cn": 344,
+   "cert": false,
+   "a": 64,
+   "name": "X-Men: Apocalypse",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dark-phoenix": {
+  "main": {
+   "c": 22,
+   "cn": 383,
+   "cert": false,
+   "a": 64,
+   "name": "Dark Phoenix",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "new-mutants": {
+  "main": {
+   "c": 36,
+   "cn": 136,
+   "cert": false,
+   "a": 55,
+   "name": "The New Mutants",
+   "year": "2020",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "x-men-2000": {
+  "main": {
+   "c": 82,
+   "cn": 176,
+   "cert": true,
+   "a": 83,
+   "name": "X-Men",
+   "year": "2000",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "x2": {
+  "main": {
+   "c": 85,
+   "cn": 249,
+   "cert": true,
+   "a": 85,
+   "name": "X2",
+   "year": "2003",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "last-stand": {
+  "main": {
+   "c": 56,
+   "cn": 235,
+   "cert": false,
+   "a": 61,
+   "name": "X-Men: The Last Stand",
+   "year": "2006",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-wolverine": {
+  "main": {
+   "c": 70,
+   "cn": 261,
+   "cert": false,
+   "a": 69,
+   "name": "The Wolverine",
+   "year": "2013",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "deadpool": {
+  "main": {
+   "c": 85,
+   "cn": 345,
+   "cert": true,
+   "a": 90,
+   "name": "Deadpool",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "deadpool-2": {
+  "main": {
+   "c": 83,
+   "cn": 418,
+   "cert": true,
+   "a": 85,
+   "name": "Deadpool 2",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "logan": {
+  "main": {
+   "c": 93,
+   "cn": 429,
+   "cert": true,
+   "a": 91,
+   "name": "Logan (2017)",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "x-men-tas": {
+  "main": {
+   "c": 83,
+   "cn": 34,
+   "cert": false,
+   "a": 87,
+   "name": "X-Men",
+   "year": "1992",
+   "seasons": 5
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 18,
+    "cert": false,
+    "a": 93,
+    "name": "Season 1",
+    "year": "1992",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 91,
+    "name": "Season 2",
+    "year": "1993",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 89,
+    "name": "Season 3",
+    "year": "1994",
+    "seasons": null
+   },
+   "4": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 85,
+    "name": "Season 4",
+    "year": "1995",
+    "seasons": null
+   },
+   "5": {
+    "c": 50,
+    "cn": 10,
+    "cert": false,
+    "a": 76,
+    "name": "Season 5",
+    "year": "1996",
+    "seasons": null
+   }
+  }
+ },
+ "x-men-97": {
+  "main": {
+   "c": 98,
+   "cn": 115,
+   "cert": false,
+   "a": 84,
+   "name": "X-Men '97",
+   "year": "2024",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 99,
+    "cn": 81,
+    "cert": true,
+    "a": 91,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   },
+   "2": {
+    "c": 97,
+    "cn": 39,
+    "cert": false,
+    "a": 76,
+    "name": "Season 2",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "x-men-evolution": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": 92,
+   "name": "X-Men: Evolution",
+   "year": "2000",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 71,
+    "cn": 7,
+    "cert": false,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2000",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 94,
+    "name": "Season 2",
+    "year": "2001",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 94,
+    "name": "Season 3",
+    "year": "2002",
+    "seasons": null
+   },
+   "4": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 91,
+    "name": "Season 4",
+    "year": "2003",
+    "seasons": null
+   }
+  }
+ },
+ "wolverine-x-men": {
+  "main": {
+   "c": 67,
+   "cn": 6,
+   "cert": false,
+   "a": 90,
+   "name": "Wolverine and the X-Men",
+   "year": "2009",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 67,
+    "cn": 6,
+    "cert": false,
+    "a": 90,
+    "name": "Season 1",
+    "year": "2009",
+    "seasons": null
+   }
+  }
+ },
+ "legion": {
+  "main": {
+   "c": 91,
+   "cn": 157,
+   "cert": false,
+   "a": 85,
+   "name": "Legion",
+   "year": "2017",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 90,
+    "cn": 239,
+    "cert": true,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   },
+   "2": {
+    "c": 91,
+    "cn": 160,
+    "cert": true,
+    "a": 78,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   },
+   "3": {
+    "c": 93,
+    "cn": 71,
+    "cert": true,
+    "a": 89,
+    "name": "Season 3",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "the-gifted": {
+  "main": {
+   "c": 79,
+   "cn": 66,
+   "cert": false,
+   "a": 70,
+   "name": "The Gifted",
+   "year": "2017",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 76,
+    "cn": 54,
+    "cert": true,
+    "a": 74,
+    "name": "Season 1",
+    "year": "2017",
+    "seasons": null
+   },
+   "2": {
+    "c": 83,
+    "cn": 12,
+    "cert": false,
+    "a": 66,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   }
+  }
+ },
+ "creature-commandos": {
+  "main": {
+   "c": 93,
+   "cn": 42,
+   "cert": false,
+   "a": 79,
+   "name": "Creature Commandos",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 93,
+    "cn": 42,
+    "cert": true,
+    "a": 79,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "superman-2025": {
+  "main": {
+   "c": 83,
+   "cn": 509,
+   "cert": true,
+   "a": 90,
+   "name": "Superman (2025)",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "peacemaker": {
+  "main": {
+   "c": 93,
+   "cn": 162,
+   "cert": false,
+   "a": 83,
+   "name": "Peacemaker (2022)",
+   "year": "2022",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 93,
+    "cn": 91,
+    "cert": true,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   },
+   "2": {
+    "c": 94,
+    "cn": 149,
+    "cert": true,
+    "a": 79,
+    "name": "Season 2",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "supergirl-2026": {
+  "main": {
+   "c": 52,
+   "cn": 380,
+   "cert": false,
+   "a": 72,
+   "name": "Supergirl (2026)",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "lanterns": {
+  "main": {
+   "c": 91,
+   "cn": 85,
+   "cert": false,
+   "a": 69,
+   "name": "Lanterns",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 91,
+    "cn": 159,
+    "cert": true,
+    "a": 69,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "clayface": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Clayface",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "wonder-woman": {
+  "main": {
+   "c": 93,
+   "cn": 476,
+   "cert": true,
+   "a": 83,
+   "name": "Wonder Woman (2017)",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ww84": {
+  "main": {
+   "c": 57,
+   "cn": 455,
+   "cert": false,
+   "a": 73,
+   "name": "Wonder Woman 1984",
+   "year": "2020",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "man-of-steel": {
+  "main": {
+   "c": 57,
+   "cn": 345,
+   "cert": false,
+   "a": 75,
+   "name": "Man of Steel",
+   "year": "2013",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "bvs": {
+  "main": {
+   "c": 28,
+   "cn": 439,
+   "cert": false,
+   "a": 63,
+   "name": "Batman v Superman: Dawn of Justice",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "suicide-squad": {
+  "main": {
+   "c": 26,
+   "cn": 396,
+   "cert": false,
+   "a": 58,
+   "name": "Suicide Squad (2016)",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "justice-league": {
+  "main": {
+   "c": 39,
+   "cn": 411,
+   "cert": false,
+   "a": 66,
+   "name": "Justice League (2017)",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "snyder-cut": {
+  "main": {
+   "c": 71,
+   "cn": 313,
+   "cert": false,
+   "a": 92,
+   "name": "Zack Snyder's Justice League",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "aquaman": {
+  "main": {
+   "c": 66,
+   "cn": 412,
+   "cert": false,
+   "a": 72,
+   "name": "Aquaman (2018)",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "shazam": {
+  "main": {
+   "c": 90,
+   "cn": 418,
+   "cert": true,
+   "a": 81,
+   "name": "Shazam!",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "birds-of-prey": {
+  "main": {
+   "c": 79,
+   "cn": 450,
+   "cert": true,
+   "a": 78,
+   "name": "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn) (2020)",
+   "year": "2020",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-suicide-squad": {
+  "main": {
+   "c": 90,
+   "cn": 384,
+   "cert": true,
+   "a": 82,
+   "name": "The Suicide Squad",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "black-adam": {
+  "main": {
+   "c": 39,
+   "cn": 306,
+   "cert": false,
+   "a": 87,
+   "name": "Black Adam",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "shazam-2": {
+  "main": {
+   "c": 49,
+   "cn": 264,
+   "cert": false,
+   "a": 85,
+   "name": "Shazam! Fury of the Gods",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-flash": {
+  "main": {
+   "c": 63,
+   "cn": 388,
+   "cert": false,
+   "a": 81,
+   "name": "The Flash (2023)",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "blue-beetle": {
+  "main": {
+   "c": 78,
+   "cn": 277,
+   "cert": true,
+   "a": 90,
+   "name": "Blue Beetle",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "aquaman-2": {
+  "main": {
+   "c": 33,
+   "cn": 212,
+   "cert": false,
+   "a": 79,
+   "name": "Aquaman and the Lost Kingdom",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-batman": {
+  "main": {
+   "c": 85,
+   "cn": 526,
+   "cert": true,
+   "a": 87,
+   "name": "The Batman",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-penguin": {
+  "main": {
+   "c": 95,
+   "cn": 116,
+   "cert": false,
+   "a": 85,
+   "name": "The Penguin",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 95,
+    "cn": 212,
+    "cert": true,
+    "a": 85,
+    "name": "Limited Series",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "batman-begins": {
+  "main": {
+   "c": 85,
+   "cn": 285,
+   "cert": true,
+   "a": 94,
+   "name": "Batman Begins",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dark-knight": {
+  "main": {
+   "c": 94,
+   "cn": 339,
+   "cert": true,
+   "a": 94,
+   "name": "The Dark Knight",
+   "year": "2008",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dark-knight-rises": {
+  "main": {
+   "c": 87,
+   "cn": 377,
+   "cert": true,
+   "a": 90,
+   "name": "The Dark Knight Rises",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "joker": {
+  "main": {
+   "c": 68,
+   "cn": 600,
+   "cert": false,
+   "a": 89,
+   "name": "Joker (2019)",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "joker-2": {
+  "main": {
+   "c": 31,
+   "cn": 374,
+   "cert": false,
+   "a": 31,
+   "name": "Joker: Folie à Deux",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "batman-1989": {
+  "main": {
+   "c": 77,
+   "cn": 143,
+   "cert": true,
+   "a": 84,
+   "name": "Batman",
+   "year": "1989",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "batman-returns": {
+  "main": {
+   "c": 81,
+   "cn": 95,
+   "cert": true,
+   "a": 73,
+   "name": "Batman Returns",
+   "year": "1992",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "batman-forever": {
+  "main": {
+   "c": 41,
+   "cn": 73,
+   "cert": false,
+   "a": 33,
+   "name": "Batman Forever",
+   "year": "1995",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "batman-robin": {
+  "main": {
+   "c": 11,
+   "cn": 96,
+   "cert": false,
+   "a": 16,
+   "name": "Batman & Robin",
+   "year": "1997",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "superman-1978": {
+  "main": {
+   "c": 87,
+   "cn": 123,
+   "cert": true,
+   "a": 86,
+   "name": "Superman: The Movie",
+   "year": "1978",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "superman-2": {
+  "main": {
+   "c": 88,
+   "cn": 113,
+   "cert": true,
+   "a": 76,
+   "name": "Superman II",
+   "year": "1980",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "superman-3": {
+  "main": {
+   "c": 31,
+   "cn": 104,
+   "cert": false,
+   "a": 23,
+   "name": "Superman III",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "supergirl-1984": {
+  "main": {
+   "c": 19,
+   "cn": 134,
+   "cert": false,
+   "a": 26,
+   "name": "Supergirl",
+   "year": "1984",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "superman-4": {
+  "main": {
+   "c": 17,
+   "cn": 127,
+   "cert": false,
+   "a": 16,
+   "name": "Superman IV: The Quest for Peace",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "superman-returns": {
+  "main": {
+   "c": 72,
+   "cn": 289,
+   "cert": true,
+   "a": 60,
+   "name": "Superman Returns",
+   "year": "2006",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "arrow": {
+  "main": {
+   "c": 86,
+   "cn": 307,
+   "cert": false,
+   "a": 59,
+   "name": "Arrow",
+   "year": "2012",
+   "seasons": 8
+  },
+  "seasons": {
+   "1": {
+    "c": 85,
+    "cn": 285,
+    "cert": true,
+    "a": 80,
+    "name": "Season 1",
+    "year": "2012",
+    "seasons": null
+   },
+   "2": {
+    "c": 95,
+    "cn": 265,
+    "cert": true,
+    "a": 84,
+    "name": "Season 2",
+    "year": "2013",
+    "seasons": null
+   },
+   "3": {
+    "c": 89,
+    "cn": 365,
+    "cert": true,
+    "a": 67,
+    "name": "Season 3",
+    "year": "2014",
+    "seasons": null
+   },
+   "4": {
+    "c": 85,
+    "cn": 369,
+    "cert": false,
+    "a": 39,
+    "name": "Season 4",
+    "year": "2015",
+    "seasons": null
+   },
+   "5": {
+    "c": 88,
+    "cn": 193,
+    "cert": false,
+    "a": 62,
+    "name": "Season 5",
+    "year": "2016",
+    "seasons": null
+   },
+   "6": {
+    "c": 64,
+    "cn": 186,
+    "cert": false,
+    "a": 43,
+    "name": "Season 6",
+    "year": "2017",
+    "seasons": null
+   },
+   "7": {
+    "c": 87,
+    "cn": 213,
+    "cert": false,
+    "a": 46,
+    "name": "Season 7",
+    "year": "2018",
+    "seasons": null
+   },
+   "8": {
+    "c": 95,
+    "cn": 125,
+    "cert": false,
+    "a": 51,
+    "name": "Season 8",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "flash-2014": {
+  "main": {
+   "c": 85,
+   "cn": 176,
+   "cert": false,
+   "a": 53,
+   "name": "The Flash",
+   "year": "2014",
+   "seasons": 9
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 530,
+    "cert": true,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2014",
+    "seasons": null
+   },
+   "2": {
+    "c": 94,
+    "cn": 362,
+    "cert": true,
+    "a": 83,
+    "name": "Season 2",
+    "year": "2015",
+    "seasons": null
+   },
+   "3": {
+    "c": 85,
+    "cn": 272,
+    "cert": false,
+    "a": 64,
+    "name": "Season 3",
+    "year": "2016",
+    "seasons": null
+   },
+   "4": {
+    "c": 80,
+    "cn": 221,
+    "cert": false,
+    "a": 50,
+    "name": "Season 4",
+    "year": "2017",
+    "seasons": null
+   },
+   "5": {
+    "c": 94,
+    "cn": 294,
+    "cert": true,
+    "a": 52,
+    "name": "Season 5",
+    "year": "2018",
+    "seasons": null
+   },
+   "6": {
+    "c": 85,
+    "cn": 92,
+    "cert": false,
+    "a": 46,
+    "name": "Season 6",
+    "year": "2019",
+    "seasons": null
+   },
+   "7": {
+    "c": 95,
+    "cn": 25,
+    "cert": false,
+    "a": 30,
+    "name": "Season 7",
+    "year": "2021",
+    "seasons": null
+   },
+   "8": {
+    "c": null,
+    "cn": 2,
+    "cert": false,
+    "a": 42,
+    "name": "Season 8",
+    "year": "2021",
+    "seasons": null
+   },
+   "9": {
+    "c": 60,
+    "cn": 5,
+    "cert": false,
+    "a": 27,
+    "name": "Season 9",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "supergirl-tv": {
+  "main": {
+   "c": 88,
+   "cn": 132,
+   "cert": false,
+   "a": 47,
+   "name": "Supergirl",
+   "year": "2015",
+   "seasons": 6
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 371,
+    "cert": true,
+    "a": 54,
+    "name": "Season 1",
+    "year": "2015",
+    "seasons": null
+   },
+   "2": {
+    "c": 92,
+    "cn": 327,
+    "cert": false,
+    "a": 56,
+    "name": "Season 2",
+    "year": "2016",
+    "seasons": null
+   },
+   "3": {
+    "c": 78,
+    "cn": 289,
+    "cert": false,
+    "a": 55,
+    "name": "Season 3",
+    "year": "2017",
+    "seasons": null
+   },
+   "4": {
+    "c": 88,
+    "cn": 182,
+    "cert": true,
+    "a": 43,
+    "name": "Season 4",
+    "year": "2018",
+    "seasons": null
+   },
+   "5": {
+    "c": 94,
+    "cn": 102,
+    "cert": false,
+    "a": 40,
+    "name": "Season 5",
+    "year": "2019",
+    "seasons": null
+   },
+   "6": {
+    "c": 88,
+    "cn": 13,
+    "cert": false,
+    "a": 35,
+    "name": "Season 6",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "legends": {
+  "main": {
+   "c": 89,
+   "cn": 80,
+   "cert": false,
+   "a": 56,
+   "name": "DC's Legends of Tomorrow",
+   "year": "2016",
+   "seasons": 7
+  },
+  "seasons": {
+   "1": {
+    "c": 65,
+    "cn": 267,
+    "cert": false,
+    "a": 58,
+    "name": "Season 1",
+    "year": "2016",
+    "seasons": null
+   },
+   "2": {
+    "c": 88,
+    "cn": 166,
+    "cert": false,
+    "a": 68,
+    "name": "Season 2",
+    "year": "2016",
+    "seasons": null
+   },
+   "3": {
+    "c": 88,
+    "cn": 36,
+    "cert": false,
+    "a": 62,
+    "name": "Season 3",
+    "year": "2017",
+    "seasons": null
+   },
+   "4": {
+    "c": 98,
+    "cn": 107,
+    "cert": false,
+    "a": 56,
+    "name": "Season 4",
+    "year": "2018",
+    "seasons": null
+   },
+   "5": {
+    "c": 100,
+    "cn": 13,
+    "cert": false,
+    "a": 49,
+    "name": "Season 5",
+    "year": "2020",
+    "seasons": null
+   },
+   "6": {
+    "c": 100,
+    "cn": 7,
+    "cert": false,
+    "a": 48,
+    "name": "Season 6",
+    "year": "2021",
+    "seasons": null
+   },
+   "7": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 48,
+    "name": "Season 7",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "black-lightning": {
+  "main": {
+   "c": 92,
+   "cn": 70,
+   "cert": false,
+   "a": 49,
+   "name": "Black Lightning",
+   "year": "2018",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 96,
+    "cn": 194,
+    "cert": true,
+    "a": 53,
+    "name": "Season 1",
+    "year": "2018",
+    "seasons": null
+   },
+   "2": {
+    "c": 91,
+    "cn": 86,
+    "cert": false,
+    "a": 46,
+    "name": "Season 2",
+    "year": "2018",
+    "seasons": null
+   },
+   "3": {
+    "c": 89,
+    "cn": 9,
+    "cert": false,
+    "a": 45,
+    "name": "Season 3",
+    "year": "2019",
+    "seasons": null
+   },
+   "4": {
+    "c": null,
+    "cn": 2,
+    "cert": false,
+    "a": 50,
+    "name": "Season 4",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "batwoman": {
+  "main": {
+   "c": 83,
+   "cn": 71,
+   "cert": false,
+   "a": 22,
+   "name": "Batwoman",
+   "year": "2019",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 80,
+    "cn": 235,
+    "cert": true,
+    "a": 16,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   },
+   "2": {
+    "c": 86,
+    "cn": 21,
+    "cert": true,
+    "a": 17,
+    "name": "Season 2",
+    "year": "2021",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 33,
+    "name": "Season 3",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "superman-lois": {
+  "main": {
+   "c": 88,
+   "cn": 55,
+   "cert": false,
+   "a": 84,
+   "name": "Superman & Lois",
+   "year": "2021",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 86,
+    "cn": 44,
+    "cert": true,
+    "a": 76,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 83,
+    "name": "Season 2",
+    "year": "2022",
+    "seasons": null
+   },
+   "3": {
+    "c": 80,
+    "cn": 5,
+    "cert": false,
+    "a": 85,
+    "name": "Season 3",
+    "year": "2023",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 92,
+    "name": "Season 4",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "btas": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": 94,
+   "name": "Batman: The Animated Series",
+   "year": "1992",
+   "seasons": 5
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 21,
+    "cert": true,
+    "a": 98,
+    "name": "Season 1",
+    "year": "1992",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 96,
+    "name": "Season 2",
+    "year": "1993",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 95,
+    "name": "Season 3",
+    "year": "1994",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 8,
+    "cert": false,
+    "a": 93,
+    "name": "Season 4",
+    "year": "1995",
+    "seasons": null
+   }
+  }
+ },
+ "mask-of-phantasm": {
+  "main": {
+   "c": 83,
+   "cn": 58,
+   "cert": true,
+   "a": 88,
+   "name": "Batman: Mask of the Phantasm",
+   "year": "1993",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "stas": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": 93,
+   "name": "Superman: The Animated Series",
+   "year": "1996",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 94,
+    "name": "Season 1",
+    "year": "1996",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 2,
+    "cert": false,
+    "a": 94,
+    "name": "Season 2",
+    "year": "1997",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 91,
+    "name": "Season 3",
+    "year": "1998",
+    "seasons": null
+   }
+  }
+ },
+ "justice-league-tas": {
+  "main": {
+   "c": 95,
+   "cn": 40,
+   "cert": false,
+   "a": 95,
+   "name": "Justice League",
+   "year": "2001",
+   "seasons": 5
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 9,
+    "cert": false,
+    "a": 92,
+    "name": "Season 1",
+    "year": "2001",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 95,
+    "name": "Season 2",
+    "year": "2003",
+    "seasons": null
+   }
+  }
+ },
+ "batman-beyond": {
+  "main": {
+   "c": 100,
+   "cn": 16,
+   "cert": false,
+   "a": 94,
+   "name": "Batman Beyond",
+   "year": "1999",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 9,
+    "cert": false,
+    "a": 95,
+    "name": "Season 1",
+    "year": "1999",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 94,
+    "name": "Season 2",
+    "year": "1999",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 7,
+    "cert": false,
+    "a": 94,
+    "name": "Season 3",
+    "year": "2000",
+    "seasons": null
+   }
+  }
+ },
+ "lois-clark": {
+  "main": {
+   "c": 86,
+   "cn": 20,
+   "cert": false,
+   "a": 84,
+   "name": "Lois & Clark: The New Adventures of Superman",
+   "year": "1993",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 93,
+    "cn": 15,
+    "cert": false,
+    "a": 85,
+    "name": "Season 1",
+    "year": "1993",
+    "seasons": null
+   },
+   "2": {
+    "c": 80,
+    "cn": 5,
+    "cert": false,
+    "a": 85,
+    "name": "Season 2",
+    "year": "1994",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 85,
+    "name": "Season 3",
+    "year": "1995",
+    "seasons": null
+   },
+   "4": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 81,
+    "name": "Season 4",
+    "year": "1996",
+    "seasons": null
+   }
+  }
+ },
+ "smallville": {
+  "main": {
+   "c": 78,
+   "cn": 111,
+   "cert": false,
+   "a": 72,
+   "name": "Smallville",
+   "year": "2001",
+   "seasons": 10
+  },
+  "seasons": {
+   "1": {
+    "c": 78,
+    "cn": 27,
+    "cert": true,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2001",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 88,
+    "name": "Season 2",
+    "year": "2002",
+    "seasons": null
+   },
+   "3": {
+    "c": 80,
+    "cn": 10,
+    "cert": false,
+    "a": 85,
+    "name": "Season 3",
+    "year": "2003",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 81,
+    "name": "Season 4",
+    "year": "2004",
+    "seasons": null
+   },
+   "5": {
+    "c": 60,
+    "cn": 5,
+    "cert": false,
+    "a": 70,
+    "name": "Season 5",
+    "year": "2005",
+    "seasons": null
+   },
+   "6": {
+    "c": 75,
+    "cn": 8,
+    "cert": false,
+    "a": 64,
+    "name": "Season 6",
+    "year": "2006",
+    "seasons": null
+   },
+   "7": {
+    "c": 40,
+    "cn": 5,
+    "cert": false,
+    "a": 53,
+    "name": "Season 7",
+    "year": "2007",
+    "seasons": null
+   },
+   "8": {
+    "c": 83,
+    "cn": 6,
+    "cert": false,
+    "a": 56,
+    "name": "Season 8",
+    "year": "2008",
+    "seasons": null
+   },
+   "9": {
+    "c": 100,
+    "cn": 8,
+    "cert": false,
+    "a": 64,
+    "name": "Season 9",
+    "year": "2009",
+    "seasons": null
+   },
+   "10": {
+    "c": 73,
+    "cn": 26,
+    "cert": false,
+    "a": 71,
+    "name": "Season 10",
+    "year": "2010",
+    "seasons": null
+   }
+  }
+ },
+ "gotham": {
+  "main": {
+   "c": 77,
+   "cn": 157,
+   "cert": false,
+   "a": 68,
+   "name": "Gotham",
+   "year": "2014",
+   "seasons": 5
+  },
+  "seasons": {
+   "1": {
+    "c": 76,
+    "cn": 613,
+    "cert": true,
+    "a": 75,
+    "name": "Season 1",
+    "year": "2014",
+    "seasons": null
+   },
+   "2": {
+    "c": 74,
+    "cn": 327,
+    "cert": true,
+    "a": 72,
+    "name": "Season 2",
+    "year": "2015",
+    "seasons": null
+   },
+   "3": {
+    "c": 74,
+    "cn": 260,
+    "cert": false,
+    "a": 67,
+    "name": "Season 3",
+    "year": "2016",
+    "seasons": null
+   },
+   "4": {
+    "c": 81,
+    "cn": 21,
+    "cert": false,
+    "a": 68,
+    "name": "Season 4",
+    "year": "2017",
+    "seasons": null
+   },
+   "5": {
+    "c": 84,
+    "cn": 19,
+    "cert": false,
+    "a": 59,
+    "name": "Season 5",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "lucifer": {
+  "main": {
+   "c": 87,
+   "cn": 114,
+   "cert": false,
+   "a": 73,
+   "name": "Lucifer",
+   "year": "2016",
+   "seasons": 6
+  },
+  "seasons": {
+   "1": {
+    "c": 50,
+    "cn": 44,
+    "cert": false,
+    "a": 77,
+    "name": "Season 1",
+    "year": "2016",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 9,
+    "cert": false,
+    "a": 74,
+    "name": "Season 2",
+    "year": "2016",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 7,
+    "cert": false,
+    "a": 72,
+    "name": "Season 3",
+    "year": "2017",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 76,
+    "name": "Season 4",
+    "year": "2019",
+    "seasons": null
+   },
+   "5": {
+    "c": 82,
+    "cn": 28,
+    "cert": false,
+    "a": 67,
+    "name": "Season 5",
+    "year": "2020",
+    "seasons": null
+   },
+   "6": {
+    "c": 94,
+    "cn": 16,
+    "cert": false,
+    "a": 72,
+    "name": "Season 6",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "titans": {
+  "main": {
+   "c": 89,
+   "cn": 94,
+   "cert": false,
+   "a": 67,
+   "name": "Titans",
+   "year": "2018",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 78,
+    "cn": 46,
+    "cert": true,
+    "a": 70,
+    "name": "Season 1",
+    "year": "2018",
+    "seasons": null
+   },
+   "2": {
+    "c": 81,
+    "cn": 21,
+    "cert": false,
+    "a": 65,
+    "name": "Season 2",
+    "year": "2019",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 20,
+    "cert": false,
+    "a": 68,
+    "name": "Season 3",
+    "year": "2021",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 7,
+    "cert": false,
+    "a": 64,
+    "name": "Season 4",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "doom-patrol": {
+  "main": {
+   "c": 98,
+   "cn": 107,
+   "cert": false,
+   "a": 76,
+   "name": "Doom Patrol",
+   "year": "2019",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 96,
+    "cn": 53,
+    "cert": true,
+    "a": 79,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   },
+   "2": {
+    "c": 97,
+    "cn": 31,
+    "cert": false,
+    "a": 71,
+    "name": "Season 2",
+    "year": "2020",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 78,
+    "name": "Season 3",
+    "year": "2021",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 13,
+    "cert": false,
+    "a": 75,
+    "name": "Season 4",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "watchmen-tv": {
+  "main": {
+   "c": 96,
+   "cn": 119,
+   "cert": false,
+   "a": 57,
+   "name": "Watchmen",
+   "year": "2019",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 96,
+    "cn": 398,
+    "cert": true,
+    "a": 57,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "harley-quinn": {
+  "main": {
+   "c": 96,
+   "cn": 141,
+   "cert": false,
+   "a": 61,
+   "name": "Harley Quinn",
+   "year": "2019",
+   "seasons": 6
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 37,
+    "cert": true,
+    "a": 80,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 25,
+    "cert": true,
+    "a": 73,
+    "name": "Season 2",
+    "year": "2020",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 26,
+    "cert": true,
+    "a": 64,
+    "name": "Season 3",
+    "year": "2022",
+    "seasons": null
+   },
+   "4": {
+    "c": 96,
+    "cn": 24,
+    "cert": true,
+    "a": 54,
+    "name": "Season 4",
+    "year": "2023",
+    "seasons": null
+   },
+   "5": {
+    "c": 94,
+    "cn": 16,
+    "cert": false,
+    "a": 43,
+    "name": "Season 5",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "pennyworth": {
+  "main": {
+   "c": 78,
+   "cn": 36,
+   "cert": false,
+   "a": 89,
+   "name": "Pennyworth",
+   "year": "2019",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 73,
+    "cn": 30,
+    "cert": false,
+    "a": 91,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   },
+   "2": {
+    "c": 83,
+    "cn": 6,
+    "cert": false,
+    "a": 77,
+    "name": "Season 2",
+    "year": "2020",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 86,
+    "name": "The Origin of Batman's Butler",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "stargirl": {
+  "main": {
+   "c": 94,
+   "cn": 43,
+   "cert": false,
+   "a": 73,
+   "name": "DC's Stargirl",
+   "year": "2020",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 38,
+    "cert": true,
+    "a": 67,
+    "name": "Season 1",
+    "year": "2020",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 5,
+    "cert": false,
+    "a": 79,
+    "name": "Season 2",
+    "year": "2021",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 74,
+    "name": "Season 3",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "sandman": {
+  "main": {
+   "c": 81,
+   "cn": 160,
+   "cert": false,
+   "a": 77,
+   "name": "The Sandman",
+   "year": "2022",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 88,
+    "cn": 122,
+    "cert": true,
+    "a": 81,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   },
+   "2": {
+    "c": 74,
+    "cn": 38,
+    "cert": true,
+    "a": 72,
+    "name": "Season 2",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "caped-crusader": {
+  "main": {
+   "c": 93,
+   "cn": 97,
+   "cert": false,
+   "a": 69,
+   "name": "Batman: Caped Crusader",
+   "year": "2024",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 94,
+    "cn": 71,
+    "cert": true,
+    "a": 56,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   },
+   "2": {
+    "c": 92,
+    "cn": 26,
+    "cert": false,
+    "a": 82,
+    "name": "Season 2",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "batman-1966": {
+  "main": {
+   "c": 80,
+   "cn": 35,
+   "cert": false,
+   "a": 62,
+   "name": "Batman",
+   "year": "1966",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "watchmen": {
+  "main": {
+   "c": 64,
+   "cn": 304,
+   "cert": false,
+   "a": 71,
+   "name": "Watchmen",
+   "year": "2009",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "catwoman": {
+  "main": {
+   "c": 8,
+   "cn": 195,
+   "cert": false,
+   "a": 18,
+   "name": "Catwoman",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "constantine": {
+  "main": {
+   "c": 46,
+   "cn": 227,
+   "cert": false,
+   "a": 72,
+   "name": "Constantine",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "green-lantern": {
+  "main": {
+   "c": 25,
+   "cn": 248,
+   "cert": false,
+   "a": 45,
+   "name": "Green Lantern",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "lego-batman": {
+  "main": {
+   "c": 89,
+   "cn": 314,
+   "cert": true,
+   "a": 81,
+   "name": "The LEGO Batman Movie",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "super-pets": {
+  "main": {
+   "c": 72,
+   "cn": 147,
+   "cert": false,
+   "a": 87,
+   "name": "DC League of Super-Pets",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "young-jedi": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Star Wars: Young Jedi Adventures",
+   "year": "2023",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 4,
+    "cert": false,
+    "a": 74,
+    "name": "Season 1",
+    "year": "2023",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 2",
+    "year": "2024",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 3",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "acolyte": {
+  "main": {
+   "c": 79,
+   "cn": 120,
+   "cert": false,
+   "a": 19,
+   "name": "Star Wars: The Acolyte",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 79,
+    "cn": 251,
+    "cert": true,
+    "a": 19,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "tales-jedi": {
+  "main": {
+   "c": 100,
+   "cn": 22,
+   "cert": false,
+   "a": 92,
+   "name": "Star Wars: Tales of the Jedi",
+   "year": "2022",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 22,
+    "cert": false,
+    "a": 92,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "phantom-menace": {
+  "main": {
+   "c": 54,
+   "cn": 290,
+   "cert": false,
+   "a": 59,
+   "name": "Star Wars: Episode I - The Phantom Menace",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "attack-clones": {
+  "main": {
+   "c": 62,
+   "cn": 327,
+   "cert": false,
+   "a": 56,
+   "name": "Star Wars: Episode II - Attack of the Clones",
+   "year": "2002",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "clone-wars-film": {
+  "main": {
+   "c": 18,
+   "cn": 171,
+   "cert": false,
+   "a": 41,
+   "name": "Star Wars: The Clone Wars",
+   "year": "2008",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "clone-wars": {
+  "main": {
+   "c": 93,
+   "cn": 63,
+   "cert": false,
+   "a": 91,
+   "name": "Star Wars: The Clone Wars",
+   "year": "2008",
+   "seasons": 7
+  },
+  "seasons": {
+   "1": {
+    "c": 69,
+    "cn": 16,
+    "cert": false,
+    "a": 78,
+    "name": "Season 1",
+    "year": "2008",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 2,
+    "cert": false,
+    "a": 86,
+    "name": "Season 2",
+    "year": "2009",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 5,
+    "cert": false,
+    "a": 93,
+    "name": "Season 3",
+    "year": "2010",
+    "seasons": null
+   },
+   "4": {
+    "c": null,
+    "cn": 3,
+    "cert": false,
+    "a": 95,
+    "name": "Season 4",
+    "year": "2011",
+    "seasons": null
+   },
+   "5": {
+    "c": 100,
+    "cn": 5,
+    "cert": false,
+    "a": 96,
+    "name": "Season 5",
+    "year": "2012",
+    "seasons": null
+   },
+   "6": {
+    "c": 100,
+    "cn": 12,
+    "cert": false,
+    "a": 95,
+    "name": "Season 6",
+    "year": "2014",
+    "seasons": null
+   },
+   "7": {
+    "c": 100,
+    "cn": 36,
+    "cert": false,
+    "a": 95,
+    "name": "Season 7",
+    "year": "2020",
+    "seasons": null
+   }
+  }
+ },
+ "revenge-sith": {
+  "main": {
+   "c": 79,
+   "cn": 336,
+   "cert": true,
+   "a": 66,
+   "name": "Star Wars: Episode III - Revenge of the Sith",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "tales-underworld": {
+  "main": {
+   "c": 100,
+   "cn": 13,
+   "cert": false,
+   "a": 74,
+   "name": "Star Wars: Tales of the Underworld",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 13,
+    "cert": false,
+    "a": 74,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "tales-empire": {
+  "main": {
+   "c": 88,
+   "cn": 25,
+   "cert": false,
+   "a": 48,
+   "name": "Star Wars: Tales of the Empire",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 88,
+    "cn": 25,
+    "cert": false,
+    "a": 48,
+    "name": "Limited Series",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "bad-batch": {
+  "main": {
+   "c": 88,
+   "cn": 56,
+   "cert": false,
+   "a": 84,
+   "name": "Star Wars: The Bad Batch",
+   "year": "2021",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 86,
+    "cn": 93,
+    "cert": true,
+    "a": 84,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   },
+   "2": {
+    "c": 90,
+    "cn": 21,
+    "cert": false,
+    "a": 84,
+    "name": "Season 2",
+    "year": "2023",
+    "seasons": null
+   },
+   "3": {
+    "c": 88,
+    "cn": 17,
+    "cert": false,
+    "a": 85,
+    "name": "Season 3",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "maul-shadow-lord": {
+  "main": {
+   "c": 98,
+   "cn": 51,
+   "cert": false,
+   "a": 93,
+   "name": "Star Wars: Maul - Shadow Lord",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 98,
+    "cn": 51,
+    "cert": true,
+    "a": 93,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "solo": {
+  "main": {
+   "c": 69,
+   "cn": 489,
+   "cert": false,
+   "a": 63,
+   "name": "Solo: A Star Wars Story",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "obi-wan": {
+  "main": {
+   "c": 82,
+   "cn": 362,
+   "cert": false,
+   "a": 61,
+   "name": "Obi-Wan Kenobi",
+   "year": "2022",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 82,
+    "cn": 362,
+    "cert": true,
+    "a": 61,
+    "name": "Limited Series",
+    "year": "2022",
+    "seasons": null
+   }
+  }
+ },
+ "andor": {
+  "main": {
+   "c": 96,
+   "cn": 148,
+   "cert": false,
+   "a": 89,
+   "name": "Andor",
+   "year": "2022",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 96,
+    "cn": 607,
+    "cert": true,
+    "a": 88,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   },
+   "2": {
+    "c": 97,
+    "cn": 213,
+    "cert": true,
+    "a": 89,
+    "name": "Season 2",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "rebels": {
+  "main": {
+   "c": 98,
+   "cn": 35,
+   "cert": false,
+   "a": 85,
+   "name": "Star Wars Rebels",
+   "year": "2014",
+   "seasons": 4
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 13,
+    "cert": false,
+    "a": 77,
+    "name": "Season 1",
+    "year": "2014",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 87,
+    "name": "Season 2",
+    "year": "2015",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 6,
+    "cert": false,
+    "a": 87,
+    "name": "Season 3",
+    "year": "2016",
+    "seasons": null
+   },
+   "4": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 87,
+    "name": "Season 4",
+    "year": "2017",
+    "seasons": null
+   }
+  }
+ },
+ "rogue-one": {
+  "main": {
+   "c": 84,
+   "cn": 460,
+   "cert": true,
+   "a": 87,
+   "name": "Rogue One: A Star Wars Story",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "new-hope": {
+  "main": {
+   "c": 93,
+   "cn": 210,
+   "cert": true,
+   "a": 96,
+   "name": "Star Wars: Episode IV - A New Hope",
+   "year": "1981",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "empire": {
+  "main": {
+   "c": 93,
+   "cn": 176,
+   "cert": true,
+   "a": 97,
+   "name": "Star Wars: Episode V - The Empire Strikes Back",
+   "year": "1980",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "jedi": {
+  "main": {
+   "c": 83,
+   "cn": 169,
+   "cert": true,
+   "a": 94,
+   "name": "Star Wars: Episode VI - Return of the Jedi",
+   "year": "1985",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "mandalorian": {
+  "main": {
+   "c": 90,
+   "cn": 110,
+   "cert": false,
+   "a": 78,
+   "name": "The Mandalorian",
+   "year": "2019",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 93,
+    "cn": 338,
+    "cert": true,
+    "a": 93,
+    "name": "Season 1",
+    "year": "2019",
+    "seasons": null
+   },
+   "2": {
+    "c": 93,
+    "cn": 449,
+    "cert": true,
+    "a": 91,
+    "name": "Season 2",
+    "year": "2020",
+    "seasons": null
+   },
+   "3": {
+    "c": 85,
+    "cn": 249,
+    "cert": true,
+    "a": 51,
+    "name": "Season 3",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "boba-fett": {
+  "main": {
+   "c": 66,
+   "cn": 21,
+   "cert": false,
+   "a": 48,
+   "name": "The Book of Boba Fett",
+   "year": "2021",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 66,
+    "cn": 198,
+    "cert": false,
+    "a": 48,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "skeleton-crew": {
+  "main": {
+   "c": 92,
+   "cn": 75,
+   "cert": false,
+   "a": 79,
+   "name": "Star Wars: Skeleton Crew",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 92,
+    "cn": 151,
+    "cert": true,
+    "a": 79,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "mando-grogu": {
+  "main": {
+   "c": 60,
+   "cn": 335,
+   "cert": false,
+   "a": 86,
+   "name": "Star Wars: The Mandalorian and Grogu",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ahsoka": {
+  "main": {
+   "c": 85,
+   "cn": 115,
+   "cert": false,
+   "a": 64,
+   "name": "Star Wars: Ahsoka",
+   "year": "2023",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 85,
+    "cn": 271,
+    "cert": true,
+    "a": 64,
+    "name": "Season 1",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "resistance": {
+  "main": {
+   "c": 93,
+   "cn": 14,
+   "cert": false,
+   "a": 45,
+   "name": "Star Wars Resistance",
+   "year": "2018",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 93,
+    "cn": 14,
+    "cert": false,
+    "a": 70,
+    "name": "Season 1",
+    "year": "2018",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 4,
+    "cert": false,
+    "a": 19,
+    "name": "Season 2",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "force-awakens": {
+  "main": {
+   "c": 93,
+   "cn": 447,
+   "cert": true,
+   "a": 84,
+   "name": "Star Wars: The Force Awakens",
+   "year": "2015",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "last-jedi": {
+  "main": {
+   "c": 91,
+   "cn": 483,
+   "cert": true,
+   "a": 41,
+   "name": "Star Wars: The Last Jedi",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "rise-skywalker": {
+  "main": {
+   "c": 51,
+   "cn": 522,
+   "cert": false,
+   "a": 86,
+   "name": "Star Wars: The Rise of Skywalker",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "clone-wars-2003": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": 89,
+   "name": "Star Wars: Clone Wars",
+   "year": "",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 80,
+    "cn": 5,
+    "cert": false,
+    "a": 87,
+    "name": "Season 1",
+    "year": "2003",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 90,
+    "name": "Season 2",
+    "year": "2004",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": 90,
+    "name": "Season 3",
+    "year": "2005",
+    "seasons": null
+   }
+  }
+ },
+ "visions": {
+  "main": {
+   "c": 98,
+   "cn": 96,
+   "cert": false,
+   "a": 61,
+   "name": "Star Wars: Visions",
+   "year": "2021",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 96,
+    "cn": 53,
+    "cert": true,
+    "a": 66,
+    "name": "Volume 1",
+    "year": "2021",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 23,
+    "cert": false,
+    "a": 62,
+    "name": "Volume 2",
+    "year": "2023",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 20,
+    "cert": false,
+    "a": 54,
+    "name": "Volume 3",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "fns-spider-man": {
+  "main": {
+   "c": 97,
+   "cn": 38,
+   "cert": false,
+   "a": 62,
+   "name": "Your Friendly Neighborhood Spider-Man",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 97,
+    "cn": 38,
+    "cert": true,
+    "a": 62,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "jlu": {
+  "main": {
+   "c": 95,
+   "cn": 40,
+   "cert": false,
+   "a": 95,
+   "name": "Justice League",
+   "year": "2001",
+   "seasons": 5
+  },
+  "seasons": {
+   "1": {
+    "c": 89,
+    "cn": 9,
+    "cert": false,
+    "a": 92,
+    "name": "Season 1",
+    "year": "2001",
+    "seasons": null
+   },
+   "2": {
+    "c": 100,
+    "cn": 10,
+    "cert": false,
+    "a": 95,
+    "name": "Season 2",
+    "year": "2003",
+    "seasons": null
+   },
+   "3": {
+    "c": 88,
+    "cn": 8,
+    "cert": false,
+    "a": 97,
+    "name": "Season 3",
+    "year": "2005",
+    "seasons": null
+   }
+  }
+ },
+ "wonder-woman-tv": {
+  "main": {
+   "c": 100,
+   "cn": 14,
+   "cert": false,
+   "a": 84,
+   "name": "Wonder Woman",
+   "year": "1976",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 100,
+    "cn": 9,
+    "cert": false,
+    "a": 85,
+    "name": "Season 1",
+    "year": "1976",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 2,
+    "cert": false,
+    "a": 81,
+    "name": "Season 2",
+    "year": "1977",
+    "seasons": null
+   },
+   "3": {
+    "c": 100,
+    "cn": 5,
+    "cert": false,
+    "a": 86,
+    "name": "Season 3",
+    "year": "1978",
+    "seasons": null
+   }
+  }
+ },
+ "prometheus": {
+  "main": {
+   "c": 73,
+   "cn": 311,
+   "cert": true,
+   "a": 68,
+   "name": "Prometheus (2012)",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "covenant": {
+  "main": {
+   "c": 65,
+   "cn": 407,
+   "cert": false,
+   "a": 55,
+   "name": "Alien: Covenant",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "alien-earth": {
+  "main": {
+   "c": 94,
+   "cn": 122,
+   "cert": false,
+   "a": 65,
+   "name": "Alien: Earth",
+   "year": "2025",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 94,
+    "cn": 201,
+    "cert": true,
+    "a": 65,
+    "name": "Season 1",
+    "year": "2025",
+    "seasons": null
+   }
+  }
+ },
+ "alien-1979": {
+  "main": {
+   "c": 93,
+   "cn": 211,
+   "cert": true,
+   "a": 94,
+   "name": "Alien",
+   "year": "1979",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "romulus": {
+  "main": {
+   "c": 80,
+   "cn": 411,
+   "cert": true,
+   "a": 85,
+   "name": "Alien: Romulus",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "aliens": {
+  "main": {
+   "c": 93,
+   "cn": 172,
+   "cert": true,
+   "a": 94,
+   "name": "Aliens",
+   "year": "1986",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "alien-3": {
+  "main": {
+   "c": 43,
+   "cn": 127,
+   "cert": false,
+   "a": 46,
+   "name": "Alien 3",
+   "year": "1992",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "alien-resurrection": {
+  "main": {
+   "c": 55,
+   "cn": 167,
+   "cert": false,
+   "a": 39,
+   "name": "Alien Resurrection",
+   "year": "1997",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "killer-of-killers": {
+  "main": {
+   "c": 94,
+   "cn": 111,
+   "cert": true,
+   "a": 87,
+   "name": "Predator: Killer of Killers",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "prey": {
+  "main": {
+   "c": 94,
+   "cn": 289,
+   "cert": true,
+   "a": 74,
+   "name": "Prey (2022)",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "predator-1987": {
+  "main": {
+   "c": 65,
+   "cn": 120,
+   "cert": false,
+   "a": 87,
+   "name": "Predator",
+   "year": "1987",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "predator-2": {
+  "main": {
+   "c": 36,
+   "cn": 120,
+   "cert": false,
+   "a": 44,
+   "name": "Predator 2",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "predators": {
+  "main": {
+   "c": 66,
+   "cn": 201,
+   "cert": false,
+   "a": 52,
+   "name": "Predators",
+   "year": "2010",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "the-predator": {
+  "main": {
+   "c": 34,
+   "cn": 295,
+   "cert": false,
+   "a": 32,
+   "name": "The Predator",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "badlands": {
+  "main": {
+   "c": 86,
+   "cn": 277,
+   "cert": true,
+   "a": 94,
+   "name": "Predator: Badlands",
+   "year": "2025",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "avp": {
+  "main": {
+   "c": 21,
+   "cn": 146,
+   "cert": false,
+   "a": 39,
+   "name": "Alien vs. Predator",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "avp-requiem": {
+  "main": {
+   "c": 12,
+   "cn": 77,
+   "cert": false,
+   "a": 30,
+   "name": "Aliens vs. Predator: Requiem",
+   "year": "2007",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "kong-skull-island": {
+  "main": {
+   "c": 75,
+   "cn": 390,
+   "cert": true,
+   "a": 70,
+   "name": "Kong: Skull Island",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "godzilla-2014": {
+  "main": {
+   "c": 76,
+   "cn": 328,
+   "cert": true,
+   "a": 66,
+   "name": "Godzilla (2014)",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "monarch": {
+  "main": {
+   "c": 81,
+   "cn": 114,
+   "cert": false,
+   "a": 78,
+   "name": "Monarch: Legacy of Monsters",
+   "year": "2023",
+   "seasons": 2
+  },
+  "seasons": {
+   "1": {
+    "c": 86,
+    "cn": 86,
+    "cert": true,
+    "a": 76,
+    "name": "Season 1",
+    "year": "2023",
+    "seasons": null
+   },
+   "2": {
+    "c": 76,
+    "cn": 33,
+    "cert": true,
+    "a": 80,
+    "name": "Season 2",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "kotm": {
+  "main": {
+   "c": 42,
+   "cn": 350,
+   "cert": false,
+   "a": 83,
+   "name": "Godzilla: King of the Monsters (2019)",
+   "year": "2019",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gvk": {
+  "main": {
+   "c": 75,
+   "cn": 391,
+   "cert": true,
+   "a": 91,
+   "name": "Godzilla vs. Kong",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gxk": {
+  "main": {
+   "c": 54,
+   "cn": 251,
+   "cert": false,
+   "a": 89,
+   "name": "Godzilla x Kong: The New Empire",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "minus-one": {
+  "main": {
+   "c": 99,
+   "cn": 214,
+   "cert": true,
+   "a": 98,
+   "name": "Godzilla Minus One",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "minus-zero": {
+  "main": {
+   "c": 95,
+   "cn": 41,
+   "cert": false,
+   "a": null,
+   "name": "Godzilla Minus Zero",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "shin-godzilla": {
+  "main": {
+   "c": 87,
+   "cn": 87,
+   "cert": true,
+   "a": 80,
+   "name": "Shin Godzilla",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "singular-point": {
+  "main": {
+   "c": 56,
+   "cn": 9,
+   "cert": false,
+   "a": 66,
+   "name": "Godzilla Singular Point",
+   "year": "2021",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 56,
+    "cn": 9,
+    "cert": false,
+    "a": 66,
+    "name": "Season 1",
+    "year": "2021",
+    "seasons": null
+   }
+  }
+ },
+ "city-edge-battle": {
+  "main": {
+   "c": 60,
+   "cn": 5,
+   "cert": false,
+   "a": 34,
+   "name": "Godzilla: City on the Edge of Battle",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "planet-eater": {
+  "main": {
+   "c": 60,
+   "cn": 5,
+   "cert": false,
+   "a": 27,
+   "name": "Godzilla: The Planet Eater",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "godzilla-2000": {
+  "main": {
+   "c": 57,
+   "cn": 68,
+   "cert": false,
+   "a": 54,
+   "name": "Godzilla 2000 (2000)",
+   "year": "2000",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "megaguirus": {
+  "main": {
+   "c": 60,
+   "cn": 5,
+   "cert": false,
+   "a": 47,
+   "name": "Godzilla vs. Megaguirus",
+   "year": "2003",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gmk": {
+  "main": {
+   "c": 65,
+   "cn": 17,
+   "cert": false,
+   "a": 79,
+   "name": "Godzilla, Mothra, King Ghidorah: Giant Monsters All-Out Attack!",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "against-mechagodzilla": {
+  "main": {
+   "c": null,
+   "cn": 4,
+   "cert": false,
+   "a": 72,
+   "name": "Godzilla Against Mechagodzilla",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "tokyo-sos": {
+  "main": {
+   "c": 80,
+   "cn": 5,
+   "cert": false,
+   "a": 72,
+   "name": "Godzilla: Tokyo S.O.S.",
+   "year": "2023",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "final-wars": {
+  "main": {
+   "c": 54,
+   "cn": 13,
+   "cert": false,
+   "a": 71,
+   "name": "Godzilla: Final Wars",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "biollante": {
+  "main": {
+   "c": 75,
+   "cn": 12,
+   "cert": false,
+   "a": 73,
+   "name": "Godzilla vs. Biollante",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "vs-king-ghidorah": {
+  "main": {
+   "c": 56,
+   "cn": 9,
+   "cert": false,
+   "a": 65,
+   "name": "Godzilla vs. King Ghidorah",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "vs-mothra": {
+  "main": {
+   "c": 78,
+   "cn": 9,
+   "cert": false,
+   "a": 61,
+   "name": "Godzilla and Mothra: The Battle for Earth",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "mechagodzilla-ii": {
+  "main": {
+   "c": 83,
+   "cn": 6,
+   "cert": false,
+   "a": 72,
+   "name": "Godzilla vs. Mechagodzilla II",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "spacegodzilla": {
+  "main": {
+   "c": 63,
+   "cn": 8,
+   "cert": false,
+   "a": 79,
+   "name": "Godzilla vs. Space Godzilla",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "destoroyah": {
+  "main": {
+   "c": 100,
+   "cn": 6,
+   "cert": false,
+   "a": 93,
+   "name": "Godzilla vs. Destoroyah (1995)",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "godzilla-1954": {
+  "main": {
+   "c": 94,
+   "cn": 79,
+   "cert": true,
+   "a": 89,
+   "name": "Godzilla",
+   "year": "1954",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "raids-again": {
+  "main": {
+   "c": 64,
+   "cn": 11,
+   "cert": false,
+   "a": 37,
+   "name": "Godzilla Raids Again",
+   "year": "1959",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "mothra-vs-godzilla": {
+  "main": {
+   "c": 93,
+   "cn": 14,
+   "cert": false,
+   "a": 68,
+   "name": "Mothra vs. Godzilla",
+   "year": "1964",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ghidorah": {
+  "main": {
+   "c": 77,
+   "cn": 13,
+   "cert": false,
+   "a": 59,
+   "name": "Ghidrah, the Three-Headed Monster",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "astro-monster": {
+  "main": {
+   "c": 50,
+   "cn": 8,
+   "cert": false,
+   "a": 62,
+   "name": "Invasion of Astro-Monster",
+   "year": "1970",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "ebirah": {
+  "main": {
+   "c": 63,
+   "cn": 8,
+   "cert": false,
+   "a": 37,
+   "name": "Ebirah, Horror of the Deep",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "son-of-godzilla": {
+  "main": {
+   "c": 63,
+   "cn": 16,
+   "cert": false,
+   "a": 31,
+   "name": "Son of Godzilla",
+   "year": "1967",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "all-monsters-attack": {
+  "main": {
+   "c": 38,
+   "cn": 8,
+   "cert": false,
+   "a": 19,
+   "name": "All Monsters Attack",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hedorah": {
+  "main": {
+   "c": 67,
+   "cn": 15,
+   "cert": false,
+   "a": 51,
+   "name": "Godzilla vs. Hedorah",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "gigan": {
+  "main": {
+   "c": 67,
+   "cn": 6,
+   "cert": false,
+   "a": 49,
+   "name": "Godzilla vs. Gigan",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "megalon": {
+  "main": {
+   "c": 38,
+   "cn": 8,
+   "cert": false,
+   "a": 35,
+   "name": "Godzilla vs. Megalon",
+   "year": "1973",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "vs-mechagodzilla": {
+  "main": {
+   "c": 86,
+   "cn": 7,
+   "cert": false,
+   "a": 63,
+   "name": "Godzilla vs. Mechagodzilla",
+   "year": "1974",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "terror-mechagodzilla": {
+  "main": {
+   "c": 43,
+   "cn": 7,
+   "cert": false,
+   "a": 61,
+   "name": "Terror of Mechagodzilla",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "destroy-all-monsters": {
+  "main": {
+   "c": 82,
+   "cn": 11,
+   "cert": false,
+   "a": 65,
+   "name": "Destroy All Monsters!",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "godzilla-1998": {
+  "main": {
+   "c": 20,
+   "cn": 148,
+   "cert": false,
+   "a": 28,
+   "name": "Godzilla",
+   "year": "1998",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "godzilla-the-series": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Godzilla: The Series",
+   "year": "1998",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 1,
+    "cert": false,
+    "a": 94,
+    "name": "Season 1",
+    "year": "1998",
+    "seasons": null
+   },
+   "2": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 2",
+    "year": "1999",
+    "seasons": null
+   }
+  }
+ },
+ "rise-apes": {
+  "main": {
+   "c": 82,
+   "cn": 269,
+   "cert": true,
+   "a": 77,
+   "name": "Rise of the Planet of the Apes",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dawn-apes": {
+  "main": {
+   "c": 91,
+   "cn": 319,
+   "cert": true,
+   "a": 88,
+   "name": "Dawn of the Planet of the Apes",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "war-apes": {
+  "main": {
+   "c": 94,
+   "cn": 361,
+   "cert": true,
+   "a": 84,
+   "name": "War for the Planet of the Apes",
+   "year": "2017",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "kingdom-apes": {
+  "main": {
+   "c": 80,
+   "cn": 330,
+   "cert": true,
+   "a": 77,
+   "name": "Kingdom of the Planet of the Apes",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "escape-apes": {
+  "main": {
+   "c": 75,
+   "cn": 28,
+   "cert": false,
+   "a": 53,
+   "name": "Escape From the Planet of the Apes",
+   "year": "1971",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "conquest-apes": {
+  "main": {
+   "c": 52,
+   "cn": 23,
+   "cert": false,
+   "a": 46,
+   "name": "Conquest of the Planet of the Apes",
+   "year": "1972",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "battle-apes": {
+  "main": {
+   "c": 33,
+   "cn": 27,
+   "cert": false,
+   "a": 30,
+   "name": "Battle for the Planet of the Apes",
+   "year": "1973",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "apes-1968": {
+  "main": {
+   "c": 86,
+   "cn": 96,
+   "cert": true,
+   "a": 88,
+   "name": "Planet of the Apes",
+   "year": "1968",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "beneath-apes": {
+  "main": {
+   "c": 37,
+   "cn": 30,
+   "cert": false,
+   "a": 38,
+   "name": "Beneath the Planet of the Apes",
+   "year": "1970",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "apes-tv-1974": {
+  "main": {
+   "c": 55,
+   "cn": 20,
+   "cert": false,
+   "a": 90,
+   "name": "Planet of the Apes",
+   "year": "1974",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 55,
+    "cn": 20,
+    "cert": false,
+    "a": 90,
+    "name": "Season 1",
+    "year": "1974",
+    "seasons": null
+   }
+  }
+ },
+ "apes-2001": {
+  "main": {
+   "c": 42,
+   "cn": 201,
+   "cert": false,
+   "a": 27,
+   "name": "Planet of the Apes",
+   "year": "2001",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dune-prophecy": {
+  "main": {
+   "c": 64,
+   "cn": 78,
+   "cert": false,
+   "a": 63,
+   "name": "Dune: Prophecy",
+   "year": "2024",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 64,
+    "cn": 99,
+    "cert": false,
+    "a": 63,
+    "name": "Season 1",
+    "year": "2024",
+    "seasons": null
+   }
+  }
+ },
+ "dune-2021": {
+  "main": {
+   "c": 83,
+   "cn": 512,
+   "cert": true,
+   "a": 90,
+   "name": "Dune (2021)",
+   "year": "2021",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dune-part-two": {
+  "main": {
+   "c": 92,
+   "cn": 466,
+   "cert": true,
+   "a": 95,
+   "name": "Dune: Part Two",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dune-part-three": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Dune: Part Three",
+   "year": "2026",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "dune-1984": {
+  "main": {
+   "c": 36,
+   "cn": 117,
+   "cert": false,
+   "a": 65,
+   "name": "Dune (1984)",
+   "year": "1984",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "children-of-dune": {
+  "main": {
+   "c": 80,
+   "cn": 15,
+   "cert": false,
+   "a": 71,
+   "name": "Children of Dune",
+   "year": "2003",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 80,
+    "cn": 15,
+    "cert": false,
+    "a": 71,
+    "name": "Season 1",
+    "year": "2003",
+    "seasons": null
+   }
+  }
+ },
+ "rohirrim": {
+  "main": {
+   "c": 49,
+   "cn": 152,
+   "cert": false,
+   "a": 81,
+   "name": "The Lord of the Rings: The War of the Rohirrim",
+   "year": "2024",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hobbit-1": {
+  "main": {
+   "c": 64,
+   "cn": 302,
+   "cert": false,
+   "a": 83,
+   "name": "The Hobbit: An Unexpected Journey",
+   "year": "2012",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hobbit-2": {
+  "main": {
+   "c": 74,
+   "cn": 250,
+   "cert": true,
+   "a": 85,
+   "name": "The Hobbit: The Desolation of Smaug",
+   "year": "2013",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hobbit-3": {
+  "main": {
+   "c": 59,
+   "cn": 265,
+   "cert": false,
+   "a": 74,
+   "name": "The Hobbit: The Battle of the Five Armies",
+   "year": "2014",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "fellowship": {
+  "main": {
+   "c": 91,
+   "cn": 271,
+   "cert": true,
+   "a": 95,
+   "name": "The Lord of the Rings: The Fellowship of the Ring",
+   "year": "2001",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "two-towers": {
+  "main": {
+   "c": 95,
+   "cn": 289,
+   "cert": true,
+   "a": 95,
+   "name": "The Lord of the Rings: The Two Towers",
+   "year": "2002",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "return-king": {
+  "main": {
+   "c": 94,
+   "cn": 306,
+   "cert": true,
+   "a": 86,
+   "name": "The Lord of the Rings: The Return of the King",
+   "year": "2003",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "rings-of-power": {
+  "main": {
+   "c": 84,
+   "cn": 558,
+   "cert": false,
+   "a": 48,
+   "name": "The Lord of the Rings: The Rings of Power",
+   "year": "2022",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 84,
+    "cn": 487,
+    "cert": true,
+    "a": 38,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   },
+   "2": {
+    "c": 85,
+    "cn": 173,
+    "cert": true,
+    "a": 58,
+    "name": "Season 2",
+    "year": "2024",
+    "seasons": null
+   },
+   "3": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 3",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "hobbit-1977": {
+  "main": {
+   "c": 72,
+   "cn": 18,
+   "cert": false,
+   "a": 65,
+   "name": "The Hobbit",
+   "year": "1977",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "lotr-1978": {
+  "main": {
+   "c": 48,
+   "cn": 46,
+   "cert": false,
+   "a": 64,
+   "name": "The Lord of the Rings",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "return-king-1980": {
+  "main": {
+   "c": 67,
+   "cn": 15,
+   "cert": false,
+   "a": 39,
+   "name": "The Return of the King",
+   "year": "1980",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "fantastic-beasts": {
+  "main": {
+   "c": 74,
+   "cn": 343,
+   "cert": true,
+   "a": 79,
+   "name": "Fantastic Beasts and Where to Find Them",
+   "year": "2016",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "crimes-grindelwald": {
+  "main": {
+   "c": 36,
+   "cn": 335,
+   "cert": false,
+   "a": 53,
+   "name": "Fantastic Beasts: The Crimes of Grindelwald",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "secrets-dumbledore": {
+  "main": {
+   "c": 46,
+   "cn": 246,
+   "cert": false,
+   "a": 83,
+   "name": "Fantastic Beasts: The Secrets of Dumbledore",
+   "year": "2022",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-1": {
+  "main": {
+   "c": 80,
+   "cn": 201,
+   "cert": true,
+   "a": 82,
+   "name": "Harry Potter and the Sorcerer's Stone",
+   "year": "2001",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-2": {
+  "main": {
+   "c": 82,
+   "cn": 236,
+   "cert": true,
+   "a": 80,
+   "name": "Harry Potter and the Chamber of Secrets",
+   "year": "2002",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-3": {
+  "main": {
+   "c": 90,
+   "cn": 263,
+   "cert": true,
+   "a": 86,
+   "name": "Harry Potter and the Prisoner of Azkaban",
+   "year": "2004",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-4": {
+  "main": {
+   "c": 88,
+   "cn": 258,
+   "cert": true,
+   "a": 74,
+   "name": "Harry Potter and the Goblet of Fire",
+   "year": "2005",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-5": {
+  "main": {
+   "c": 78,
+   "cn": 257,
+   "cert": true,
+   "a": 81,
+   "name": "Harry Potter and the Order of the Phoenix",
+   "year": "2007",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-6": {
+  "main": {
+   "c": 83,
+   "cn": 279,
+   "cert": true,
+   "a": 78,
+   "name": "Harry Potter and the Half-Blood Prince",
+   "year": "2009",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-7": {
+  "main": {
+   "c": 77,
+   "cn": 287,
+   "cert": true,
+   "a": 85,
+   "name": "Harry Potter and the Deathly Hallows: Part 1",
+   "year": "2010",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-8": {
+  "main": {
+   "c": 96,
+   "cn": 332,
+   "cert": true,
+   "a": 89,
+   "name": "Harry Potter and the Deathly Hallows: Part 2",
+   "year": "2011",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "hp-hbo": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Harry Potter and the Philosopher's Stone",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "house-of-the-dragon": {
+  "main": {
+   "c": 88,
+   "cn": 173,
+   "cert": false,
+   "a": 73,
+   "name": "House of the Dragon",
+   "year": "2022",
+   "seasons": 3
+  },
+  "seasons": {
+   "1": {
+    "c": 90,
+    "cn": 873,
+    "cert": true,
+    "a": 82,
+    "name": "Season 1",
+    "year": "2022",
+    "seasons": null
+   },
+   "2": {
+    "c": 84,
+    "cn": 285,
+    "cert": true,
+    "a": 71,
+    "name": "Season 2",
+    "year": "2024",
+    "seasons": null
+   },
+   "3": {
+    "c": 91,
+    "cn": 174,
+    "cert": true,
+    "a": 65,
+    "name": "Season 3",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "knight-seven-kingdoms": {
+  "main": {
+   "c": 94,
+   "cn": 103,
+   "cert": false,
+   "a": 79,
+   "name": "A Knight of the Seven Kingdoms",
+   "year": "2026",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 94,
+    "cn": 180,
+    "cert": true,
+    "a": 79,
+    "name": "Season 1",
+    "year": "2026",
+    "seasons": null
+   }
+  }
+ },
+ "game-of-thrones": {
+  "main": {
+   "c": 89,
+   "cn": 338,
+   "cert": false,
+   "a": 85,
+   "name": "Game of Thrones",
+   "year": "2011",
+   "seasons": 8
+  },
+  "seasons": {
+   "1": {
+    "c": 90,
+    "cn": 215,
+    "cert": true,
+    "a": 96,
+    "name": "Season 1",
+    "year": "2011",
+    "seasons": null
+   },
+   "2": {
+    "c": 97,
+    "cn": 293,
+    "cert": true,
+    "a": 97,
+    "name": "Season 2",
+    "year": "2012",
+    "seasons": null
+   },
+   "3": {
+    "c": 96,
+    "cn": 395,
+    "cert": true,
+    "a": 97,
+    "name": "Season 3",
+    "year": "2013",
+    "seasons": null
+   },
+   "4": {
+    "c": 97,
+    "cn": 569,
+    "cert": true,
+    "a": 97,
+    "name": "Season 4",
+    "year": "2014",
+    "seasons": null
+   },
+   "5": {
+    "c": 93,
+    "cn": 556,
+    "cert": true,
+    "a": 91,
+    "name": "Season 5",
+    "year": "2015",
+    "seasons": null
+   },
+   "6": {
+    "c": 94,
+    "cn": 666,
+    "cert": true,
+    "a": 92,
+    "name": "Season 6",
+    "year": "2016",
+    "seasons": null
+   },
+   "7": {
+    "c": 93,
+    "cn": 479,
+    "cert": true,
+    "a": 80,
+    "name": "Season 7",
+    "year": "2017",
+    "seasons": null
+   },
+   "8": {
+    "c": 57,
+    "cn": 697,
+    "cert": false,
+    "a": 30,
+    "name": "Season 8",
+    "year": "2019",
+    "seasons": null
+   }
+  }
+ },
+ "skull-island-tv": {
+  "main": {
+   "c": 82,
+   "cn": 17,
+   "cert": false,
+   "a": 74,
+   "name": "Skull Island",
+   "year": "2023",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": 82,
+    "cn": 17,
+    "cert": false,
+    "a": 74,
+    "name": "Season 1",
+    "year": "2023",
+    "seasons": null
+   }
+  }
+ },
+ "planet-of-monsters": {
+  "main": {
+   "c": 75,
+   "cn": 8,
+   "cert": false,
+   "a": 42,
+   "name": "Godzilla: Planet of the Monsters",
+   "year": "2018",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "return-of-godzilla": {
+  "main": {
+   "c": null,
+   "cn": 1,
+   "cert": false,
+   "a": 89,
+   "name": "The Return of Godzilla",
+   "year": "",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "kong-vs-godzilla": {
+  "main": {
+   "c": 52,
+   "cn": 21,
+   "cert": false,
+   "a": 56,
+   "name": "King Kong vs. Godzilla",
+   "year": "1963",
+   "seasons": null
+  },
+  "seasons": {}
+ },
+ "return-apes": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": null,
+   "name": "Return to the Planet of the Apes",
+   "year": "1975",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 0,
+    "cert": false,
+    "a": null,
+    "name": "Season 1",
+    "year": "1975",
+    "seasons": null
+   }
+  }
+ },
+ "dune-2000": {
+  "main": {
+   "c": null,
+   "cn": 0,
+   "cert": false,
+   "a": 73,
+   "name": "Dune",
+   "year": "2000",
+   "seasons": 1
+  },
+  "seasons": {
+   "1": {
+    "c": null,
+    "cn": 4,
+    "cert": false,
+    "a": 73,
+    "name": "Season 1",
+    "year": "2000",
+    "seasons": null
+   }
+  }
+ }
+}

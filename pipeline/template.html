@@ -1,0 +1,1468 @@
+<title>Agamotto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Archivo:wght@400..700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap&text=__ZH_DISPLAY_TEXT__">
+<style>
+/* Layout: a vertical watch-order rail. A sticky franchise chip row (All plus one per franchise) recolors the page; each continuity is its own section with a timeline rail (when · node · card). Desktop adds a
+   sticky section index on the left. */
+:root {
+  --bg: #f2f3f6;
+  --surface: #ffffff;
+  --sunk: #e7e9ef;
+  --line: #d6dae3;
+  --fg: #141821;
+  --muted: #5a6273;
+  --marvel: #c8102e;
+  --xmen: #976200;
+  --dc: #0a5bd3;
+  --starwars: #8a6a00;
+  --alien: #5f7300;
+  --godzilla: #00788a;
+  --apes: #80542f;
+  --dune: #b4530b;
+  --middleearth: #2b7a4b;
+  --wizarding: #7046a8;
+  --westeros: #55657a;
+  --all: #3b3f8f;
+  --on-accent: #ffffff;
+  --on-brand: #ffffff;
+  --upcoming: #0d7a5f;
+  --imdb: #f5c518;
+  --imdb-ink: #121212;
+  --douban: #1a782c;
+  --rt-fresh: #e0310b;
+  --rt-rotten: #09863e;
+  --mine-imdb: #1d64c8;
+  --mine-star: #b87400;
+  --err: #c42a0a;
+  --field: #858c9b;
+  --accent: var(--all);
+
+  --display: "League Gothic", "Arial Narrow", "Roboto Condensed", Impact, sans-serif;
+  --display-zh: "ZCOOL QingKe HuangYou", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --body: "Archivo", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --r-sm: 4px;
+  --r-md: 8px;
+  --timecol: 118px;
+  --gap: 14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0c0e13; --surface: #151922; --sunk: #1d222d; --line: #2a303d; --fg: #e8ebf1; --muted: #98a1b3;
+    --marvel: #ff5266; --xmen: #ffc23d; --dc: #5aa2ff; --starwars: #ffe81f; --all: #a9adff;
+    --alien: #c8e64a; --godzilla: #3fd6e3; --apes: #d9a574; --dune: #ffad5c; --middleearth: #6fd39a; --wizarding: #c7a6ff; --westeros: #b4c3d4;
+    --on-accent: #0c0e13; --on-brand: #0c0e13; --upcoming: #46d6a8;
+    --douban: #45c35c; --rt-fresh: #ff6a45; --rt-rotten: #3bd27a;
+    --mine-imdb: #6ea8ff; --mine-star: #ffb43d; --err: #ff6a45; --field: #646d7f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0c0e13; --surface: #151922; --sunk: #1d222d; --line: #2a303d; --fg: #e8ebf1; --muted: #98a1b3;
+  --marvel: #ff5266; --xmen: #ffc23d; --dc: #5aa2ff; --starwars: #ffe81f; --all: #a9adff;
+  --alien: #c8e64a; --godzilla: #3fd6e3; --apes: #d9a574; --dune: #ffad5c; --middleearth: #6fd39a; --wizarding: #c7a6ff; --westeros: #b4c3d4;
+  --on-accent: #0c0e13; --on-brand: #0c0e13; --upcoming: #46d6a8;
+  --douban: #45c35c; --rt-fresh: #ff6a45; --rt-rotten: #3bd27a;
+  --mine-imdb: #6ea8ff; --mine-star: #ffb43d; --err: #ff6a45; --field: #646d7f;
+  color-scheme: dark;
+}
+[data-f="marvel"] { --accent: var(--marvel); }
+[data-f="xmen"] { --accent: var(--xmen); }
+[data-f="dc"] { --accent: var(--dc); }
+[data-f="starwars"] { --accent: var(--starwars); }
+[data-f="alien"] { --accent: var(--alien); }
+[data-f="godzilla"] { --accent: var(--godzilla); }
+[data-f="apes"] { --accent: var(--apes); }
+[data-f="dune"] { --accent: var(--dune); }
+[data-f="middleearth"] { --accent: var(--middleearth); }
+[data-f="wizarding"] { --accent: var(--wizarding); }
+[data-f="westeros"] { --accent: var(--westeros); }
+[data-f="all"] { --accent: var(--all); }
+
+*, *::before, *::after { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 400 15px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; }
+a { color: inherit; }
+html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h, 96px) + 8px); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: var(--r-sm); }
+#main:focus { outline: none; }
+.skip { position: absolute; left: 16px; top: 8px; z-index: 50; padding: 8px 14px; border-radius: var(--r-md); background: var(--fg); color: var(--bg); font-weight: 600; text-decoration: none; translate: 0 -200%; }
+.skip:focus { translate: 0 0; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; }
+
+/* ---------- masthead */
+.mast { padding-block: 28px 18px; display: flex; gap: 16px 24px; align-items: end; justify-content: space-between; flex-wrap: wrap; }
+.mast h1 { margin: 0; font: 400 clamp(44px, 7vw, 76px)/.86 var(--display); letter-spacing: .01em; text-transform: uppercase; }
+html[lang="zh-Hans"] .mast h1 { font-family: var(--display-zh); font-size: clamp(40px, 6vw, 64px); letter-spacing: .04em; line-height: 1; }
+.mast h1 .bar { color: var(--accent); transition: color .25s; }
+.mast p { margin: 10px 0 0; color: var(--muted); max-width: 62ch; }
+.mast-side { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.stat { font: 500 12px/1.4 var(--mono); color: var(--muted); text-align: right; }
+.lang { display: inline-flex; flex: none; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); }
+.lang button { border: 0; background: none; padding: 6px 12px; border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.lang button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+.tools { display: flex; gap: 8px; align-items: center; }
+.mine-btn { display: inline-flex; align-items: center; gap: 7px; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 13px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--fg); white-space: nowrap; }
+.mine-btn:hover { border-color: var(--fg); }
+.mine-btn .dots { display: inline-flex; gap: 3px; }
+.mine-btn .dots i { width: 8px; height: 8px; border-radius: 50%; }
+.mine-btn .dots .imdb { background: var(--imdb); }
+.mine-btn .dots .douban { background: var(--douban); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* ---------- sticky franchise bar */
+.bar-sticky {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.chips { position: relative; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 10px 4px; margin-inline: -4px; }
+.chips::-webkit-scrollbar { display: none; }
+@media (min-width: 961px) { .chips { flex-wrap: wrap; overflow: visible; } }
+.chip {
+  flex: none; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; white-space: nowrap;
+  border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 7px 12px 7px 11px;
+  font-size: 13.5px; font-weight: 600; color: var(--fg);
+}
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+.chip.all::before { display: none; }
+.chip.all { padding-left: 13px; }
+.chip .n { font: 500 11px/1 var(--mono); color: var(--muted); }
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.chip[aria-pressed="true"]::before { background: var(--on-accent); }
+.chip[aria-pressed="true"] .n { color: inherit; }
+.seg { display: inline-flex; flex-wrap: wrap; max-width: 100%; background: var(--sunk); border-radius: var(--r-md); padding: 3px; gap: 2px; }
+.seg button { border: 0; background: none; cursor: pointer; padding: 7px 12px; border-radius: 6px; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--fg); box-shadow: 0 1px 2px rgb(0 0 0 / .12), inset 0 -2px 0 var(--accent); }
+.sortrow { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-left: auto; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: var(--r-md); cursor: pointer; padding: 7px 10px; font-size: 13px; font-weight: 600; color: var(--fg); white-space: nowrap; }
+
+/* ---------- filters */
+.filters { display: flex; gap: 10px 16px; align-items: center; flex-wrap: wrap; padding-block: 16px 0; }
+.search { position: relative; flex: 1 1 220px; max-width: 340px; min-width: 0; }
+.search input { width: 100%; border: 1px solid var(--field); background: var(--surface); color: var(--fg); border-radius: var(--r-md); padding: 9px 12px 9px 34px; font: inherit; font-size: 14px; }
+.search input::placeholder { color: var(--muted); }
+.search svg { position: absolute; left: 11px; top: 50%; translate: 0 -50%; width: 15px; height: 15px; stroke: var(--muted); fill: none; stroke-width: 2; }
+
+/* ---------- layout: section index + timeline */
+.layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 36px; padding-block: 18px 40px; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h, 96px) + 12px); align-self: start; max-height: calc(100vh - var(--bar-h, 96px) - 36px); overflow-y: auto; padding: 4px; margin: -4px; }
+.toc .toc-f { margin: 14px 0 6px; font: 600 11px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.toc .toc-f:first-child { margin-top: 4px; }
+.toc a {
+  display: flex; justify-content: space-between; gap: 8px; align-items: baseline; text-decoration: none;
+  padding: 5px 8px; border-radius: 6px; font-size: 13px; color: var(--muted); border-left: 3px solid transparent;
+}
+.toc a .n { font: 500 11px/1 var(--mono); }
+.toc a:hover { color: var(--fg); background: var(--sunk); }
+.toc a.on { color: var(--fg); background: var(--surface); border-left-color: var(--accent); font-weight: 600; }
+.jump { display: none; position: relative; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 12px 4px 4px; margin-inline: -4px; }
+.jump::-webkit-scrollbar { display: none; }
+.jump a { flex: none; text-decoration: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 5px 11px; font-size: 12.5px; white-space: nowrap; }
+.jump a .n { font: 500 11px/1 var(--mono); color: var(--muted); margin-left: 5px; }
+@media (max-width: 960px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .toc { display: none; }
+  .jump { display: flex; }
+}
+
+/* off-screen sections skip layout and paint; the placeholder height is sized from the entry count (measured: about
+   168 px per card plus the header, 230 px per card on phones) so the scrollbar and the page end stay close to true */
+.section { scroll-margin-top: 12px; padding-bottom: 34px; content-visibility: auto; contain-intrinsic-size: auto calc(var(--rows, 6) * 168px + 150px); }
+.sec-head { display: grid; gap: 6px; padding-bottom: 14px; margin-bottom: 6px; border-bottom: 1px solid var(--line); }
+.sec-head .fr { font: 600 11px/1 var(--body); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.h2row { display: flex; align-items: baseline; gap: 10px; }
+.anchor { font: 400 24px/1 var(--display); color: var(--muted); text-decoration: none; padding: 2px 4px; border-radius: var(--r-sm); white-space: nowrap; }
+.anchor:hover, .anchor:focus-visible { color: var(--accent); }
+.anchor.done::after { content: attr(data-done); margin-left: 6px; font: 600 12px/1 var(--body); color: var(--accent); vertical-align: 4px; }
+.sec-head h2 { margin: 0; font: 400 40px/.95 var(--display); letter-spacing: .015em; text-transform: uppercase; text-wrap: balance; }
+html[lang="zh-Hans"] .sec-head h2 { font-family: var(--display-zh); font-size: 32px; letter-spacing: .05em; line-height: 1.1; }
+.sec-meta { display: flex; flex-wrap: wrap; gap: 4px 16px; font: 500 12px/1.4 var(--mono); color: var(--muted); }
+.sec-meta b { color: var(--fg); font-weight: 500; }
+
+/* ---------- the rail */
+.tl { list-style: none; margin: 0; padding: 0; position: relative; }
+.tl::before { content: ""; position: absolute; top: 18px; bottom: 18px; left: calc(var(--timecol) + var(--gap) + 13px); width: 2px; background: color-mix(in srgb, var(--accent) 35%, var(--line)); }
+.ev { display: grid; grid-template-columns: var(--timecol) 28px minmax(0, 1fr); column-gap: var(--gap); padding-block: 8px; position: relative; }
+.when { text-align: right; padding-top: 14px; font: 500 12.5px/1.3 var(--mono); color: var(--fg); overflow-wrap: anywhere; }
+.node {
+  position: relative; z-index: 1; margin-top: 10px; width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center; font: 500 11px/1 var(--mono);
+  background: var(--accent); color: var(--on-accent); box-shadow: 0 0 0 4px var(--bg);
+}
+.node.dot { width: 14px; height: 14px; margin: 17px auto 0; }
+.node.hollow { background: var(--bg); border: 2px solid var(--accent); color: var(--accent); }
+
+.entry { position: relative; display: grid; grid-template-columns: 86px minmax(0, 1fr); gap: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px; min-width: 0; }
+.thumb { display: block; aspect-ratio: 2 / 3; max-width: 100%; border-radius: 6px; overflow: hidden; background: var(--sunk); align-self: start; }
+button.thumb { border: 0; padding: 0; cursor: zoom-in; }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.info { min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.when-in { display: none; font: 500 11.5px/1.2 var(--mono); color: var(--accent); }
+.info h3 { margin: 0; font-size: 16px; line-height: 1.3; font-weight: 650; text-wrap: balance; overflow-wrap: break-word; }
+.info h3 .sb { display: inline-block; vertical-align: 2px; margin-left: 6px; padding: 2px 6px; border-radius: 3px; font: 500 11px/1.2 var(--mono); background: var(--accent); color: var(--on-accent); white-space: nowrap; }
+.alt { margin: -3px 0 0; font-size: 12.5px; color: var(--muted); overflow-wrap: break-word; }
+.meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 12.5px; color: var(--muted); }
+.meta span + span::before { content: ""; display: inline-block; width: 3px; height: 3px; border-radius: 50%; background: currentColor; opacity: .6; margin-right: 12px; vertical-align: .25em; }
+.meta .rel { font-family: var(--mono); font-size: 12px; color: var(--fg); }
+.up { display: inline-block; padding: 2px 6px; border-radius: 3px; font: 600 10.5px/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; background: var(--upcoming); color: var(--on-accent); }
+
+.scores { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 3px; }
+.sc { display: inline-flex; align-items: stretch; text-decoration: none; border: 1px solid var(--line); border-radius: 5px; overflow: hidden; font-size: 12px; line-height: 1; background: var(--surface); }
+.sc .l { padding: 6px; font-weight: 700; display: grid; place-items: center; }
+.sc .v, .sc .v2 { padding: 6px 7px; font: 500 12.5px/1 var(--mono); display: inline-flex; align-items: center; gap: 5px; color: var(--fg); }
+.sc .v2 { border-left: 1px solid var(--line); }
+.sc .v.na { color: var(--muted); font-family: var(--body); font-size: 11.5px; }
+.sc small { font: 600 10px/1 var(--body); color: var(--muted); margin-right: 3px; }
+.sc .vn { font-size: 10.5px; color: var(--muted); }
+.sc .cf { width: 13px; height: 13px; flex: none; margin-left: -1px; fill: var(--rt-fresh); }
+.sc .cf .tick { fill: none; stroke: var(--on-brand); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.sc.imdb .l { background: var(--imdb); color: var(--imdb-ink); }
+.sc.douban .l { background: var(--douban); color: var(--on-brand); }
+.sc.rt .l { background: var(--rt-fresh); color: var(--on-brand); }
+.sc.rt.rotten .l { background: var(--rt-rotten); }
+.sc .me { padding: 6px 7px; border-left: 1px solid var(--line); background: var(--sunk); font: 600 12.5px/1 var(--mono); display: inline-flex; align-items: center; gap: 3px; color: var(--fg); }
+.sc .me .star { width: 11px; height: 11px; fill: var(--mine-imdb); vertical-align: -1px; margin-right: 2px; }
+.stars { display: inline-flex; gap: 1px; vertical-align: -1px; }
+.stars svg { width: 11px; height: 11px; fill: none; stroke: var(--muted); stroke-width: 2; stroke-linejoin: round; }
+.stars svg.on { fill: var(--mine-star); stroke: var(--mine-star); }
+.sc .me.seen { color: var(--douban); font-family: var(--body); }
+.sc.watch { background: var(--fg); border-color: var(--fg); }
+.sc.watch .l { color: var(--bg); font-weight: 600; padding-inline: 9px; }
+.sc:hover { border-color: var(--accent); }
+.sc.watch:hover { background: var(--accent); border-color: var(--accent); }
+.sc.watch:hover .l { color: var(--on-accent); }
+
+details.seasons { margin-top: 2px; font-size: 12.5px; }
+details.seasons summary { cursor: pointer; color: var(--muted); font-weight: 600; width: max-content; max-width: 100%; padding-block: 3px; }
+details.seasons summary:hover { color: var(--fg); }
+.st-wrap { overflow-x: auto; margin-top: 6px; }
+.st { border-collapse: collapse; font-size: 12px; min-width: 100%; }
+.st th, .st td { padding: 5px 10px 5px 0; text-align: left; white-space: nowrap; border-bottom: 1px solid var(--line); }
+.st th { font-weight: 600; color: var(--muted); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }
+.st td { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.st td a { text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 2px; }
+.sec-meta .seen-n { color: var(--fg); }
+
+/* ---------- poster zoom: the thumbnail fills the frame at once, the whole poster fades in over it */
+dialog.zoom { border: 0; padding: 0; background: none; max-width: none; max-height: none; overflow: visible; cursor: zoom-out; }
+dialog.zoom::backdrop { background: rgb(0 0 0 / .78); }
+.zoom figure { margin: 0; display: grid; gap: 10px; justify-items: center; }
+.zoom .frame { position: relative; width: var(--w); aspect-ratio: var(--ar, 2 / 3); border-radius: 10px; overflow: hidden; background: var(--sunk) center / cover no-repeat; box-shadow: 0 20px 60px rgb(0 0 0 / .5); animation: zoom-in .22s ease-out both; }
+.zoom .frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .2s; }
+.zoom .frame img.ready { opacity: 1; }
+.zoom figcaption { max-width: var(--w); text-align: center; color: #fff; font-weight: 600; font-size: 15px; line-height: 1.35; text-shadow: 0 1px 3px rgb(0 0 0 / .6); }
+.zoom figcaption span { display: block; font-weight: 400; font-size: 13px; opacity: .8; }
+.zoom .x { position: fixed; top: 14px; right: 14px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: rgb(255 255 255 / .16); color: #fff; font-size: 22px; line-height: 1; cursor: pointer; }
+@keyframes zoom-in { from { opacity: 0; scale: .94; } }
+
+/* ---------- personal ratings dialog */
+dialog.mine { border: 1px solid var(--line); border-radius: 14px; background: var(--surface); color: var(--fg); padding: 0; width: min(580px, calc(100vw - 32px)); max-height: calc(100dvh - 48px); }
+dialog.mine::backdrop { background: rgb(0 0 0 / .5); }
+.dlg { padding: 18px 20px 20px; display: grid; gap: 14px; }
+.dlg-head { display: flex; align-items: start; justify-content: space-between; gap: 12px; }
+.dlg-head h2 { margin: 0; font: 400 30px/1 var(--display); letter-spacing: .02em; text-transform: uppercase; }
+html[lang="zh-Hans"] .dlg-head h2 { font: 600 20px/1.3 var(--body); }
+.dlg .x { border: 0; background: var(--sunk); color: var(--fg); width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 18px; line-height: 1; flex: none; }
+.dlg-intro { margin: 0; color: var(--muted); font-size: 13.5px; }
+.src-card { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 8px; background: var(--bg); }
+.src-card h3 { margin: 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-size: 14px; }
+.src-card .state { font: 500 12px/1.4 var(--mono); color: var(--muted); }
+.src-card .state.on { color: var(--fg); }
+.src-card ol { margin: 0; padding-left: 20px; display: grid; gap: 5px; font-size: 13px; }
+.src-card .hint { margin: 0; font-size: 12px; color: var(--muted); }
+.acts { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.linkish { border: 0; background: none; padding: 0; color: var(--fg); font: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+.bm { display: inline-block; margin-top: 4px; padding: 6px 12px; border-radius: 999px; background: var(--douban); color: var(--on-brand); font-weight: 700; font-size: 12.5px; text-decoration: none; cursor: grab; }
+.src-card textarea { width: 100%; border: 1px solid var(--field); background: var(--surface); color: var(--fg); border-radius: var(--r-md); padding: 8px 10px; font: 12px/1.4 var(--mono); resize: vertical; }
+.msg { margin: 0; font-size: 12.5px; min-height: 0; }
+.msg:empty { display: none; }
+.msg.err { color: var(--err); }
+.msg.ok { color: var(--douban); }
+
+.empty { padding: 60px 0; text-align: center; color: var(--muted); }
+footer { border-top: 1px solid var(--line); padding-block: 22px 40px; color: var(--muted); font-size: 12.5px; }
+footer p { margin: 0 0 6px; max-width: 95ch; }
+
+@media (max-width: 640px) {
+  :root { --timecol: 0px; --gap: 10px; }
+  .mast { padding-block: 20px 12px; }
+  .mast-side { flex-direction: row; flex-wrap: wrap; align-items: center; width: 100%; justify-content: space-between; }
+  .stat { text-align: left; flex-basis: 100%; }
+  .search { max-width: none; flex-basis: 100%; }
+  .sortrow { margin-left: 0; }
+  .ev { grid-template-columns: 28px minmax(0, 1fr); }
+  .tl::before { left: 13px; }
+  .when { display: none; }
+  .when-in { display: block; }
+  .entry { grid-template-columns: 70px minmax(0, 1fr); gap: 11px; }
+  .sec-head h2 { font-size: 34px; }
+  .section { contain-intrinsic-size: auto calc(var(--rows, 6) * 230px + 155px); }
+}
+/* ---------- easter eggs: one per franchise; base styles are the end state so reduced motion still shows something */
+.egg-hint { font-style: italic; }
+.egg-hint::before { content: "✦ "; content: "✦ " / ""; font-style: normal; color: var(--accent); }
+#egg { position: fixed; inset: 0; pointer-events: none; z-index: 40; overflow: hidden; }
+.egg-full { position: absolute; inset: 0; }
+.egg-toast { position: fixed; left: 50%; bottom: 28px; translate: -50% 0; width: max-content; max-width: min(520px, calc(100vw - 32px)); background: var(--fg); color: var(--bg); border-radius: 12px; padding: 12px 18px; font-weight: 600; font-size: 14px; text-align: center; box-shadow: 0 10px 30px rgb(0 0 0 / .3); animation: egg-up .35s ease-out both; }
+.egg-toast.out { opacity: 0; transition: opacity .3s; }
+@keyframes egg-up { from { opacity: 0; translate: -50% 16px; } }
+@keyframes egg-io { 0%, 100% { opacity: 0; } 12%, 85% { opacity: 1; } }
+.egg-night { position: absolute; inset: 0; background: rgb(3 5 14 / .62); opacity: 0; animation: egg-io var(--d, 5s) both; }
+/* Marvel: a post-credits stinger */
+.egg-stinger { position: fixed; inset: auto 0 0 0; background: #000; color: #fff; text-align: center; padding: 26px 16px 30px; font: 400 clamp(30px, 5vw, 48px)/1 var(--display); letter-spacing: .08em; text-transform: uppercase; pointer-events: auto; cursor: pointer; animation: egg-up2 .9s ease-out both; }
+html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
+.egg-stinger small { display: block; margin-top: 10px; font: 500 11px/1.4 var(--mono); letter-spacing: .12em; color: #8b93a3; }
+@keyframes egg-up2 { from { opacity: 0; translate: 0 30px; } }
+/* X-Men: Cerebro */
+.egg-ring { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: 0; height: 0; border-radius: 50%; border: 2px solid #6fb2ff; box-shadow: 0 0 22px #6fb2ff, inset 0 0 22px #6fb2ff; opacity: 0; animation: egg-ring 2.6s ease-out both; }
+@keyframes egg-ring { from { width: 0; height: 0; opacity: 1; } to { width: 230vmax; height: 230vmax; opacity: 0; } }
+.egg-tint { position: absolute; inset: 0; background: radial-gradient(circle, rgb(90 162 255 / .12), rgb(8 18 60 / .4)); opacity: 0; animation: egg-io 3s both; }
+/* DC: the signal */
+.egg-beam { position: absolute; height: 200px; margin-top: -100px; transform-origin: 0 50%; background: linear-gradient(to right, rgb(255 240 170 / .03), rgb(255 240 170 / .28)); clip-path: polygon(0 47%, 100% 0, 100% 100%, 0 53%); opacity: 0; animation: egg-io 5s both; }
+.egg-signal { position: absolute; translate: -50% -50%; width: min(300px, 62vw); aspect-ratio: 1.75; border-radius: 50%; display: grid; place-items: center; background: radial-gradient(ellipse closest-side, #fffbe2 0 50%, #ffe98c 82%, #f4cf58); box-shadow: 0 0 36px 8px rgb(255 226 120 / .6), 0 0 120px 40px rgb(255 226 120 / .22); opacity: 0; animation: egg-io 5s both; }
+.egg-signal svg { width: 80%; fill: #08090c; }
+/* Star Wars: the timeline rail ignites */
+#main.saber .section[data-f="starwars"] .tl::before { width: 4px; border-radius: 3px; background: #fff; box-shadow: 0 0 4px 2px var(--saber), 0 0 16px 6px var(--saber); transform-origin: top; animation: egg-ignite .7s ease-out both; }
+.section[data-c="sw-canon"] { --saber: #3f8cff; }
+.section[data-c="sw-legends"] { --saber: #ff3d3d; }
+@keyframes egg-ignite { from { transform: scaleY(0); } }
+/* Alien: Mother */
+.egg-term { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: min(520px, calc(100vw - 32px)); min-height: 200px; background: #020a04; color: #63ff92; border: 1px solid #1f6034; border-radius: 6px; padding: 18px 20px; font: 500 14px/1.65 var(--mono); text-shadow: 0 0 6px rgb(99 255 146 / .55); box-shadow: 0 24px 70px rgb(0 0 0 / .65); white-space: pre-wrap; pointer-events: auto; cursor: pointer; }
+.egg-term::after { content: "▌"; animation: egg-blink 1s steps(1) infinite; }
+@keyframes egg-blink { 50% { opacity: 0; } }
+/* Godzilla: footsteps and atomic breath */
+#app.egg-shake { animation: egg-shake .45s ease-out; }
+@keyframes egg-shake { 15% { translate: -5px 3px; } 30% { translate: 5px -3px; } 45% { translate: -3px 2px; } 60% { translate: 3px -1px; } 80% { translate: -1px 1px; } }
+.egg-breath { position: absolute; left: 0; width: 100%; height: 8px; margin-top: -4px; border-radius: 4px; background: linear-gradient(90deg, transparent, #7fe9ff 20%, #fff 50%, #7fe9ff 80%, transparent); box-shadow: 0 0 26px 10px rgb(63 214 227 / .55); opacity: 0; animation: egg-breath 1.3s ease-in both; }
+@keyframes egg-breath { from { translate: -100% 0; opacity: 1; } 80% { opacity: 1; } to { translate: 100% 0; opacity: 0; } }
+/* the hidden icons that play each egg: faint until hovered or focused */
+.egg-pin { position: absolute; right: 4px; bottom: 4px; width: 32px; height: 32px; display: grid; place-items: center; padding: 0; border: 0; border-radius: 50%; background: none; color: var(--muted); opacity: .3; cursor: pointer; transition: opacity .2s, color .2s; }
+.egg-pin:hover, .egg-pin:focus-visible { opacity: 1; color: var(--accent); }
+.entry.has-pin .info { padding-right: 22px; }
+.egg-pin svg { width: 15px; height: 15px; fill: currentColor; }
+.egg-pin svg .ln { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.egg-pin svg .cut { fill: var(--surface); stroke: var(--surface); }
+.egg-pin svg .ln.cut { fill: none; }
+.egg-pin.rail svg .cut { fill: var(--bg); stroke: var(--bg); }
+.egg-pin.rail { position: static; display: block; width: 28px; height: 26px; margin: -6px 0 0 calc(var(--timecol) + var(--gap)); border-radius: 4px; }
+.egg-pin.rail svg { width: 26px; height: 26px; }
+/* Planet of the Apes: what the tide left */
+.liberty { display: block; width: 28px; height: 19px; margin: -4px 0 0 calc(var(--timecol) + var(--gap)); padding: 0; border: 0; border-bottom: 2px solid color-mix(in srgb, var(--apes) 60%, transparent); background: none; overflow: hidden; cursor: pointer; font-size: 25px; line-height: 1.15; text-align: center; opacity: .5; transition: opacity .2s; }
+.liberty:hover, .liberty:focus-visible { opacity: 1; }
+.liberty span { display: inline-block; rotate: -16deg; }
+/* Dune: the worm answers a thumper */
+.egg-sand { position: absolute; inset: auto 0 0 0; height: 34vh; background: linear-gradient(to top, rgb(196 138 66 / .6), transparent); opacity: 0; animation: egg-io 3.8s both; }
+.egg-worm { position: absolute; left: 50%; bottom: 0; width: min(70vmin, 520px); translate: -50% 100%; animation: egg-worm 3.8s ease-in-out both; }
+@keyframes egg-worm { 40%, 62% { translate: -50% 36%; } }
+/* Middle-earth: the Doors of Durin */
+.egg-doors { position: absolute; left: 50%; top: 50%; translate: -50% -50%; margin: 0; width: min(300px, 70vw); text-align: center; color: #e8eeff; opacity: 0; animation: egg-io 5.6s both; }
+.egg-doors svg { width: 100%; fill: none; stroke: #e8eeff; stroke-width: .7; filter: drop-shadow(0 0 3px #b9c8ff) drop-shadow(0 0 10px #8aa2ff); }
+.egg-doors svg * { stroke-dasharray: 1; stroke-dashoffset: 0; animation: egg-draw 2.4s ease-out both; }
+@keyframes egg-draw { from { stroke-dashoffset: 1; } }
+.egg-doors figcaption { display: grid; gap: 4px; margin-top: 10px; text-shadow: 0 0 10px #8aa2ff; }
+.egg-doors b { font: 400 28px/1 var(--display); letter-spacing: .12em; text-transform: uppercase; }
+.egg-doors span { font-size: 13px; opacity: .85; }
+/* Wizarding World: Lumos */
+.egg-dark { position: absolute; inset: 0; background: radial-gradient(circle 150px at var(--x, 50%) var(--y, 45%), rgb(255 248 220 / .08), rgb(255 244 205 / .04) 55%, rgb(2 3 8 / .9)); }
+/* Westeros: snow */
+.egg-snow i { position: absolute; top: -12px; border-radius: 50%; background: #fff; box-shadow: 0 0 4px rgb(255 255 255 / .8); animation: egg-snow linear both; }
+@keyframes egg-snow { to { transform: translate(var(--dx), 112vh); } }
+/* Agamotto: the Eye opens and time runs backwards */
+.egg-mandala { position: absolute; left: 50%; top: 50%; translate: -50% -50%; width: min(74vmin, 540px); fill: none; stroke: #61ff97; filter: drop-shadow(0 0 4px #61ff97) drop-shadow(0 0 14px #2fd472); opacity: 0; animation: egg-io 3.4s both; }
+.egg-mandala * { transform-box: fill-box; transform-origin: center; }
+.egg-mandala .r1 { stroke-width: 1.6; stroke-dasharray: 2 5; animation: egg-spin 7s linear infinite; }
+.egg-mandala .r2 { stroke-width: 1; stroke-dasharray: 12 4; animation: egg-spin 9s linear infinite reverse; }
+.egg-mandala .r3 { stroke-width: .8; animation: egg-spin 14s linear infinite; }
+@keyframes egg-spin { to { rotate: 360deg; } }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; } }
+/* Windows high contrast drops backgrounds, so pressed buttons need a shape of their own */
+@media (forced-colors: active) {
+  .chip[aria-pressed="true"], .seg button[aria-pressed="true"], .lang button[aria-pressed="true"] { outline: 2px solid Highlight; outline-offset: -3px; }
+}
+@media print {
+  :root { color-scheme: light; --bg: #fff; --surface: #fff; --fg: #000; --muted: #444; --line: #bbb; }
+  .bar-sticky, .filters, .toc, .jump, .tools, .anchor, .sc.watch, details.seasons, .egg-pin, .liberty, #egg, #foot-egg, .skip { display: none; }
+  .layout { display: block; padding: 0; }
+  .section { content-visibility: visible; break-before: auto; }
+  .ev, .sec-head { break-inside: avoid; }
+  .entry { box-shadow: none; }
+}
+</style>
+
+<div id="app" data-f="all">
+  <a class="skip" id="skip" href="#main"></a>
+  <header class="wrap mast">
+    <div>
+      <h1 id="h1"></h1>
+      <p id="intro"></p>
+    </div>
+    <div class="mast-side">
+      <div class="tools">
+        <button type="button" class="mine-btn" id="mine-open" aria-haspopup="dialog"><span id="mine-label"></span><span class="dots" id="mine-dots"></span></button>
+        <div class="lang" role="group" id="lang-group">
+          <button type="button" id="lang-en" data-lang="en" lang="en" aria-label="English">EN</button>
+          <button type="button" id="lang-zh" data-lang="zh" lang="zh-Hans">中文</button>
+        </div>
+      </div>
+      <span class="stat" id="stat"></span>
+    </div>
+  </header>
+
+  <div class="bar-sticky" id="bar">
+    <div class="wrap">
+      <div class="chips" role="group" id="chips"></div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="filters">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input type="search" id="q" autocomplete="off">
+      </label>
+      <div class="seg" role="group" id="type">
+        <button type="button" id="type-all" data-type="all"></button>
+        <button type="button" id="type-film" data-type="film"></button>
+        <button type="button" id="type-series" data-type="series"></button>
+        <button type="button" id="type-anim" data-type="anim"></button>
+      </div>
+      <div class="sortrow">
+        <div class="seg" role="group" id="sort">
+          <button type="button" id="sort-story" data-sort="story"></button>
+          <button type="button" id="sort-release" data-sort="release"></button>
+        </div>
+        <button type="button" class="btn" id="dir"></button>
+      </div>
+    </div>
+    <nav class="jump" id="jump"></nav>
+    <div class="layout">
+      <nav class="toc" id="toc"></nav>
+      <main id="main"><noscript><p class="empty">This page needs JavaScript to show the watch order. 本页需要 JavaScript 才能显示观影顺序。</p></noscript></main>
+    </div>
+  </div>
+
+  <dialog class="mine" id="mine" aria-labelledby="mine-h"><div class="dlg" id="mine-body"></div></dialog>
+  <dialog class="zoom" id="zoom"></dialog>
+
+  <footer class="wrap">
+    <p id="foot-egg" class="egg-hint"></p>
+    <p id="foot1"></p>
+    <p id="foot2"></p>
+    <p id="foot3"></p>
+    <!-- IMDb's required credit for its non-commercial datasets, word for word, so it stays in English in both languages -->
+    <p lang="en">Information courtesy of IMDb (<a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer">https://www.imdb.com</a>). Used with permission.</p>
+    <p id="foot4"></p>
+  </footer>
+</div>
+
+<div id="egg" aria-live="polite"></div>
+<p id="sr" class="vh" role="status"></p>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(() => {
+  const DATA = JSON.parse(document.getElementById("data").textContent);
+  const CONT = DATA.continuities;
+  // section order follows this list; chips use the short name when there is one
+  const FRANCHISES = [
+    { id: "marvel", en: "Marvel", zh: "漫威" },
+    { id: "xmen", en: "X-Men", zh: "X战警" },
+    { id: "dc", en: "DC", zh: "DC" },
+    { id: "starwars", en: "Star Wars", zh: "星球大战" },
+    { id: "alien", en: "Alien & Predator", zh: "异形与铁血战士" },
+    { id: "godzilla", en: "Godzilla & MonsterVerse", zh: "哥斯拉与怪兽宇宙", short: { en: "Godzilla", zh: "哥斯拉" } },
+    { id: "apes", en: "Planet of the Apes", zh: "人猿星球" },
+    { id: "dune", en: "Dune", zh: "沙丘" },
+    { id: "middleearth", en: "Middle-earth", zh: "中土世界" },
+    { id: "wizarding", en: "Wizarding World", zh: "魔法世界" },
+    { id: "westeros", en: "Westeros", zh: "维斯特洛" },
+  ];
+  const validTab = (id) => id === "all" || FRANCHISES.some((f) => f.id === id);
+  const tabFs = (id) => (id === "all" ? FRANCHISES.map((f) => f.id) : [id]);
+  const ORDER_NOTE = {
+    mcu: { en: "Marvel's official Disney+ timeline, seasons placed separately", zh: "漫威 Disney+ 官方时间线，各季分别排列" },
+    "sw-canon": { en: "Official order from StarWars.com", zh: "StarWars.com 官方观看顺序" },
+    "gz-showa": { en: "Release order, except Destroy All Monsters, which is set at the end of the century", zh: "按上映顺序，《战龙哥斯拉之怪兽总进击》设定在世纪末，排在最后" },
+    "gz-heisei": { en: "Direct sequels to the 1954 original, in story order", zh: "直接承接1954年原作，按剧情顺序" },
+    "gz-millennium": { en: "Each film follows only the 1954 original, so they are listed by release", zh: "每部只承接1954年原作，按上映顺序排列" },
+    "gz-reiwa": { en: "Standalone stories, ordered by when each is set", zh: "各自独立，按故事年代排列" },
+    "apes-classic": { en: "Escape sends three apes back from 3978 to 1973, so the story years start there", zh: "《逃离猩球》中三只猿从3978年回到1973年，剧情年代由此开始" },
+    "apes-other": { en: "Separate continuities, ordered by when each is set", zh: "彼此独立，按故事年代排列" },
+    "dune-other": { en: "Lynch's film and the Sci Fi Channel miniseries, ordered by story", zh: "林奇版电影与科幻频道迷你剧，按剧情顺序" },
+    "me-jackson": { en: "Third Age years from Tolkien's appendices", zh: "按托尔金附录中的第三纪元年份" },
+    "me-classic": { en: "Rankin/Bass and Bakshi adaptations, ordered by story", zh: "兰金/巴斯与巴克希版，按剧情顺序" },
+    westeros: { en: "Years counted from Aegon's Conquest (AC)", zh: "以伊耿征服纪年" },
+  };
+  const T = {
+    en: {
+      title: "Agamotto: Watch Order for Marvel, Star Wars and More",
+      h1: 'Watch <span class="bar">Order</span>',
+      intro: "Every film and series from Marvel, X-Men, DC, Star Wars, Alien & Predator, Godzilla, Planet of the Apes, Dune, Middle-earth, the Wizarding World and Westeros, one section per continuity. Follow the story timeline or the release order, compare IMDb, Douban and Rotten Tomatoes scores, and jump straight to each page.",
+      stat: (n, d) => `${n} titles · ratings as of ${d}`,
+      release: "Release order", story: "Story timeline",
+      asc: "Oldest first", desc: "Newest first", ascStory: "Start to end", descStory: "End to start",
+      all: "All", film: "Films", series: "Series", anim: "Animated",
+      search: "Search titles",
+      skip: "Skip to the watch order", langLabel: "Language", typeLabel: "Type", sortLabel: "Order", sections: "Sections",
+      nTitles: (n) => `${n} ${n === 1 ? "title" : "titles"}`, found: (n) => `Showing ${n} ${n === 1 ? "entry" : "entries"}`,
+      no: (n) => `No. ${n}`, to: "to", linkedVh: (names) => `linked: ${names.join(", ")}`,
+      movie: "Film", seriesK: "Series", special: "Special", animK: "Animated",
+      upcoming: "Upcoming",
+      min: (m) => `${m} min`,
+      seasons: (s, e) => [s ? `${s} ${s === 1 ? "season" : "seasons"}` : "", e ? `${e} episodes` : ""].filter(Boolean).join(" · "),
+      season: (s) => `Season ${s}`, sShort: (s) => `S${s}`,
+      eps: (e) => `${e} episodes`,
+      entries: (n) => `${n} ${n === 1 ? "entry" : "entries"}`,
+      orderStory: "Ordered by in-story chronology", orderRelease: "Ordered by release date",
+      watch: "Watch", douban: "Douban", rt: "RT", rtName: "Rotten Tomatoes", imdb: "IMDb", na: "n/a",
+      imdbTip: (r, n) => `IMDb ${r}/10 from ${n} votes`,
+      dbTip: (r, n, s) => `Douban ${r}/10 from ${n} ratings${s ? `, season ${s}` : ""}`,
+      rtTip: (c, a, cert, s) => `Tomatometer ${c ?? "n/a"}%${a != null ? ` · Audience ${a}%` : ""}${cert ? " · Certified Fresh" : ""}${s ? ` (season ${s})` : ""}`,
+      watchTip: "Where to stream (JustWatch)",
+      aud: "Aud", rtAud: (a) => `Rotten Tomatoes audience score ${a}% (no critics' Tomatometer)`,
+      votesVh: (k) => `${k} votes`, ratingsVh: (k) => `${k} ratings`, cert: "Certified Fresh", audVh: (a) => `audience score ${a}%`,
+      zoom: (title) => `Enlarge the poster: ${title}`,
+      seasonTable: (n) => `${n} ${n === 1 ? "season" : "seasons"}: episodes and ratings`,
+      th: ["Season", "Year", "Episodes", "Douban", "RT"],
+      none: "Nothing matches these filters.",
+      franchises: "Franchises",
+      secLink: (name) => `Copy a link to ${name}`, linkCopied: "Link copied", linkInBar: "The link is in the address bar",
+      mineBtn: "My ratings", mineTitle: "My ratings", close: "Close",
+      mineIntro: "Show your own IMDb and Douban scores next to the site ratings. Neither site lets other websites sign in and read your ratings, so you bring them over: a file export from IMDb, a bookmark that collects them on Douban. They stay in this browser and are never uploaded. Import again whenever you want to refresh them.",
+      notLinked: "Not linked",
+      imdbState: (n, m, at) => `${n} ratings, ${m} on this site · imported ${at}`,
+      dbState: (u, n, m, at) => `${u}: ${n} watched, ${m} on this site · imported ${at}`,
+      imdbSteps: ["On IMDb, open Your Ratings (imdb.com/list/ratings).", "In the page's ⋯ menu choose Export. IMDb prepares the file on imdb.com/exports; download the CSV from there.", "Choose that file here."],
+      pickCsv: "Choose IMDb CSV", remove: "Remove",
+      dbSteps: ["Drag this button to your bookmarks bar:", "Sign in to Douban, open movie.douban.com and click that bookmark. It reads your Watched (看过) list, about 30 titles every two seconds.", "Click Copy in the box it shows, then paste below."],
+      bmLabel: "Collect Douban ratings", bmDrag: "Drag it to your bookmarks bar; it only works on Douban.",
+      bmHint: "No bookmarks bar, as on phones and some Safari setups?", bmCopy: "Copy the bookmark code", bmCopied: "Copied. Create a bookmark and paste this as its address.", bmSelected: "The code is selected in the box below: copy it, create a bookmark and paste it as the address, then clear the box.",
+      pastePh: "Paste what the Douban bookmark copied", importBtn: "Import",
+      badCsv: "That file isn't an IMDb ratings export (it has no Const and Your Rating columns).",
+      badPaste: "That isn't data from the Douban bookmark. Copy it again from the box on Douban.",
+      imported: (n) => `Imported ${n} titles.`,
+      myImdb: (r) => `Your rating ${r}/10`, myDb: (v, s) => `Your rating ${v}/5 stars${s ? `, season ${s}` : ""}`, mySeen: "You've watched this, no rating",
+      seenN: (a, b) => `Seen ${a}/${b}`, mineTh: "Mine",
+      bm: { notDouban: "Open movie.douban.com while signed in, then click this bookmark again.", noUser: "Couldn't find your Douban account. Sign in, open your Watched (看过) page and click the bookmark there.",
+        reading: "Reading your Douban list… {n} / {t}", done: "{n} watched titles, {r} with a rating. Copy this, then paste it into the ratings box on the site.",
+        partial: "Douban stopped answering, so this is what was read so far.", none: "No watched titles found. Check that you are signed in.", copy: "Copy", copied: "Copied", close: "Close" },
+      egg: {
+        hints: {
+          all: "The Eye of Agamotto stays with Doctor Strange.",
+          marvel: "Stay for the post-credits scene.",
+          xmen: "The Professor keeps Cerebro in the first film.",
+          dc: "Gotham's signal is hidden in 1989.",
+          starwars: "A hilt waits at the end of the canon timeline.",
+          alien: "Mind the eggs in the 1979 film.",
+          godzilla: "The King left a footprint in 1954.",
+          apes: "Look for what the tide left on the beach.",
+          dune: "Walk without rhythm, and you won't attract the worm.",
+          middleearth: "Bilbo found something in An Unexpected Journey.",
+          wizarding: "Harry gets his wand in the first film.",
+          westeros: "Winter is coming.",
+        },
+        stinger: "The Avengers will return", stingerSub: "POST-CREDITS SCENE", gotham: "Gotham",
+        cerebro: (n) => `Cerebro: ${n} mutants located`,
+        force: "May the Force be with you.",
+        apes: "\u201cYou maniacs! You blew it up! Ah, damn you! God damn you all to hell!\u201d",
+        dune: "Shai-Hulud!",
+        mellon: "Speak, friend, and enter.",
+        lumos: "Lumos! (tap the wand again or press Esc to put it out)", nox: "Nox.",
+        winter: "Winter is here.",
+        dormammu: "Dormammu, I've come to bargain. (Time now runs the other way.)",
+        liberty: "Something half-buried in the sand",
+        pins: { eye: "An amulet", x: "An X in a circle", bat: "A bat", egg: "An egg", foot: "A giant footprint", ring: "A ring", wand: "A wand", wolf: "A direwolf", hilt: "A lightsaber hilt" },
+      },
+      foot1: "Story order: the MCU follows Marvel's official Disney+ timeline (June 2026), Star Wars follows StarWars.com and Middle-earth uses the years in Tolkien's appendices; other continuities follow their own in-story chronology, and section notes say where an order works differently. Series that the official order splits by season appear once per season.",
+      foot2: "Ratings: IMDb from IMDb's public datasets, Douban from douban.com (series are rated per season there; the card shows season 1 unless a season is named), Rotten Tomatoes Tomatometer from rottentomatoes.com. Runtimes and episode counts from Wikipedia, IMDb and Douban; posters from Wikipedia and TMDB.",
+      foot3: "Unofficial fan index, not affiliated with any studio or rights holder. Posters belong to their owners.",
+      tbd: "TBA",
+      k: (n) => n >= 1e6 ? (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M" : n >= 1e3 ? Math.round(n / 1e3) + "K" : String(n),
+    },
+    zh: {
+      title: "Agamotto：漫威、星球大战等系列观影顺序",
+      h1: '观影<span class="bar">顺序</span>',
+      intro: "漫威、X战警、DC、星球大战、异形与铁血战士、哥斯拉、人猿星球、沙丘、中土世界、魔法世界与维斯特洛的全部电影与剧集，每个宇宙一个分区。按剧情时间线或上映顺序浏览，对比 IMDb、豆瓣与烂番茄评分，一键跳转。",
+      stat: (n, d) => `共 ${n} 部 · 评分截至 ${d}`,
+      release: "上映顺序", story: "剧情时间线",
+      asc: "从早到晚", desc: "从新到旧", ascStory: "从头到尾", descStory: "从尾到头",
+      all: "全部", film: "电影", series: "剧集", anim: "动画",
+      search: "搜索片名",
+      skip: "跳到观影顺序", langLabel: "语言", typeLabel: "类型", sortLabel: "排序", sections: "分区",
+      nTitles: (n) => `${n} 部`, found: (n) => `显示 ${n} 部`,
+      no: (n) => `第 ${n} 部`, to: "至", linkedVh: (names) => `已关联：${names.join("、")}`,
+      movie: "电影", seriesK: "剧集", special: "特别篇", animK: "动画",
+      upcoming: "即将上映",
+      min: (m) => `${m}分钟`,
+      seasons: (s, e) => [s ? `${s}季` : "", e ? `${e}集` : ""].filter(Boolean).join(" · "),
+      season: (s) => `第${s}季`, sShort: (s) => `第${s}季`,
+      eps: (e) => `${e}集`,
+      entries: (n) => `${n} 部`,
+      orderStory: "按剧情时间排列", orderRelease: "按上映时间排列",
+      watch: "观看", douban: "豆瓣", rt: "烂番茄", rtName: "烂番茄", imdb: "IMDb", na: "暂无",
+      imdbTip: (r, n) => `IMDb ${r}/10，${n} 人评分`,
+      dbTip: (r, n, s) => `豆瓣 ${r}/10，${n} 人评价${s ? `（第${s}季）` : ""}`,
+      rtTip: (c, a, cert, s) => `烂番茄新鲜度 ${c ?? "暂无"}%${a != null ? ` · 观众 ${a}%` : ""}${cert ? " · 新鲜认证" : ""}${s ? `（第${s}季）` : ""}`,
+      watchTip: "在哪看（JustWatch）",
+      aud: "观众", rtAud: (a) => `烂番茄观众评分 ${a}%（无影评人新鲜度）`,
+      votesVh: (k) => `${k} 人评分`, ratingsVh: (k) => `${k} 人评价`, cert: "新鲜认证", audVh: (a) => `观众评分 ${a}%`,
+      zoom: (title) => `放大海报：${title}`,
+      seasonTable: (n) => `共 ${n} 季：集数与评分`,
+      th: ["季", "年份", "集数", "豆瓣", "烂番茄"],
+      none: "没有符合条件的作品。",
+      franchises: "系列",
+      secLink: (name) => `复制「${name}」的链接`, linkCopied: "链接已复制", linkInBar: "链接在地址栏",
+      mineBtn: "我的评分", mineTitle: "我的评分", close: "关闭",
+      mineIntro: "在网站评分旁显示你自己的 IMDb 和豆瓣评分。两个网站都不允许其他网站登录读取你的评分，所以需要你自己导入：IMDb 导出文件，豆瓣用书签工具收集。评分只保存在本浏览器，不会上传；想更新时重新导入即可。",
+      notLinked: "未关联",
+      imdbState: (n, m, at) => `${n} 条评分，本站收录 ${m} 部 · ${at}导入`,
+      dbState: (u, n, m, at) => `${u}：看过 ${n} 部，本站收录 ${m} 部 · ${at}导入`,
+      imdbSteps: ["在 IMDb 打开 Your Ratings（imdb.com/list/ratings）。", "在页面的 ⋯ 菜单里选 Export，IMDb 会在 imdb.com/exports 准备好文件，从那里下载 CSV。", "在这里选择这个文件。"],
+      pickCsv: "选择 IMDb CSV 文件", remove: "移除",
+      dbSteps: ["把这个按钮拖到浏览器书签栏：", "登录豆瓣，打开 movie.douban.com，点一下这个书签。它会读取你的「看过」列表，大约每两秒 30 部。", "在弹出的框里点「复制」，再粘贴到下面。"],
+      bmLabel: "收集豆瓣评分", bmDrag: "请拖到书签栏，它只在豆瓣页面上有效。",
+      bmHint: "没有书签栏（手机或部分 Safari）？", bmCopy: "复制书签代码", bmCopied: "已复制。新建一个书签，把这段代码粘贴为网址。", bmSelected: "代码已在下面的框中选中：复制后新建书签并粘贴为网址，然后清空这个框。",
+      pastePh: "粘贴豆瓣书签复制的内容", importBtn: "导入",
+      badCsv: "这不是 IMDb 评分导出文件（缺少 Const 与 Your Rating 列）。",
+      badPaste: "这不是豆瓣书签收集的数据，请回到豆瓣页面的框里重新复制。",
+      imported: (n) => `已导入 ${n} 部。`,
+      myImdb: (r) => `我的评分 ${r}/10`, myDb: (v, s) => `我的评价 ${v} 星${s ? `（第${s}季）` : ""}`, mySeen: "看过，未评分",
+      seenN: (a, b) => `已看 ${a}/${b}`, mineTh: "我的",
+      bm: { notDouban: "请先登录豆瓣并打开 movie.douban.com，再点一次这个书签。", noUser: "没有找到你的豆瓣账号。请登录后打开你的「看过」页面，在那里点书签。",
+        reading: "正在读取你的豆瓣列表… {n} / {t}", done: "看过 {n} 部，其中 {r} 部有评分。复制后粘贴到网站的评分框里。",
+        partial: "豆瓣暂时没有响应，以下是已读取的部分。", none: "没有找到看过的作品，请确认已登录。", copy: "复制", copied: "已复制", close: "关闭" },
+      egg: {
+        hints: {
+          all: "阿戈摩托之眼在奇异博士那里。",
+          marvel: "看完片尾字幕，还有彩蛋。",
+          xmen: "教授把 Cerebro 留在了第一部电影里。",
+          dc: "哥谭的信号藏在1989年。",
+          starwars: "正传时间线的尽头，有一个剑柄。",
+          alien: "小心1979年那部电影里的蛋。",
+          godzilla: "怪兽之王在1954年留下了一个脚印。",
+          apes: "看看海潮在沙滩上留下了什么。",
+          dune: "走路没有节奏，就不会引来沙虫。",
+          middleearth: "比尔博在《意外之旅》里捡到了一样东西。",
+          wizarding: "哈利在第一部电影里得到了他的魔杖。",
+          westeros: "凛冬将至。",
+        },
+        stinger: "复仇者联盟将会回归", stingerSub: "片尾彩蛋", gotham: "哥谭",
+        cerebro: (n) => `Cerebro：已定位 ${n} 个变种人`,
+        force: "愿原力与你同在。",
+        apes: "“你们这些疯子！你们把它毁了！你们全都该下地狱！”",
+        dune: "夏胡鲁！",
+        mellon: "说“朋友”，即可进入。",
+        lumos: "荧光闪烁！（再点一下魔杖或按 Esc 熄灭）", nox: "诺克斯。",
+        winter: "凛冬已至。",
+        dormammu: "多玛姆，我是来谈判的。（时间开始倒流。）",
+        liberty: "半埋在沙里的东西",
+        pins: { eye: "一枚护身符", x: "圆圈里的 X", bat: "一只蝙蝠", egg: "一枚蛋", foot: "一个巨大的脚印", ring: "一枚戒指", wand: "一根魔杖", wolf: "一头冰原狼", hilt: "一个光剑剑柄" },
+      },
+      foot1: "剧情时间线：漫威电影宇宙按漫威 Disney+ 官方时间线（2026年6月），星球大战按 StarWars.com 官方顺序，中土世界按托尔金附录年份，其余宇宙按各自剧情年表，排序方式不同的分区会单独注明。官方顺序中按季拆分的剧集，每季单独出现。",
+      foot2: "评分：IMDb 来自 IMDb 公开数据集，豆瓣来自豆瓣（剧集按季评分，未标注季数时显示第一季），烂番茄为新鲜度。片长与集数来自维基百科、IMDb 与豆瓣；海报来自维基百科与 TMDB。",
+      foot3: "非官方影迷索引，与任何片方及版权方无关。海报版权归各自所有者。",
+      tbd: "待定",
+      k: (n) => n >= 1e4 ? (n / 1e4).toFixed(1).replace(/\.0$/, "") + "万" : String(n),
+    },
+  };
+
+  const store = {
+    get(k) { try { return localStorage.getItem("wo:" + k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem("wo:" + k, v); } catch {} },
+  };
+  // links: #xmen opens a franchise; #xmen/fox-xmen (or just #fox-xmen) also scrolls to that section
+  const own = (o, k) => !!o && typeof k === "string" && Object.prototype.hasOwnProperty.call(o, k);
+  function parseRoute(hash) {
+    let a, b;
+    try { [a, b] = decodeURIComponent(hash.replace(/^#/, "")).split("/"); } catch { return null; }
+    if (validTab(a)) return { tab: a, sec: own(CONT, b) && (a === "all" || CONT[b].f === a) ? b : null };
+    if (own(CONT, a)) return { tab: CONT[a].f, sec: a };
+    return null;
+  }
+  const routeOf = (tab, sec) => "#" + tab + (sec ? "/" + sec : "");
+  const route0 = parseRoute(location.hash);
+  // stored settings are whitelisted, so a stale or edited value falls back instead of breaking the page
+  const pick = (v, ok, dflt) => (ok.includes(v) ? v : dflt);
+  const state = {
+    lang: pick(store.get("lang"), ["en", "zh"], (navigator.language || "").toLowerCase().startsWith("zh") ? "zh" : "en"),
+    tab: route0 ? route0.tab : validTab(store.get("tab")) ? store.get("tab") : "all",
+    sort: pick(store.get("sort2"), ["story", "release"], "story"),
+    dir: pick(store.get("dir"), ["asc", "desc"], "asc"),
+    type: "all",
+    q: "",
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const day = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  const today = day(new Date()); // the viewer's own date, so "upcoming" flips at their midnight
+  // every poster is posters/<key>.webp, 200x300; the build stamps a version so a long browser cache stays correct
+  const POSTER_V = "__POSTER_V__";
+  const CARD_DIR = "__CARD_DIR__"; // posters/ on the site; the preview, which holds fewer files, uses posters/full/
+  const L = () => T[state.lang];
+  const zh = () => state.lang === "zh";
+  const ext = 'target="_blank" rel="noopener noreferrer"';
+
+  const ROWS = [];
+  for (const t of DATA.titles) for (const p of t.places) ROWS.push({ t, p, f: CONT[p.c].f });
+  const countOf = (fs) => new Set(ROWS.filter((r) => fs.includes(r.f)).map((r) => r.t.key)).size;
+
+  // the viewer's own ratings: imported by them, kept only in this browser. Rebuilt on load with the same checks the
+  // imports apply, so a bad stored value can't break the page or the dialog.
+  const plain = (o) => !!o && typeof o === "object" && !Array.isArray(o);
+  const isDay = (v) => typeof v === "string" && /^\d{4}-\d\d-\d\d$/.test(v);
+  const cleanR = (r, key, lo, hi) => Object.fromEntries(Object.entries(r).filter(([k, v]) => key.test(k) && Number.isInteger(v) && v >= lo && v <= hi));
+  const cleanImdb = (r) => cleanR(r, /^tt\d+$/, 1, 10);
+  const cleanDouban = (r) => cleanR(r, /^\d+$/, 0, 5);
+  const mine = (() => {
+    let m = null;
+    try { m = JSON.parse(localStorage.getItem("wo:mine")); } catch {}
+    const out = {};
+    if (plain(m) && plain(m.imdb) && plain(m.imdb.r)) out.imdb = { at: isDay(m.imdb.at) ? m.imdb.at : today, r: cleanImdb(m.imdb.r) };
+    if (plain(m) && plain(m.douban) && plain(m.douban.r)) out.douban = { user: String(m.douban.user ?? "").slice(0, 60), at: isDay(m.douban.at) ? m.douban.at : today, r: cleanDouban(m.douban.r) };
+    return out;
+  })();
+  const saveMine = () => { try { localStorage.setItem("wo:mine", JSON.stringify(mine)); } catch {} };
+  const linked = () => !!(mine.imdb || mine.douban);
+  const siteImdb = new Set(DATA.titles.map((t) => t.imdb).filter(Boolean));
+  const siteDb = new Set(DATA.titles.flatMap((t) => [t.douban, ...(t.season_list || []).map((s) => s.db && s.db.id)]).filter(Boolean));
+  const myImdb = (t) => (mine.imdb && own(mine.imdb.r, t.imdb) ? mine.imdb.r[t.imdb] : null);
+  const seasonDbId = (t, season) => { const sd = (t.season_list || []).find((x) => x.s === season); return sd && sd.db ? sd.db.id : season === 1 ? t.douban : null; };
+  // Douban rates seasons separately; a card without a season falls back to the first season the viewer has
+  function myDouban(t, season) {
+    const r = mine.douban && mine.douban.r;
+    if (!r) return null;
+    if (season) { const id = seasonDbId(t, season); return own(r, id) ? { v: r[id], s: season } : null; }
+    if (own(r, t.douban)) return { v: r[t.douban], s: null };
+    for (const x of t.season_list || []) if (x.db && own(r, x.db.id)) return { v: r[x.db.id], s: x.s };
+    return null;
+  }
+  // a season Douban knows about is judged by Douban alone, since IMDb only rates the whole series
+  function isSeen(t, season) {
+    if (myDouban(t, season)) return true;
+    if (season && mine.douban && seasonDbId(t, season)) return false;
+    return myImdb(t) != null;
+  }
+  const STAR = '<path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.9-6.2-3.3-6.2 3.3L7 14.2 2 9.3l6.9-1z"/>';
+  // the Bat-signal emblem: drawn once, used for the DC icon and the signal itself
+  const BAT = '<path d="M100 31 L106 15 L111 33 Q128 36 146 27 Q170 16 195 15 Q185 34 178 55 Q168 44 152 60 Q142 52 128 76 Q118 66 100 95 Q82 66 72 76 Q58 52 48 60 Q32 44 22 55 Q15 34 5 15 Q30 16 54 27 Q72 36 89 33 L94 15 Z"/>';
+  // the hidden icons, drawn after each franchise's own emblem; "cut" parts take the colour of what's behind them
+  const ICON = {
+    eye: '<svg viewBox="0 0 24 24"><circle class="ln" cx="12" cy="12" r="10" style="stroke-width:1.8"/><path d="M3.6 12C7 6.8 17 6.8 20.4 12 17 17.2 7 17.2 3.6 12Z"/><circle class="cut" cx="12" cy="12" r="3.6"/><circle cx="12" cy="12" r="1.9"/></svg>',
+    x: '<svg viewBox="0 0 24 24"><circle class="ln" cx="12" cy="12" r="9" style="stroke-width:2.2"/><path d="M4.6 2.6h3.9L19.4 21.4h-3.9zM15.5 2.6h3.9L8.5 21.4H4.6z"/></svg>',
+    bat: `<svg viewBox="0 0 200 100" style="width:20px">${BAT}</svg>`,
+    egg: '<svg viewBox="0 0 24 24"><path d="M12 2.2c-4.3 0-7 6.3-7 11.3 0 3.4 1.6 5.9 3.6 7.1L8 22.2h8l-.6-1.6c2-1.2 3.6-3.7 3.6-7.1 0-5-2.7-11.3-7-11.3Z"/><path class="ln cut" d="M8.2 7.2Q12 4.4 15.8 7.2M12 2.4V10" style="stroke-width:1.6"/></svg>',
+    foot: '<svg viewBox="0 0 24 24"><path d="M12 22.8C8.2 22.8 6.4 19.6 7.3 16.3L2.4 6.2 9.3 12.3 10.1 11.4 12 1 13.9 11.4 14.7 12.3 21.6 6.2 16.7 16.3C17.6 19.6 15.8 22.8 12 22.8Z"/></svg>',
+    ring: '<svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 4.6c5.2 0 9.2 3.2 9.2 7.6s-4 7.4-9.2 7.4-9.2-3-9.2-7.4S6.8 4.6 12 4.6Zm0 3.6c-3.6 0-6 1.7-6 4s2.4 3.8 6 3.8 6-1.5 6-3.8-2.4-4-6-4Z"/><path class="ln cut" d="M5.6 15.6q6.4 3.2 12.8 0" style="stroke-width:.9;opacity:.8"/></svg>',
+    wand: '<svg viewBox="0 0 24 24"><path d="M2.4 20.2 6.6 16l1.9 1.9-4.2 4.2Z"/><path d="M7.7 15.5 18.6 4.9l.6.6L9.6 17.2Z"/><path class="ln cut" d="M3.7 19.5l1.4 1.4M5.1 18.1l1.4 1.4" style="stroke-width:.9"/><path d="m20.6 1.4.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7z"/></svg>',
+    wolf: '<svg viewBox="0 0 24 24"><path d="M2.2 13.2 8.4 9.2 10.6 6 11.6 1.6 14 5.4 16.4 2.2 17.6 7.2 21.8 13.6 21 22H14.2L13 18.8 8.6 16.2 4.6 15.6 2.4 14.6Z"/><path class="ln cut" d="M9.6 9.4l2.2-.6M3.6 14.3l4.2-.1" style="stroke-width:1"/></svg>',
+    hilt: '<svg viewBox="0 0 24 24"><path d="M8.3 1.2h7.4l-1 3.8H9.3Z"/><rect x="9.5" y="5" width="5" height="14.2" rx=".6"/><rect x="14.5" y="7" width="1.9" height="4.6" rx=".5"/><path class="ln cut" d="M10.2 12.8h3.6M10.2 14.6h3.6M10.2 16.4h3.6M10.2 18.2h3.6" style="stroke-width:.8"/><path d="M9.1 19.2h5.8l-.8 3.6H9.9Z"/></svg>',
+  };
+  // card key -> [egg, icon]: each sits on the film where its thing first turns up
+  const PINS = { "doctor-strange": ["agamotto", "eye"], "x-men-2000": ["xmen", "x"], "batman-1989": ["dc", "bat"], "alien-1979": ["alien", "egg"],
+    "godzilla-1954": ["godzilla", "foot"], "hobbit-1": ["middleearth", "ring"], "hp-1": ["wizarding", "wand"], "game-of-thrones": ["westeros", "wolf"] };
+  const pinHtml = (egg, icon, cls = "") => `<button type="button" class="egg-pin${cls}" data-egg="${egg}" aria-label="${esc(L().egg.pins[icon])}">${ICON[icon]}</button>`;
+  const starsHtml = (v) => `<span class="stars" aria-hidden="true">${[1, 2, 3, 4, 5].map((i) => `<svg viewBox="0 0 24 24"${i <= v ? ' class="on"' : ""}>${STAR}</svg>`).join("")}</span>`;
+
+  function fmtDate(d) {
+    if (!d) return "";
+    const [y, m, dd] = d.split("-");
+    if (zh()) return m ? `${y}年${+m}月${dd ? +dd + "日" : ""}` : `${y}年`;
+    if (!m) return y;
+    const mon = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+m - 1];
+    return dd ? `${mon} ${+dd}, ${y}` : `${mon} ${y}`;
+  }
+
+  // a rating with its vote count; the count is shown small and read out in words
+  const votes = (n, words) => (n ? `<span class="vn" aria-hidden="true">${esc(L().k(n))}</span><span class="vh">, ${esc(words(L().k(n)))}</span>` : "");
+  const CF = '<svg class="cf" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .8l2.3 2 3-.6 1 2.9 2.9 1-.6 3 2 2.3-2 2.3.6 3-2.9 1-1 2.9-3-.6-2.3 2-2.3-2-3 .6-1-2.9-2.9-1 .6-3-2-2.3 2-2.3-.6-3 2.9-1 1-2.9 3 .6z"/><path class="tick" d="m7.4 12.4 3 3 6.2-6.4"/></svg>';
+  function scoreChips(t, season) {
+    const L_ = L();
+    const en = encodeURIComponent(t.en);
+    const sd = season ? (t.season_list || []).find((x) => x.s === season) : null;
+    // IMDb rates the whole series
+    const imdbHref = t.imdb ? `https://www.imdb.com/title/${t.imdb}/` : `https://www.imdb.com/find/?q=${en}`;
+    const im = t.imdb_r;
+    const mi = myImdb(t);
+    const imdbTip = (im ? L_.imdbTip(im.r.toFixed(1), L_.k(im.n)) : "IMDb") + (mi != null ? " · " + L_.myImdb(mi) : "");
+    const imdbMe = mi != null ? `<span class="me"><span aria-hidden="true"><svg class="star" viewBox="0 0 24 24">${STAR}</svg>${esc(mi)}</span><span class="vh">${esc(L_.myImdb(mi))}</span></span>` : "";
+    const imdb = `<a class="sc imdb" href="${imdbHref}" ${ext} title="${esc(imdbTip)}"><span class="l">${L_.imdb}</span><span class="v${im ? "" : " na"}">${im ? im.r.toFixed(1) + votes(im.n, L_.votesVh) : L_.na}</span>${imdbMe}</a>`;
+    // Douban rates each season separately
+    const dbS = sd && sd.db ? sd.db : null;
+    const dbId = dbS ? dbS.id : t.douban;
+    const dbR = dbS ? (dbS.r ? { r: dbS.r, n: dbS.n, s: season } : null) : t.db_r ? { ...t.db_r, s: t.kind === "series" && t.seasons > 1 ? 1 : null } : null;
+    const dbHref = dbId ? `https://movie.douban.com/subject/${dbId}/` : `https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(t.zh || t.en)}`;
+    const md = myDouban(t, season);
+    const myDbTip = md ? (md.v ? L_.myDb(md.v, md.s !== season ? md.s : null) : L_.mySeen) : "";
+    const dbMe = md ? `<span class="me${md.v ? "" : " seen"}"><span aria-hidden="true">${md.v ? starsHtml(md.v) : "✓"}</span><span class="vh">${esc(myDbTip)}</span></span>` : "";
+    const dbTip = (dbR ? L_.dbTip(dbR.r.toFixed(1), L_.k(dbR.n), dbR.s) : L_.douban) + (md ? " · " + myDbTip : "");
+    const douban = `<a class="sc douban" href="${dbHref}" ${ext} title="${esc(dbTip)}"><span class="l">${L_.douban}</span><span class="v${dbR ? "" : " na"}">${dbR ? dbR.r.toFixed(1) + votes(dbR.n, L_.ratingsVh) : L_.na}</span>${dbMe}</a>`;
+    // Rotten Tomatoes: series-level score, or the season's own when a season is named
+    const rtS = sd && sd.rt != null ? sd.rt : null;
+    const rr = t.rt_r;
+    const crit = rtS != null ? rtS : rr ? rr.c : null;
+    const aud = rtS == null && rr ? rr.a : null; // older cartoons have only an audience score
+    const rtHref = t.rt ? `https://www.rottentomatoes.com/${t.rt}${rtS != null ? `/s${String(season).padStart(2, "0")}` : ""}` : `https://www.rottentomatoes.com/search?search=${en}`;
+    const rtTip = crit != null ? L_.rtTip(crit, aud, rtS == null && rr && rr.cert, rtS != null ? season : null) : aud != null ? L_.rtAud(aud) : L_.rtName;
+    const shown = crit ?? aud;
+    const cert = rtS == null && rr && rr.cert ? `${CF}<span class="vh">, ${esc(L_.cert)}</span>` : "";
+    const audPart = `<span aria-hidden="true"><small>${esc(L_.aud)}</small> ${aud}%</span><span class="vh">${esc(L_.audVh(aud))}</span>`;
+    const rtVal = crit != null ? `${crit}%${cert}` : aud != null ? audPart : L_.na;
+    const audSeg = crit != null && aud != null ? `<span class="v2">${audPart}</span>` : "";
+    const rt = `<a class="sc rt${shown != null && shown < 60 ? " rotten" : ""}" href="${rtHref}" ${ext} title="${esc(rtTip)}"><span class="l">${L_.rt}</span><span class="v${shown != null ? "" : " na"}">${rtVal}</span>${audSeg}</a>`;
+    const watch = `<a class="sc watch" href="https://www.justwatch.com/us/search?q=${en}" ${ext} title="${esc(L_.watchTip)}"><span class="l"><span>${esc(L_.watch)}<span aria-hidden="true"> ↗</span></span></span></a>`;
+    return (zh() ? [douban, imdb, rt] : [imdb, rt, douban]).join("") + watch;
+  }
+
+  function seasonTable(t) {
+    const L_ = L();
+    const list = t.season_list || [];
+    if (t.kind !== "series" || list.length < 2) return "";
+    const rows = list.map((s) => {
+      const db = s.db ? (s.db.r ? `<a href="https://movie.douban.com/subject/${s.db.id}/" ${ext}>${s.db.r.toFixed(1)}</a>` : `<a href="https://movie.douban.com/subject/${s.db.id}/" ${ext}>–</a>`) : "–";
+      const rt = s.rt != null && t.rt ? `<a href="https://www.rottentomatoes.com/${t.rt}/s${String(s.s).padStart(2, "0")}" ${ext}>${s.rt}%</a>` : "–";
+      const md = mine.douban ? myDouban(t, s.s) : null;
+      const me = mine.douban ? `<td>${md ? (md.v ? starsHtml(md.v) + `<span class="vh">${esc(L_.myDb(md.v))}</span>` : `<span aria-hidden="true">✓</span><span class="vh">${esc(L_.mySeen)}</span>`) : "–"}</td>` : "";
+      return `<tr><td>${esc(L_.sShort(s.s))}</td><td>${s.year || "–"}</td><td>${s.eps || "–"}</td><td>${db}</td>${me}<td>${rt}</td></tr>`;
+    }).join("");
+    const th = mine.douban ? [...L_.th.slice(0, 4), L_.mineTh, L_.th[4]] : L_.th;
+    return `<details class="seasons"><summary>${esc(L_.seasonTable(list.length))}</summary><div class="st-wrap"><table class="st"><thead><tr>${th.map((h) => `<th>${esc(h)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div></details>`;
+  }
+
+  function entry(row, num) {
+    const { t, p } = row;
+    const L_ = L();
+    const story = state.sort === "story";
+    const season = story ? p.s : null;
+    const sd = season ? (t.season_list || []).find((x) => x.s === season) : null;
+    const title = zh() ? t.zh || t.en : t.en;
+    const alt = zh() ? t.en : t.zh;
+    const upcoming = !!(t.date && t.date > today);
+    const kind = t.kind === "movie" ? L_.movie : t.kind === "series" ? L_.seriesK : L_.special;
+
+    const meta = [];
+    meta.push(`<span class="rel">${esc(fmtDate(sd && sd.year && season > 1 ? String(sd.year) : t.date) || L_.tbd)}</span>`);
+    meta.push(`<span>${esc(kind)}</span>`);
+    if (t.kind === "series") {
+      if (sd) { if (sd.eps) meta.push(`<span>${esc(L_.eps(sd.eps))}</span>`); }
+      else if (t.seasons || t.episodes) meta.push(`<span>${esc(L_.seasons(t.seasons, t.episodes))}</span>`);
+    } else if (t.runtime) meta.push(`<span>${esc(L_.min(t.runtime))}</span>`);
+    if (t.anim) meta.push(`<span>${esc(L_.animK)}</span>`);
+    if (upcoming) meta.push(`<span><span class="up">${esc(L_.upcoming)}</span></span>`);
+
+    const setting = story ? (zh() ? p.sz : p.se) : "";
+    const whenMain = story ? setting : fmtDate(t.date) || L_.tbd;
+    const when = `<div class="when">${esc(whenMain)}</div>`;
+    const whenIn = whenMain ? `<div class="when-in">${esc(whenMain)}</div>` : "";
+    const node = story
+      ? `<div class="node${upcoming ? " hollow" : ""}" aria-hidden="true">${num}</div>`
+      : `<div class="node dot${upcoming ? " hollow" : ""}" aria-hidden="true"></div>`;
+    const thumb = t.nop ? `<span class="thumb"></span>` : `<button type="button" class="thumb" data-zoom="${t.key}" aria-label="${esc(L_.zoom(title))}" aria-haspopup="dialog"><img src="${CARD_DIR}/${t.key}.webp?v=${POSTER_V}" alt="" loading="lazy" decoding="async" width="200" height="300"></button>`;
+
+    return `<li class="ev">${when}${node}<article class="entry${PINS[t.key] ? " has-pin" : ""}">${thumb}<div class="info">
+      ${whenIn}
+      <h3 lang="${zh() && t.zh ? "zh-Hans" : "en"}">${story ? `<span class="vh" lang="${state.lang === "zh" ? "zh-Hans" : "en"}">${esc(L_.no(num))} </span>` : ""}${esc(title)}${season ? `<span class="sb">${esc(L_.season(season))}</span>` : ""}</h3>
+      ${alt ? `<p class="alt" lang="${zh() ? "en" : "zh-Hans"}">${esc(alt)}</p>` : ""}
+      <div class="meta">${meta.join("")}</div>
+      <div class="scores">${scoreChips(t, season)}</div>
+      ${story && season ? "" : seasonTable(t)}
+    </div>${PINS[t.key] ? pinHtml(...PINS[t.key]) : ""}</article></li>`;
+  }
+
+  function matches(row) {
+    const { t } = row;
+    if (!tabFs(state.tab).includes(row.f)) return false;
+    if (state.type === "film" && t.kind === "series") return false;
+    if (state.type === "series" && t.kind !== "series") return false;
+    if (state.type === "anim" && !t.anim) return false;
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      if (!t.en.toLowerCase().includes(q) && !(t.zh || "").includes(state.q)) return false;
+    }
+    return true;
+  }
+
+  // render() rebuilds the chips, the list and the dialog; focus goes back to the same control (or its replacement)
+  function focusKey(el) {
+    if (!el || el === document.body || !el.closest) return null;
+    if (el.id) return "#" + CSS.escape(el.id);
+    const box = el.parentElement && el.parentElement.closest("[id]");
+    const attr = ["id", "egg", "sec", "act", "zoom"].find((a) => el.dataset[a] != null);
+    return box && attr ? `#${CSS.escape(box.id)} ${el.tagName.toLowerCase()}[data-${attr}="${CSS.escape(el.dataset[attr])}"]` : null;
+  }
+  function refocus(key, fallback) {
+    if (!key || (document.activeElement && document.activeElement !== document.body)) return;
+    (document.querySelector(key) || (fallback && document.querySelector(fallback)))?.focus({ preventScroll: true });
+  }
+  // one persistent live region: text put into a node created in the same moment is often not read out
+  let srT;
+  function announce(text) {
+    const sr = $("sr");
+    sr.textContent = "";
+    clearTimeout(srT);
+    srT = setTimeout(() => { sr.textContent = text; }, 80);
+  }
+
+  function render() {
+    const keep = focusKey(document.activeElement);
+    const L_ = L();
+    document.documentElement.lang = zh() ? "zh-Hans" : "en";
+    document.title = L_.title;
+    $("app").dataset.f = state.tab;
+    $("skip").textContent = L_.skip;
+    $("h1").innerHTML = L_.h1;
+    $("intro").textContent = L_.intro;
+    $("stat").textContent = L_.stat(DATA.titles.length, fmtDate(DATA.ratings_date));
+    $("foot1").textContent = L_.foot1;
+    $("foot2").textContent = L_.foot2;
+    $("foot3").textContent = L_.foot3;
+    $("foot4").innerHTML = `© ${new Date().getFullYear()} Luminoid · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license noopener noreferrer" target="_blank">CC BY-NC-SA 4.0</a>`;
+    $("foot-egg").textContent = L_.egg.hints[state.tab] || "";
+    if (state.tab !== "marvel") creditsTab = null;
+    $("q").placeholder = L_.search;
+    $("q").setAttribute("aria-label", L_.search);
+    $("lang-group").setAttribute("aria-label", L_.langLabel);
+    $("type").setAttribute("aria-label", L_.typeLabel);
+    $("sort").setAttribute("aria-label", L_.sortLabel);
+    $("toc").setAttribute("aria-label", L_.sections);
+    $("jump").setAttribute("aria-label", L_.sections);
+    $("mine-label").textContent = L_.mineBtn;
+    const linkedTo = [mine.imdb && L_.imdb, mine.douban && L_.douban].filter(Boolean);
+    $("mine-dots").innerHTML = (mine.imdb ? '<i class="imdb"></i>' : "") + (mine.douban ? '<i class="douban"></i>' : "") +
+      (linkedTo.length ? `<span class="vh">, ${esc(L_.linkedVh(linkedTo))}</span>` : "");
+    for (const b of document.querySelectorAll(".lang button")) b.setAttribute("aria-pressed", String(b.dataset.lang === state.lang));
+    for (const b of document.querySelectorAll("#sort button")) { b.textContent = L_[b.dataset.sort]; b.setAttribute("aria-pressed", String(b.dataset.sort === state.sort)); }
+    for (const b of document.querySelectorAll("#type button")) { b.textContent = L_[b.dataset.type]; b.setAttribute("aria-pressed", String(b.dataset.type === state.type)); }
+    const story = state.sort === "story";
+    const asc = state.dir === "asc";
+    $("dir").innerHTML = `<span aria-hidden="true">${asc ? "↓" : "↑"} </span>${esc(story ? (asc ? L_.ascStory : L_.descStory) : (asc ? L_.asc : L_.desc))}`;
+    const count = (n, words) => `<span class="n" aria-hidden="true">${n}</span><span class="vh">, ${esc(words)}</span>`;
+    const chip = (id, label, n, cls = "") => `<button type="button" class="chip${cls}" data-id="${id}" data-f="${id}" aria-pressed="${state.tab === id}">${esc(label)}${count(n, L_.nTitles(n))}</button>`;
+    $("chips").setAttribute("aria-label", L_.franchises);
+    $("chips").innerHTML = chip("all", L_.all, DATA.titles.length, " all") +
+      FRANCHISES.map((f) => chip(f.id, (f.short || f)[state.lang], countOf([f.id]))).join("");
+    const on = $("chips").querySelector('[aria-pressed="true"]');
+    if (on) {
+      const box = $("chips");
+      if (on.offsetLeft < box.scrollLeft || on.offsetLeft + on.offsetWidth > box.scrollLeft + box.clientWidth) box.scrollLeft = on.offsetLeft - 16;
+    } else $("chips").scrollLeft = 0;
+
+    const rows = ROWS.filter(matches);
+    const sign = asc ? 1 : -1;
+    const byCont = new Map();
+    for (const r of rows) {
+      if (!byCont.has(r.p.c)) byCont.set(r.p.c, []);
+      byCont.get(r.p.c).push(r);
+    }
+    const fOrder = FRANCHISES.map((f) => f.id);
+    const order = [...byCont.keys()].sort((a, b) => (fOrder.indexOf(CONT[a].f) - fOrder.indexOf(CONT[b].f)) || CONT[a].o - CONT[b].o);
+
+    let html = "", toc = "", jump = "", lastF = null, shown = 0;
+    const arrow = `<span aria-hidden="true">→</span><span class="vh">${esc(L_.to)}</span>`;
+    for (const c of order) {
+      let list = byCont.get(c);
+      const full = ROWS.filter((r) => r.p.c === c).sort((a, b) => a.p.n - b.p.n);
+      const pos = new Map(full.map((r, i) => [r, i + 1])); // numbering ignores filters, so the canon keeps its numbers
+      if (story) {
+        list.sort((a, b) => sign * (a.p.n - b.p.n));
+      } else {
+        const seen = new Set();
+        list = list.filter((r) => (seen.has(r.t.key) ? false : seen.add(r.t.key)));
+        list.sort((a, b) => sign * (a.t.date || "9999").localeCompare(b.t.date || "9999") || a.t.en.localeCompare(b.t.en));
+      }
+      shown += list.length;
+      const name = CONT[c][state.lang];
+      const f = CONT[c].f;
+      const note = story ? (ORDER_NOTE[c] ? ORDER_NOTE[c][state.lang] : L_.orderStory) : L_.orderRelease;
+      let span = "";
+      if (story) {
+        const st = full.map((r) => (zh() ? r.p.sz : r.p.se)).filter(Boolean);
+        if (st.length > 1) span = `<span><b>${esc(st[0])}</b> ${arrow} <b>${esc(st[st.length - 1])}</b></span>`;
+      } else {
+        const ys = list.map((r) => r.t.date && r.t.date.slice(0, 4)).filter(Boolean).sort();
+        if (ys.length) span = `<span><b>${ys[0]}</b>${ys.length > 1 ? ` ${arrow} <b>${ys[ys.length - 1]}</b>` : ""}</span>`;
+      }
+      const frName = FRANCHISES.find((x) => x.id === f)[state.lang];
+      const seen = linked() ? `<span class="seen-n">${esc(L_.seenN(list.filter((r) => isSeen(r.t, story ? r.p.s : null)).length, list.length))}</span>` : "";
+      const href = routeOf(state.tab, c);
+      html += `<section class="section" id="sec-${c}" data-c="${c}" data-f="${f}" style="--rows:${list.length}" aria-labelledby="h-${c}">
+        <header class="sec-head"><span class="fr">${esc(frName)}</span>
+        <div class="h2row"><h2 id="h-${c}" tabindex="-1">${esc(name)}</h2><a class="anchor" href="${href}" data-sec="${c}" data-copy="1" title="${esc(L_.secLink(name))}" aria-label="${esc(L_.secLink(name))}">#</a></div>
+        <div class="sec-meta"><span>${esc(L_.entries(list.length))}</span>${seen}${span}<span>${esc(note)}</span></div></header>
+        <ol class="tl" role="list">${list.map((r) => entry(r, pos.get(r))).join("")}</ol>${c === "apes-classic" ? `<button type="button" class="liberty" data-egg="apes" aria-label="${esc(L_.egg.liberty)}" title="${esc(L_.egg.liberty)}"><span aria-hidden="true">🗽</span></button>` : ""}${c === "sw-canon" ? pinHtml("starwars", "hilt", " rail") : ""}</section>`;
+      if (state.tab === "all" && f !== lastF) toc += `<p class="toc-f">${esc(frName)}</p>`;
+      lastF = f;
+      toc += `<a href="${href}" data-sec="${c}" data-f="${f}"><span>${esc(name)}</span>${count(list.length, L_.entries(list.length))}</a>`;
+      jump += `<a href="${href}" data-sec="${c}">${esc(name)}${count(list.length, L_.entries(list.length))}</a>`;
+    }
+    $("main").innerHTML = html || `<div class="empty">${esc(L_.none)}</div>`;
+    $("toc").innerHTML = toc;
+    $("jump").innerHTML = jump;
+    spy();
+    refocus(keep);
+    return shown;
+  }
+
+  // the sticky bar's height changes with chip wrapping and font loading; offsets follow it
+  const barH = () => Math.round($("bar").getBoundingClientRect().height);
+  let barPx = 0;
+  if ("ResizeObserver" in window) new ResizeObserver(() => { const h = barH(); if (h !== barPx) document.documentElement.style.setProperty("--bar-h", (barPx = h) + "px"); }).observe($("bar"));
+
+  // section index highlights the section in view
+  let observer;
+  function spy() {
+    observer?.disconnect();
+    if (!("IntersectionObserver" in window)) return;
+    const links = [...document.querySelectorAll("#toc a")];
+    const mark = (id) => links.forEach((a) => { const on = a.dataset.sec === id; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+    observer = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) mark(e.target.id.slice(4));
+    }, { rootMargin: `-${barH() + 30}px 0px -65% 0px` });
+    document.querySelectorAll(".section").forEach((s) => observer.observe(s));
+    if (links[0]) mark(links[0].dataset.sec);
+  }
+
+  function goSec(c, smooth) {
+    const el = document.getElementById("sec-" + c);
+    if (!el) return;
+    if (!smooth || matchMedia("(prefers-reduced-motion: reduce)").matches) return el.scrollIntoView({ block: "start" });
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+    // sections drawn on the way (content-visibility) change height mid-glide, so land exactly once it ends
+    const land = () => { clearTimeout(t); removeEventListener("scrollend", land); el.scrollIntoView({ block: "start" }); };
+    const t = setTimeout(land, "onscrollend" in window ? 1500 : 800);
+    if ("onscrollend" in window) addEventListener("scrollend", land);
+  }
+  function copyLink(a) {
+    const done = (text) => {
+      a.dataset.done = text;
+      a.classList.add("done");
+      announce(text);
+      setTimeout(() => a.classList.remove("done"), 1600);
+    };
+    // clipboard needs a secure page and permission; without it the address bar already holds the link
+    if (!navigator.clipboard) return done(L().linkInBar);
+    navigator.clipboard.writeText(location.href).then(() => done(L().linkCopied), () => done(L().linkInBar));
+  }
+  const focusSec = (c) => $("h-" + c)?.focus({ preventScroll: true }); // headings carry tabindex="-1"
+
+  function set(patch, persist) {
+    Object.assign(state, patch);
+    for (const [k, sk] of persist || []) store.set(sk, state[k]);
+    const n = render();
+    // filters change the list out of sight of a screen reader; say how much is left
+    if ("q" in patch || "type" in patch || "tab" in patch) announce(n ? L().found(n) : L().none);
+  }
+
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("#skip")) {
+      e.preventDefault(); // a plain #main would replace the route in the address bar
+      const m = $("main");
+      m.tabIndex = -1;
+      m.focus();
+      return;
+    }
+    const a = e.target.closest("a[data-sec]");
+    if (a) {
+      e.preventDefault();
+      goSec(a.dataset.sec, true);
+      try { history.replaceState(null, "", routeOf(state.tab, a.dataset.sec)); } catch {}
+      if (a.dataset.copy) copyLink(a);
+      else focusSec(a.dataset.sec);
+      return;
+    }
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.zoom) zoom(b.dataset.zoom);
+    else if (b.dataset.egg) EGGS[b.dataset.egg]();
+    else if (b.dataset.lang) set({ lang: b.dataset.lang }, [["lang", "lang"]]);
+    else if (b.classList.contains("chip")) {
+      if (b.dataset.id !== state.tab) {
+        set({ tab: b.dataset.id }, [["tab", "tab"]]);
+        try { history.pushState(null, "", routeOf(state.tab)); } catch {}
+      }
+      // a new franchise starts at its top rather than wherever the old list was scrolled to
+      const top = document.querySelector(".filters").getBoundingClientRect().top + scrollY - barH() - 8;
+      if (scrollY > top) scrollTo({ top });
+    } else if (b.dataset.sort) set({ sort: b.dataset.sort }, [["sort", "sort2"]]);
+    else if (b.id === "dir") set({ dir: state.dir === "asc" ? "desc" : "asc" }, [["dir", "dir"]]);
+    else if (b.dataset.type) set({ type: b.dataset.type });
+  });
+  // ---------- importing the viewer's ratings
+  // Runs on movie.douban.com as a bookmark: reads the signed-in viewer's Watched list (30 per page) with their own
+  // session and shows the result to copy. Pages can hold fewer than 30 items, so it follows the next link instead of
+  // counting. No comments inside: the source becomes a javascript: URL.
+  const DOUBAN_BM = async (M) => {
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    if (!/(^|\.)douban\.com$/.test(location.hostname)) { alert(M.notDouban); return; }
+    if (location.hostname !== "movie.douban.com") { alert(M.notDouban); location.href = "https://movie.douban.com/mine"; return; }
+    let uid = (location.pathname.match(/^\/people\/([^/]+)/) || [])[1];
+    if (!uid) { try { const res = await fetch("/mine", { credentials: "include" }); uid = (res.url.match(/\/people\/([^/]+)/) || [])[1]; } catch (e) {} }
+    if (!uid) { alert(M.noUser); return; }
+    const prev = document.getElementById("wo-export");
+    if (prev) prev.remove();
+    const box = document.createElement("div");
+    box.id = "wo-export";
+    box.style.cssText = "position:fixed;z-index:2147483647;top:16px;right:16px;width:min(380px,calc(100vw - 32px));box-sizing:border-box;background:#fff;color:#111;border:1px solid #ccc;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.25);padding:14px;font:14px/1.5 -apple-system,system-ui,sans-serif;text-align:left";
+    const msg = document.createElement("p");
+    msg.style.cssText = "margin:0 0 10px";
+    box.append(msg);
+    document.body.append(box);
+    const r = {};
+    let total = 0, partial = false;
+    for (let start = 0; ; start += 30) {
+      msg.textContent = M.reading.replace("{n}", Object.keys(r).length).replace("{t}", total || "…");
+      let doc = null;
+      for (let a = 0; a < 4 && !doc; a++) {
+        try {
+          const res = await fetch("/people/" + encodeURIComponent(uid) + "/collect?start=" + start + "&sort=time&rating=all&filter=all&mode=list", { credentials: "include" });
+          if (res.ok && res.url.indexOf("movie.douban.com/people/") > -1) doc = new DOMParser().parseFromString(await res.text(), "text/html");
+        } catch (e) {}
+        if (!doc && a < 3) await sleep(15000);
+      }
+      if (!doc) { partial = true; break; }
+      if (!total) total = +((((doc.querySelector(".subject-num") || {}).textContent || "").match(/\/\s*(\d+)/) || [])[1] || 0);
+      const items = doc.querySelectorAll("li.item[id^='list']");
+      items.forEach((li) => {
+        const star = li.querySelector("[class^='rating'][class$='-t']");
+        const m = star && star.className.match(/rating(\d)-t/);
+        r[li.id.slice(4)] = m ? +m[1] : 0;
+      });
+      if (!doc.querySelector(".paginator .next a") || start > 30000) break;
+      await sleep(1200);
+    }
+    const n = Object.keys(r).length;
+    const rated = Object.values(r).filter(Boolean).length;
+    const now = new Date();
+    const data = JSON.stringify({ wo: 1, src: "douban", user: uid, at: now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0"), r: r });
+    msg.textContent = (partial ? M.partial + " " : "") + (n ? M.done.replace("{n}", n).replace("{r}", rated) : M.none);
+    const ta = document.createElement("textarea");
+    ta.value = data;
+    ta.readOnly = true;
+    ta.rows = 4;
+    ta.style.cssText = "display:block;width:100%;box-sizing:border-box;font:11px/1.4 ui-monospace,Menlo,monospace;border:1px solid #ccc;border-radius:6px;padding:6px;margin:0 0 10px;color:#111;background:#f6f6f6";
+    const button = (label, primary, fn) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.textContent = label;
+      b.style.cssText = "margin:0 8px 0 0;padding:6px 14px;border-radius:6px;cursor:pointer;font:600 13px/1.4 system-ui,sans-serif;border:1px solid " + (primary ? "#1f8a34;background:#1f8a34;color:#fff" : "#ccc;background:#fff;color:#111");
+      b.onclick = fn;
+      return b;
+    };
+    const copy = button(M.copy, true, async () => {
+      try { await navigator.clipboard.writeText(data); } catch (e) { ta.select(); document.execCommand("copy"); }
+      copy.textContent = M.copied;
+    });
+    if (n) box.append(ta, copy);
+    box.append(button(M.close, false, () => box.remove()));
+  };
+  const bookmarklet = () => "javascript:" + encodeURIComponent(`void (${DOUBAN_BM})(${JSON.stringify(L().bm)})`);
+
+  function parseCSV(text) {
+    const rows = [];
+    let row = [], f = "", q = false;
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      if (q) {
+        if (c !== '"') f += c;
+        else if (text[i + 1] === '"') { f += '"'; i++; }
+        else q = false;
+      } else if (c === '"') q = true;
+      else if (c === ",") { row.push(f); f = ""; }
+      else if (c === "\n" || c === "\r") {
+        if (c === "\r" && text[i + 1] === "\n") i++;
+        row.push(f); rows.push(row); row = []; f = "";
+      } else f += c;
+    }
+    if (f || row.length) { row.push(f); rows.push(row); }
+    return rows;
+  }
+
+  function renderMine(note) {
+    const keep = focusKey(document.activeElement), act0 = document.activeElement?.dataset?.act;
+    const L_ = L();
+    const zhWord = (x) => esc(x).replace("看过", '<span lang="zh-Hans">看过</span>'); // the English steps quote Douban's label
+    const il = mine.imdb, dl = mine.douban;
+    const onSite = (r, set) => Object.keys(r).filter((k) => set.has(k)).length;
+    const iState = il ? L_.imdbState(Object.keys(il.r).length, onSite(il.r, siteImdb), fmtDate(il.at)) : L_.notLinked;
+    const dState = dl ? L_.dbState(dl.user, Object.keys(dl.r).length, onSite(dl.r, siteDb), fmtDate(dl.at)) : L_.notLinked;
+    $("mine-body").innerHTML = `
+      <div class="dlg-head"><h2 id="mine-h">${esc(L_.mineTitle)}</h2><button type="button" class="x" data-act="close" aria-label="${esc(L_.close)}">×</button></div>
+      <p class="dlg-intro">${esc(L_.mineIntro)}</p>
+      <section class="src-card" aria-labelledby="imdb-h">
+        <h3 id="imdb-h"><span class="sc imdb"><span class="l">${L_.imdb}</span></span><span class="state${il ? " on" : ""}">${esc(iState)}</span></h3>
+        <ol>${L_.imdbSteps.map((x) => `<li>${esc(x)}</li>`).join("")}</ol>
+        <div class="acts"><button type="button" class="btn primary" data-act="pick-imdb">${esc(L_.pickCsv)}</button>${il ? `<button type="button" class="btn" data-act="rm-imdb">${esc(L_.remove)}</button>` : ""}<input type="file" id="imdb-file" accept=".csv,text/csv" hidden></div>
+        <p class="msg" id="imdb-msg"></p>
+      </section>
+      <section class="src-card" aria-labelledby="db-h">
+        <h3 id="db-h"><span class="sc douban"><span class="l">${esc(L_.douban)}</span></span><span class="state${dl ? " on" : ""}">${esc(dState)}</span></h3>
+        <ol>
+          <li>${esc(L_.dbSteps[0])}<br><a class="bm" href="${esc(bookmarklet())}" data-act="bm" title="${esc(L_.bmDrag)}">${esc(L_.bmLabel)}</a></li>
+          <li>${zh() ? esc(L_.dbSteps[1]) : zhWord(L_.dbSteps[1])}</li>
+          <li>${esc(L_.dbSteps[2])}</li>
+        </ol>
+        <p class="hint">${esc(L_.bmHint)} <button type="button" class="linkish" data-act="copy-bm">${esc(L_.bmCopy)}</button></p>
+        <textarea id="db-paste" rows="3" placeholder="${esc(L_.pastePh)}" aria-label="${esc(L_.pastePh)}"></textarea>
+        <div class="acts"><button type="button" class="btn primary" data-act="import-db">${esc(L_.importBtn)}</button>${dl ? `<button type="button" class="btn" data-act="rm-db">${esc(L_.remove)}</button>` : ""}</div>
+        <p class="msg" id="db-msg"></p>
+      </section>`;
+    // a removed button hands focus to the one that replaces it
+    refocus(keep, { "rm-imdb": '[data-act="pick-imdb"]', "rm-db": '[data-act="import-db"]' }[act0] || '#mine-body [data-act="close"]');
+    if (note) say(note[0], note[1], note[2]);
+  }
+  const say = (id, cls, text) => { const m = $(id); m.className = "msg " + cls; m.textContent = text; announce(text); };
+  const afterImport = (note) => { saveMine(); render(); renderMine(note); };
+
+  function importImdb(text) {
+    const rows = parseCSV(text.replace(/^﻿/, ""));
+    const head = (rows[0] || []).map((h) => h.trim().toLowerCase());
+    const ci = head.indexOf("const"), ri = head.indexOf("your rating");
+    if (ci < 0 || ri < 0) return say("imdb-msg", "err", L().badCsv);
+    const r = {};
+    for (const row of rows.slice(1)) {
+      const id = (row[ci] || "").trim(), v = parseInt(row[ri], 10);
+      if (/^tt\d+$/.test(id) && v >= 1 && v <= 10) r[id] = v;
+    }
+    mine.imdb = { at: today, r };
+    afterImport(["imdb-msg", "ok", L().imported(Object.keys(r).length)]);
+  }
+  function importDouban(text) {
+    let d = null;
+    try { d = JSON.parse(text.trim()); } catch {}
+    if (!plain(d) || d.wo !== 1 || d.src !== "douban" || !plain(d.r)) return say("db-msg", "err", L().badPaste);
+    const r = cleanDouban(d.r);
+    mine.douban = { user: String(d.user ?? "").slice(0, 60), at: isDay(d.at) ? d.at : today, r };
+    afterImport(["db-msg", "ok", L().imported(Object.keys(r).length)]);
+  }
+
+  $("mine-open").addEventListener("click", () => { renderMine(); $("mine").showModal(); });
+
+  // ---------- poster zoom: the card's thumbnail fills the frame at once; the whole, uncropped poster replaces it
+  const byKey = Object.fromEntries(DATA.titles.map((t) => [t.key, t]));
+  function zoom(key) {
+    const t = byKey[key], d = $("zoom"), L_ = L();
+    const title = zh() ? t.zh || t.en : t.en, alt = zh() ? t.en : t.zh;
+    // the poster opens at its own size, never enlarged (enlarging is what blurs these small sources), and smaller only
+    // when the screen is
+    const ar = t.pw && t.ph ? t.pw / t.ph : 2 / 3;
+    const w = Math.round(Math.min(innerWidth - 32, (innerHeight - 130) * ar, t.pw || 260));
+    d.setAttribute("aria-label", title);
+    d.innerHTML = `<button type="button" class="x" aria-label="${esc(L_.close)}">×</button>
+      <figure style="--w:${w}px;--ar:${ar}"><div class="frame" style="background-image:url(${CARD_DIR}/${key}.webp?v=${POSTER_V})"><img alt="${esc(title)}" src="posters/full/${key}.webp?v=${POSTER_V}"></div>
+      <figcaption lang="${zh() && t.zh ? "zh-Hans" : "en"}">${esc(title)}${alt ? `<span lang="${zh() ? "en" : "zh-Hans"}">${esc(alt)}</span>` : ""}</figcaption></figure>`;
+    const img = d.querySelector("img");
+    img.onload = () => img.classList.add("ready");
+    d.showModal();
+  }
+  $("zoom").addEventListener("click", () => $("zoom").close()); // anywhere, including the poster, closes it
+  $("zoom").addEventListener("close", () => { $("zoom").innerHTML = ""; });
+  $("mine").addEventListener("click", async (e) => {
+    if (e.target === $("mine")) { $("mine").close(); return; } // backdrop
+    const el = e.target.closest("[data-act]");
+    if (!el) return;
+    const act = el.dataset.act, L_ = L();
+    if (act === "close") $("mine").close();
+    else if (act === "bm") { e.preventDefault(); say("db-msg", "", L_.bmDrag); }
+    else if (act === "pick-imdb") $("imdb-file").click();
+    else if (act === "rm-imdb") { delete mine.imdb; afterImport(); }
+    else if (act === "rm-db") { delete mine.douban; afterImport(); }
+    else if (act === "import-db") importDouban($("db-paste").value);
+    else if (act === "copy-bm") {
+      try { await navigator.clipboard.writeText(bookmarklet()); say("db-msg", "ok", L_.bmCopied); }
+      catch {
+        const ta = $("db-paste");
+        ta.value = bookmarklet();
+        ta.select();
+        let ok = false;
+        try { ok = document.execCommand("copy"); } catch {}
+        say("db-msg", ok ? "ok" : "", ok ? L_.bmCopied : L_.bmSelected);
+      }
+    }
+  });
+  $("mine").addEventListener("change", (e) => {
+    const file = e.target.id === "imdb-file" && e.target.files[0];
+    if (file) file.text().then(importImdb).catch(() => say("imdb-msg", "err", L().badCsv));
+  });
+
+  let qTimer;
+  $("q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => set({ q: e.target.value.trim() }), 120); });
+  // ---------- easter eggs: one per franchise, played by a faint icon hidden on that franchise's page (PINS, plus the
+  // Star Wars hilt and the Apes statue under their timelines; Marvel waits through the credits, Dune listens for a
+  // thumper). The line above the footer notes hints where; with reduced motion every egg falls back to its message.
+  const calm = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function put(html, ms, cls) {
+    const el = document.createElement("div");
+    el.className = cls;
+    el.innerHTML = html;
+    $("egg").append(el);
+    if (ms) setTimeout(() => el.remove(), ms);
+    return el;
+  }
+  let toastT;
+  function toast(text, ms = 3400, lang) {
+    document.querySelector(".egg-toast")?.remove();
+    const el = put(esc(text), 0, "egg-toast");
+    if (lang) el.lang = lang;
+    clearTimeout(toastT);
+    toastT = setTimeout(() => { el.classList.add("out"); setTimeout(() => el.remove(), 300); }, ms);
+  }
+  const ring = (r, n, len) => Array.from({ length: n }, (_, i) => {
+    const a = (i / n) * 2 * Math.PI, c = Math.cos(a), s = Math.sin(a);
+    return `<line x1="${(50 + r * c).toFixed(2)}" y1="${(50 + r * s).toFixed(2)}" x2="${(50 + (r - len) * c).toFixed(2)}" y2="${(50 + (r - len) * s).toFixed(2)}"/>`;
+  }).join("");
+  const EGGS = {
+    marvel() {
+      document.querySelector(".egg-stinger")?.remove();
+      const el = put(`${esc(L().egg.stinger)}<small>${esc(L().egg.stingerSub)}</small>`, 6500, "egg-stinger");
+      el.onclick = () => el.remove();
+    },
+    xmen() {
+      if (!calm()) {
+        put("", 3000, "egg-tint");
+        for (let i = 0; i < 3; i++) put("", 2700 + i * 450, "egg-ring").style.animationDelay = i * 0.45 + "s";
+      }
+      toast(L().egg.cerebro(countOf(["xmen"])));
+    },
+    dc() {
+      if (calm()) return toast(L().egg.gotham);
+      const w = innerWidth, h = innerHeight, ax = w * 0.12, ay = h + 40, bx = w * 0.72, by = h * 0.26;
+      const box = put(`<div class="egg-night"></div><div class="egg-beam"></div><div class="egg-signal"><svg viewBox="0 0 200 100" aria-hidden="true">${BAT}</svg></div>`, 5200, "egg-full");
+      box.querySelector(".egg-beam").style.cssText = `left:${ax}px;top:${ay}px;width:${Math.hypot(bx - ax, by - ay)}px;rotate:${Math.atan2(by - ay, bx - ax)}rad`;
+      box.querySelector(".egg-signal").style.cssText = `left:${bx}px;top:${by}px`;
+    },
+    starwars() {
+      if ($("main").classList.toggle("saber")) toast(L().egg.force);
+    },
+    alien() {
+      document.querySelector(".egg-term")?.remove();
+      const text = "MU/TH/UR 6000\nINTERFACE 2037 READY FOR INQUIRY\n\nSPECIAL ORDER 937\nPRIORITY ONE\nINSURE RETURN OF ORGANISM FOR ANALYSIS.\nALL OTHER CONSIDERATIONS SECONDARY.\nCREW EXPENDABLE.";
+      const el = put("", 0, "egg-term");
+      el.setAttribute("aria-hidden", "true"); // typed out letter by letter; screen readers get the whole text once
+      announce(text);
+      el.onclick = () => el.remove();
+      let i = calm() ? text.length - 1 : 0;
+      const tick = () => {
+        if (!el.isConnected) return;
+        el.textContent = text.slice(0, ++i);
+        if (i < text.length) setTimeout(tick, text[i - 1] === "\n" ? 260 : 26);
+        else setTimeout(() => el.remove(), 4500);
+      };
+      tick();
+    },
+    godzilla() {
+      if (!calm()) {
+        const app = $("app");
+        [0, 650, 1300].forEach((d) => setTimeout(() => { app.classList.remove("egg-shake"); void app.offsetWidth; app.classList.add("egg-shake"); }, d));
+        setTimeout(() => { app.classList.remove("egg-shake"); put("", 1400, "egg-breath").style.top = $("bar").getBoundingClientRect().bottom + "px"; }, 1850);
+      }
+      toast("ゴジラ", 3600, "ja");
+    },
+    apes() { toast(L().egg.apes, 5500); },
+    dune() {
+      if (!calm()) put(`<div class="egg-sand"></div><svg class="egg-worm" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="49" fill="#8c6239"/><circle cx="50" cy="50" r="41" fill="#3b2213"/><circle cx="50" cy="50" r="30" fill="#1d0f07"/><circle cx="50" cy="50" r="19" fill="#090402"/><g stroke="#f2e4c2" stroke-width="1.1" stroke-linecap="round">${ring(41, 46, 6)}${ring(30, 34, 5)}${ring(19, 24, 4)}</g></svg>`, 3900, "egg-full");
+      toast(L().egg.dune, 3600);
+    },
+    middleearth() {
+      if (calm()) return toast(L().egg.mellon);
+      const star = Array.from({ length: 16 }, (_, i) => { const a = (i / 16) * 2 * Math.PI - Math.PI / 2, r = i % 2 ? 2 : 7; return `${(50 + r * Math.cos(a)).toFixed(2)},${(25 + r * Math.sin(a)).toFixed(2)}`; }).join(" ");
+      const box = put(`<div class="egg-night"></div><figure class="egg-doors"><svg viewBox="0 0 100 112" aria-hidden="true"><path pathLength="1" d="M16 110V52a34 34 0 0 1 68 0v58"/><path pathLength="1" d="M24 110V54a26 26 0 0 1 52 0v56"/><polygon pathLength="1" points="${star}"/><path pathLength="1" d="M50 40v70M50 62c-8-6-14-6-18-14M50 62c8-6 14-6 18-14M50 80c-10-6-16-6-20-14M50 80c10-6 16-6 20-14"/></svg><figcaption><b>Pedo mellon a minno</b><span>${esc(L().egg.mellon)}</span></figcaption></figure>`, 5800, "egg-full");
+      box.style.setProperty("--d", "5.6s");
+    },
+    lumos() {
+      if (document.querySelector(".egg-dark")) return;
+      const d = put("", 0, "egg-full egg-dark");
+      const move = (e) => { d.style.setProperty("--x", e.clientX + "px"); d.style.setProperty("--y", e.clientY + "px"); };
+      // the light also follows keyboard focus, so tabbing never lands in the dark
+      const follow = (e) => { const r = e.target.getBoundingClientRect?.(); if (r) move({ clientX: r.left + r.width / 2, clientY: r.top + r.height / 2 }); };
+      addEventListener("pointermove", move);
+      addEventListener("pointerdown", move);
+      addEventListener("focusin", follow);
+      d.off = () => { removeEventListener("pointermove", move); removeEventListener("pointerdown", move); removeEventListener("focusin", follow); d.remove(); };
+      setTimeout(() => { if (d.isConnected) EGGS.nox(); }, 30000);
+      toast(L().egg.lumos);
+    },
+    nox() {
+      const d = document.querySelector(".egg-dark");
+      if (d) { d.off(); toast(L().egg.nox, 1800); }
+    },
+    wizarding() { document.querySelector(".egg-dark") ? EGGS.nox() : EGGS.lumos(); },
+    westeros() {
+      if (!calm()) {
+        const flakes = Array.from({ length: 90 }, () => {
+          const size = (2 + Math.random() * 4).toFixed(1);
+          return `<i style="left:${(Math.random() * 100).toFixed(1)}%;width:${size}px;height:${size}px;opacity:${(0.5 + Math.random() * 0.5).toFixed(2)};--dx:${Math.round(Math.random() * 80 - 40)}px;animation-duration:${(5 + Math.random() * 5).toFixed(1)}s;animation-delay:${(Math.random() * 3).toFixed(1)}s"></i>`;
+        }).join("");
+        put(flakes, 13500, "egg-full egg-snow");
+      }
+      toast(L().egg.winter, 4000);
+    },
+    agamotto() {
+      if (!calm()) put('<svg class="egg-mandala" viewBox="0 0 200 200" aria-hidden="true"><circle class="r1" cx="100" cy="100" r="94"/><circle class="r2" cx="100" cy="100" r="80"/><circle class="r1" cx="100" cy="100" r="62"/><g class="r3"><path d="M100 24 166 138H34z M100 176 34 62h132z"/><circle cx="100" cy="100" r="40"/></g><circle cx="100" cy="100" r="9" fill="#61ff97"/></svg>', 3500, "egg-full");
+      set({ dir: state.dir === "asc" ? "desc" : "asc" }, [["dir", "dir"]]);
+      toast(L().egg.dormammu, 4200);
+    },
+  };
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    EGGS.nox();
+    document.querySelectorAll(".egg-term, .egg-stinger").forEach((el) => el.remove());
+  });
+
+  // Dune: four evenly spaced taps on the page (not on a control) act as a thumper
+  let thumps = [];
+  document.addEventListener("click", (e) => {
+    if (state.tab !== "dune" || e.target.closest("a, button, input, textarea, summary, label, dialog, #foot-egg")) return;
+    const t = performance.now();
+    thumps = [...thumps.filter((x) => t - x < 5000), t].slice(-4);
+    if (thumps.length < 4) return;
+    const gaps = thumps.slice(1).map((x, i) => x - thumps[i]);
+    const lo = Math.min(...gaps), hi = Math.max(...gaps);
+    if (lo > 200 && hi < 1300 && hi - lo < hi * 0.35) { thumps = []; EGGS.dune(); }
+  });
+
+  // a fallback for an icon that's hard to find: three quick taps on the hint line play the page's egg
+  let hintTaps = [];
+  $("foot-egg").addEventListener("click", () => {
+    const t = performance.now();
+    hintTaps = [...hintTaps.filter((x) => t - x < 1500), t];
+    if (hintTaps.length < 3) return;
+    hintTaps = [];
+    EGGS[state.tab === "all" ? "agamotto" : state.tab]();
+  });
+
+  // Marvel: reach the end of the page and stay through the credits
+  let creditsT, creditsTab = null;
+  if ("IntersectionObserver" in window) new IntersectionObserver(([e]) => {
+    clearTimeout(creditsT);
+    if (e.isIntersecting && state.tab === "marvel" && creditsTab !== "marvel") creditsT = setTimeout(() => { creditsTab = "marvel"; EGGS.marvel(); }, 2500);
+  }, { threshold: 0.6 }).observe(document.querySelector("footer"));
+
+  // back/forward and edited or pasted links
+  const onRoute = () => {
+    const r = parseRoute(location.hash);
+    if (!r) return;
+    if (r.tab !== state.tab) set({ tab: r.tab }, [["tab", "tab"]]);
+    if (r.sec) goSec(r.sec, false);
+  };
+  let popped = { hash: null, at: 0 };
+  window.addEventListener("popstate", () => { popped = { hash: location.hash, at: performance.now() }; onRoute(); });
+  window.addEventListener("hashchange", () => { if (location.hash !== popped.hash || performance.now() - popped.at > 500) onRoute(); });
+
+  render();
+  if (!route0) { try { history.replaceState(null, "", routeOf(state.tab)); } catch {} }
+  else if (route0.sec) {
+    requestAnimationFrame(() => goSec(route0.sec, false));
+    document.fonts?.ready.then(() => goSec(route0.sec, false));
+  }
+})();
+</script>

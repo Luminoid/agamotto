@@ -1,0 +1,210 @@
+acolyte                  IMDb title 'The Acolyte' vs 'Star Wars: The Acolyte'
+across-spider-verse      date 2023-06-01 (Wikidata) vs 2023-06-02 (Wikipedia infobox [['2023-05-30', 'Regency Village Theater'], ['2023-06-02', 'United States']])
+against-mechagodzilla    zh title curated '哥斯拉×机械哥斯拉' vs Douban '哥斯拉X机械哥斯拉'
+agatha                   zh title curated '阿加莎：无所不在' vs Douban '女巫阿加莎'
+alien-3                  IMDb title 'Alien³' vs 'Alien 3'
+alien-earth              episodes Wikipedia 8 vs IMDb 9
+alien-earth              seasons Wikipedia 1 vs IMDb 2
+alien-resurrection       zh title curated '异形4：浴火重生' vs Douban '异形4'
+all-monsters-attack      IMDb year 1969 vs date 1971-12-08
+all-monsters-attack      date 1971-12-08 (Wikidata) vs 1969-12-20 (Wikipedia infobox [['1969-12-20', '']])
+all-monsters-attack      zh title curated '哥斯拉·迷你拉·加巴拉 全体怪兽大进击' vs Douban '哥斯拉·迷你拉·加巴拉：全体怪兽大进击'
+apes-1968                date 1968-02-08 (Wikidata) vs 1968-04-03 (Wikipedia infobox [['1968-02-08', 'Capitol Theatre (New York City)'], ['1968-04-03', 'United States']])
+astro-monster            RT year 1970 vs 1965-12-19
+astro-monster            zh title curated '怪兽大战争' vs Douban '哥斯拉之怪兽大战争'
+avengers                 RT name 'Marvel's the Avengers' vs 'The Avengers'
+avp-requiem              zh title curated '异兽战2' vs Douban '异形大战铁血战士2'
+badlands                 zh title curated '铁血战士：蛮荒厮杀' vs Douban '铁血战士：杀戮之地'
+batman-1966              IMDb title 'Batman: The Movie' vs 'Batman'
+batman-1966              zh title curated '蝙蝠侠' vs Douban '蝙蝠侠：大电影'
+battle-apes              date 1973-05-23 (Wikidata) vs 1973-06-13 (Wikipedia infobox [['1973-06-13', '']])
+battle-apes              runtime Wikipedia 87 vs IMDb 93 ('87 minutes')
+beneath-apes             date 1970-05-27 (Wikidata) vs 1970-05-26 (Wikipedia infobox [['1970-05-26', '']])
+biollante                zh title curated '哥斯拉vs碧奥兰蒂' vs Douban '哥斯拉VS碧奥兰蒂'
+black-panther            date 2018-02-15 (Wikidata) vs 2018-02-16 (Wikipedia infobox [['2018-01-29', 'Dolby Theatre'], ['2018-02-16', 'United States']])
+btas                     IMDb season split [(1, 60), (2, 10)] disagrees with Wikipedia 2/85; per-season episodes dropped
+btas                     seasons Wikipedia 2 vs IMDb 4
+btas                     zh title curated '蝙蝠侠：动画系列' vs Douban '蝙蝠侠：动画版'
+catwoman                 date 2004-07-19 (Wikidata) vs 2004-07-23 (Wikipedia infobox [['2004-07-19', 'Los Angeles'], ['2004-07-23', 'United States']])
+children-of-dune         IMDb title 'Children of Dune' vs 'Frank Herbert's Children of Dune'
+children-of-dune         RT name 'Children of Dune' vs 'Frank Herbert's Children of Dune'
+children-of-dune         zh title curated '沙丘魔堡之风云再起' vs Douban '沙丘之子'
+clayface                 zh title curated '泥脸' vs Douban '泥面人'
+clone-wars               Douban 30280509 (星球大战：克隆人战争 第七季) lists IMDb tt8722840, which IMDb's datasets don't have
+clone-wars-2003          zh title curated '星球大战：克隆战争' vs Douban '星球大战之克隆战争'
+clone-wars-film          zh title curated '星球大战：克隆人战争' vs Douban '星球大战：克隆战争'
+conquest-apes            date 1972-06-30 (Wikidata) vs 1972-06-14 (Wikipedia infobox [['1972-06-14', '']])
+conquest-apes            zh title curated '征服猩球' vs Douban '猩球征服'
+covenant                 zh title curated '异形：圣约' vs Douban '异形：契约'
+crimes-grindelwald       zh title curated '怪兽与葛林戴华德的罪行' vs Douban '神奇动物：格林德沃之罪'
+daredevil-2003           zh title curated '夜魔侠' vs Douban '超胆侠'
+daredevil-netflix        zh title curated '超胆侠' vs Douban '夜魔侠'
+dark-phoenix             IMDb title 'X-Men: Dark Phoenix' vs 'Dark Phoenix'
+dawn-apes                zh title curated '猿人争霸战：猩凶崛起' vs Douban '猩球崛起2：黎明之战'
+defenders                RT name 'Marvel's The Defenders' vs 'The Defenders'
+destoroyah               zh title curated '哥斯拉vs戴斯特洛伊亚' vs Douban '哥斯拉VS戴斯特洛伊亚'
+destroy-all-monsters     IMDb year 1968 vs date 1969-05-28
+destroy-all-monsters     date 1969-05-28 (Wikidata) vs 1968-08-01 (Wikipedia infobox [['1968-08-01', 'Japan']])
+destroy-all-monsters     zh title curated '怪兽总进击' vs Douban '战龙哥斯拉之怪兽总进击'
+dune-2000                IMDb title 'Dune' vs 'Frank Herbert's Dune'
+dune-2000                RT name 'Dune' vs 'Frank Herbert's Dune'
+dune-2000                zh title curated '沙丘魔堡：世纪之战' vs Douban '沙丘魔堡2000'
+dune-part-three          zh title curated '沙丘：第三部' vs Douban '沙丘3'
+dune-part-two            zh title curated '沙丘：第二部' vs Douban '沙丘2'
+ebirah                   runtime Wikipedia 87 vs IMDb 83 ('87 minutes{{sfn|Galbraith IV|2008|p=234}}')
+ebirah                   zh title curated '哥斯拉·伊比拉·摩斯拉 南海大决斗' vs Douban '哥斯拉·伊比拉·摩斯拉：南海大决斗'
+echo                     IMDb year 2023 vs date 2024-01-10
+echo                     date 2024-01-10 (Wikidata) vs 2024-01-09 (Wikipedia infobox [['2024-01-09', '']])
+empire                   IMDb title 'Star Wars: Episode V - The Empire Strikes Back' vs 'The Empire Strikes Back'
+empire                   RT name 'Star Wars: Episode V - The Empire Strikes Back' vs 'The Empire Strikes Back'
+empire                   zh title curated '星球大战5：帝国反击战' vs Douban '星球大战2：帝国反击战'
+escape-apes              date 1971-05-12 (Wikidata) vs 1971-05-26 (Wikipedia infobox [['1971-05-26', '']])
+fantastic-beasts         zh title curated '怪兽与它们的产地' vs Douban '神奇动物在哪里'
+fantastic-four-first-steps zh title curated '神奇四侠：初露锋芒' vs Douban '神奇4侠：初露锋芒'
+fellowship               zh title curated '指环王：护戒使者' vs Douban '指环王1：护戒使者'
+final-wars               date 2004-11-29 (Wikidata) vs 2004-12-04 (Wikipedia infobox [['2004-11-29', 'Los Angeles'], ['2004-12-04', 'Japan']])
+final-wars               zh title curated '哥斯拉 最后战役' vs Douban '哥斯拉 终极战役'
+fns-spider-man           episodes Wikipedia 10 vs IMDb 11
+fns-spider-man           seasons Wikipedia 1 vs IMDb 2
+force-awakens            IMDb title 'Star Wars: Episode VII - The Force Awakens' vs 'Star Wars: The Force Awakens'
+force-awakens            date 2015-12-17 (Wikidata) vs 2015-12-18 (Wikipedia infobox [['2015-12-14', 'Hollywood, Los Angeles'], ['2015-12-18', 'United States']])
+ghidorah                 RT name 'Ghidrah, the Three-Headed Monster' vs 'Ghidorah, the Three-Headed Monster'
+ghidorah                 runtime Wikipedia 93 vs IMDb 85 ('93 minutes')
+ghidorah                 zh title curated '三大怪兽 地球最大决战' vs Douban '战龙哥斯拉之三大怪兽'
+ghost-rider-2            IMDb year 2011 vs date 2012-02-17
+gigan                    IMDb year 1972 vs date 1977-08
+gigan                    date 1977-08 (Wikidata) vs 1972-03-12 (Wikipedia infobox [['1972-03-12', '']])
+gigan                    zh title curated '地球攻击命令 哥斯拉对盖刚' vs Douban '战龙哥斯拉之决战宇宙魔龙'
+gmk                      RT name 'Godzilla, Mothra, King Ghidorah: Giant Monsters All-Out Attack!' vs 'Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack'
+gmk                      date 2001-11-03 (Wikidata) vs 2001-12-15 (Wikipedia infobox [['2001-11-03', 'Tokyo International Film Festival'], ['2001-12-15', 'Japan']])
+godzilla-1998            zh title curated '酷斯拉' vs Douban '哥斯拉'
+godzilla-2000            runtime Wikipedia 107 vs IMDb 99 ('107 minutes{{sfn|Kalat|2010|p=230}}')
+godzilla-the-series      zh title curated '哥斯拉末世龙战' vs Douban '哥斯拉 末世龙战'
+gotg-holiday             zh title curated '银河护卫队假日特别篇' vs Douban '银河护卫队：假日特辑'
+green-lantern            runtime Wikipedia 123 vs IMDb 114 ('123 minutes')
+gxk                      zh title curated '哥斯拉与金刚：新帝国' vs Douban '哥斯拉大战金刚2：帝国崛起'
+hobbit-1                 zh title curated '霍比特人：意外之旅' vs Douban '霍比特人1：意外之旅'
+hobbit-1977              zh title curated '哈比人 (1977年動畫)' vs Douban '霍比特人'
+hobbit-2                 zh title curated '霍比特人：史矛革之战' vs Douban '霍比特人2：史矛革之战'
+hobbit-3                 zh title curated '哈比人：五军之战' vs Douban '霍比特人3：五军之战'
+house-of-the-dragon      zh title curated '龙族前传' vs Douban '龙之家族'
+hp-1                     IMDb title 'Harry Potter and the Sorcerer's Stone' vs 'Harry Potter and the Philosopher's Stone'
+hp-1                     RT name 'Harry Potter and the Sorcerer's Stone' vs 'Harry Potter and the Philosopher's Stone'
+hp-1                     zh title curated '哈利波特：神秘的魔法石' vs Douban '哈利·波特与魔法石'
+hp-2                     zh title curated '哈利波特：消失的密室' vs Douban '哈利·波特与密室'
+hp-3                     zh title curated '哈利波特：阿兹卡班的逃犯' vs Douban '哈利·波特与阿兹卡班的囚徒'
+hp-4                     zh title curated '哈利波特：火杯的考验' vs Douban '哈利·波特与火焰杯'
+hp-5                     zh title curated '哈利波特：凤凰会的密令' vs Douban '哈利·波特与凤凰社'
+hp-6                     zh title curated '哈利波特：混血王子的背叛' vs Douban '哈利·波特与混血王子'
+hp-7                     zh title curated '哈利·波特与死亡圣器' vs Douban '哈利·波特与死亡圣器(上)'
+hp-8                     zh title curated '哈利·波特与死亡圣器' vs Douban '哈利·波特与死亡圣器(下)'
+hp-hbo                   RT name 'Harry Potter and the Philosopher's Stone' vs 'Harry Potter'
+hp-hbo                   zh title curated '哈利波特' vs Douban '哈利·波特与魔法石'
+jedi                     IMDb title 'Star Wars: Episode VI - Return of the Jedi' vs 'Return of the Jedi'
+jedi                     RT name 'Star Wars: Episode VI - Return of the Jedi' vs 'Return of the Jedi'
+jedi                     RT year 1985 vs 1983-05-25
+jedi                     zh title curated '星球大战6：绝地归来' vs Douban '星球大战3：绝地归来'
+jlu                      RT name 'Justice League' vs 'Justice League Unlimited'
+jlu                      RT year 2001 vs 2004-07-31
+killer-of-killers        zh title curated '终极战士：时空猎袭者' vs Douban '铁血战士：杀戮之王'
+kingdom-apes             date 2024-05-24 (Wikidata) vs 2024-05-10 (Wikipedia infobox [['2024-05-02', 'TCL Chinese Theatre'], ['2024-05-10', 'United States']])
+kingdom-apes             zh title curated '猩球崛起：王国诞生' vs Douban '猩球崛起：新世界'
+kong-vs-godzilla         zh title curated '金刚对哥斯拉' vs Douban '金刚大战哥斯拉'
+kotm                     zh title curated '哥斯拉 II 怪兽之王' vs Douban '哥斯拉2：怪兽之王'
+last-jedi                IMDb title 'Star Wars: Episode VIII - The Last Jedi' vs 'Star Wars: The Last Jedi'
+legends                  RT name 'DC's Legends of Tomorrow' vs 'Legends of Tomorrow'
+legion                   zh title curated '军团' vs Douban '大群'
+lois-clark               episodes Wikipedia 88 vs IMDb 87
+mando-grogu              RT name 'Star Wars: The Mandalorian and Grogu' vs 'The Mandalorian and Grogu'
+mando-grogu              zh title curated '曼达洛人与格罗古' vs Douban '星球大战：曼达洛人与古古'
+marvel-zombies           episodes Wikipedia 4 vs IMDb 5
+marvel-zombies           seasons Wikipedia 1 vs IMDb 2
+marvel-zombies           zh title curated '漫威僵尸' vs Douban '漫威丧尸'
+mask-of-phantasm         zh title curated '蝙蝠侠：鬼影之战' vs Douban '蝙蝠侠大战幻影人'
+maul-shadow-lord         zh title curated '摩尔：暗影领主' vs Douban '星球大战：摩尔-暗影之王'
+mechagodzilla-ii         zh title curated '哥斯拉vs机械哥斯拉' vs Douban '哥斯拉VS机械哥斯拉'
+megaguirus               RT year 2003 vs 2000
+megaguirus               zh title curated '哥斯拉×美加基拉斯 G消灭作战' vs Douban '哥斯拉大战超翔龙'
+megalon                  IMDb year 1973 vs date 1976-04
+megalon                  RT year 1973 vs 1973-03-17
+megalon                  date 1976-04 (Wikidata) vs 1973-03-17 (Wikipedia infobox [['1973-03-17', '']])
+megalon                  zh title curated '哥斯拉对梅加洛' vs Douban '哥斯拉对美加洛'
+minus-one                date 2023-12-01 (Wikidata) vs 2023-11-03 (Wikipedia infobox [['2023-10-18', 'Shinjuku Toho Building'], ['2023-11-03', 'Japan']])
+monarch                  zh title curated '君主计划：神秘组织与怪兽之谜' vs Douban '帝王计划：怪兽遗产'
+morbius                  zh title curated '莫比亚斯：暗夜博士' vs Douban '暗夜博士：莫比亚斯'
+mothra-vs-godzilla       date 1964-09-17 (Wikidata) vs 1964-04-29 (Wikipedia infobox [['1964-04-29', 'Japan']])
+mothra-vs-godzilla       zh title curated '摩斯拉对哥斯拉' vs Douban '摩斯拉决战哥斯拉'
+new-hope                 RT name 'Star Wars: Episode IV - A New Hope' vs 'Star Wars'
+new-hope                 RT year 1981 vs 1977-05-25
+new-hope                 zh title curated '星球大战4：新希望' vs Douban '星球大战'
+origins-wolverine        zh title curated 'X战警前传：金刚狼' vs Douban '金刚狼'
+phantom-menace           RT year 2024 vs 1999-05-19
+prey                     zh title curated '铁血战士：狩猎追击' vs Douban '铁血战士：狩猎'
+punisher-netflix         RT name 'Marvel's The Punisher' vs 'The Punisher'
+raids-again              IMDb year 1955 vs date 1959-05-21
+raids-again              date 1959-05-21 (Wikidata) vs 1955-04-24 (Wikipedia infobox [['1955-04-24', 'Japan']])
+raids-again              zh title curated '哥斯拉的逆袭' vs Douban '哥斯拉的反击'
+rebels                   episodes Wikipedia 75 vs IMDb 73
+resistance               episodes Wikipedia 40 vs IMDb 38
+return-apes              zh title curated '重回人猿星球' vs Douban '重返人猿星球'
+return-king              zh title curated '魔戒三部曲：王者再临' vs Douban '指环王3：王者无敌'
+return-king-1980         zh title curated '王者再臨' vs Douban '王者无敌'
+return-of-godzilla       zh title curated '哥斯拉' vs Douban '哥斯拉之怪兽王复活'
+revenge-sith             zh title curated '星球大战前传3：西斯的复仇' vs Douban '星球大战前传3：西斯的反击'
+rings-of-power           date 2022-09-02 (Wikidata) vs 2022-09-01 (Wikipedia infobox [['2022-09-01', '']])
+rings-of-power           episodes Wikipedia 16 vs IMDb 24
+rings-of-power           seasons Wikipedia 2 vs IMDb 3
+rings-of-power           zh title curated '魔戒：力量之戒' vs Douban '指环王：力量之戒'
+rise-apes                zh title curated '猿人争霸战：猩凶革命' vs Douban '猩球崛起'
+rise-skywalker           IMDb title 'Star Wars: Episode IX - The Rise of Skywalker' vs 'Star Wars: The Rise of Skywalker'
+rogue-one                RT name 'Rogue One: A Star Wars Story' vs 'Rogue One'
+rohirrim                 date 2024-12-13 (Wikidata) vs 2024-12-03 (Wikipedia infobox [['2024-12-03', '']])
+rohirrim                 zh title curated '魔戒：洛汗人之战' vs Douban '指环王：洛汗之战'
+romulus                  zh title curated '异形：罗穆路斯' vs Douban '异形：夺命舰'
+secrets-dumbledore       zh title curated '怪兽与邓不利多的秘密' vs Douban '神奇动物：邓布利多之谜'
+shin-godzilla            date 2016-10-11 (Wikidata) vs 2016-07-29 (Wikipedia infobox [['2016-07-25', 'Shinjuku'], ['2016-07-29', 'Japan']])
+shin-godzilla            zh title curated '正宗哥斯拉' vs Douban '新哥斯拉'
+silver-surfer            zh title curated '神奇四侠2：银魔现身' vs Douban '神奇四侠2'
+singular-point           zh title curated '哥斯拉 奇异点' vs Douban '哥斯拉：奇点'
+smallville               Douban 4236810 (超人前传 第二季) lists no IMDb id
+son-of-godzilla          zh title curated '怪兽岛决战 哥斯拉之子' vs Douban '怪兽岛决战：哥斯拉之子'
+spacegodzilla            zh title curated '哥斯拉vs太空哥斯拉' vs Douban '哥斯拉VS太空哥斯拉'
+stargirl                 RT name 'DC's Stargirl' vs 'Stargirl'
+stas                     IMDb season split [(1, 13), (2, 28), (3, 13)] disagrees with Wikipedia 4/54; per-season episodes dropped
+stas                     seasons Wikipedia 4 vs IMDb 3
+stas                     zh title curated '超人：动画系列' vs Douban '超人动画版'
+suicide-squad            zh title curated 'X特遣队' vs Douban '自杀小队'
+super-pets               zh title curated 'DC超级宠物军团' vs Douban 'DC萌宠特遣队'
+supergirl-1984           zh title curated '女超人' vs Douban '超级少女'
+supergirl-tv             zh title curated '女超人' vs Douban '超级少女'
+superman-1978            RT name 'Superman: The Movie' vs 'Superman'
+superman-2               IMDb year 1980 vs date 1981-06-19
+superman-4               zh title curated '超人4：寻求和平' vs Douban '超人4：和平任务'
+superman-lois            zh title curated '超人和露易斯' vs Douban '超人和露易丝'
+tales-empire             zh title curated '星球大战：帝国传奇' vs Douban '星球大战：帝国传说'
+tales-underworld         zh title curated '星球大战：地下世界传奇' vs Douban '星球大战：黑市传说'
+terror-mechagodzilla     runtime Wikipedia 83 vs IMDb 79 ('83 minutes')
+terror-mechagodzilla     zh title curated '机械哥斯拉的逆袭' vs Douban '哥斯拉之机械哥斯拉的反击'
+the-predator             zh title curated '终极战士：掠夺者' vs Douban '铁血战士'
+the-suicide-squad        date 2021-08-05 (Wikidata) vs 2021-08-06 (Wikipedia infobox [['2021-07-30', 'United Kingdom'], ['2021-08-06', 'United States']])
+tokyo-sos                RT year 2023 vs 2003-12-13
+tokyo-sos                date 2003-11-03 (Wikidata) vs 2003-12-13 (Wikipedia infobox [['2003-12-13', '']])
+tokyo-sos                zh title curated '哥斯拉×摩斯拉×机械哥斯拉 东京SOS' vs Douban '哥斯拉X摩斯拉X机械哥斯拉：东京SOS'
+two-towers               zh title curated '指环王：双塔奇兵' vs Douban '指环王2：双塔奇兵'
+venom                    date 2018-10-04 (Wikidata) vs 2018-10-05 (Wikipedia infobox [['2018-10-01', 'Fox Theater, Westwood Village'], ['2018-10-05', 'United States']])
+vs-king-ghidorah         zh title curated '哥斯拉vs王者基多拉' vs Douban '哥斯拉VS王者基多拉'
+vs-mechagodzilla         IMDb year 1974 vs date 1977-03
+vs-mechagodzilla         RT year 1974 vs 1974-03-21
+vs-mechagodzilla         date 1977-03 (Wikidata) vs 1974-03-21 (Wikipedia infobox [['1974-03-21', 'Japan']])
+vs-mothra                IMDb title 'Godzilla and Mothra: The Battle for Earth' vs 'Godzilla vs. Mothra'
+vs-mothra                RT name 'Godzilla and Mothra: The Battle for Earth' vs 'Godzilla vs. Mothra'
+vs-mothra                zh title curated '哥斯拉vs摩斯拉' vs Douban '哥斯拉VS摩斯拉'
+war-apes                 zh title curated '猩球崛起：终极决战' vs Douban '猩球崛起3：终极之战'
+watchmen-tv              Douban 1972698 (守望者) is IMDb tt0409459, Watchmen (2009); dropped
+watchmen-tv              Douban 6008279 (守望者) is IMDb tt9548268, Shou wang zhe (2010); dropped
+wolverine-x-men          IMDb year 2008 vs date 2009-01-23
+wonder-man               zh title curated '神奇人' vs Douban '奇迹人'
+x-men-tas                IMDb title 'X-Men' vs 'X-Men: The Animated Series'
+x-men-tas                RT name 'X-Men' vs 'X-Men: The Animated Series'
+x-men-tas                zh title curated 'X战警：动画系列' vs Douban 'X战警'
+young-jedi               zh title curated '星球大战：少年绝地大冒险' vs Douban '星球大战：少年绝地历险记'

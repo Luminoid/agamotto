@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Archivo:wght@400..700&family=IBM+Plex+Mono:wght@500&display=block">
+<style>
+  /* the social card, laid out at 1200x630 and scaled to fit the window: brand.mjs screenshots it at 1200x630 for
+     site/og.png and at 1280x640 for GitHub's .github/social-preview.png */
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 100vw; height: 100vh; overflow: hidden; }
+  body { background: #0c0e13; color: #e8ebf1; font-family: "Archivo", sans-serif; display: grid; place-items: center; }
+  .sheet { position: relative; width: 1200px; height: 630px; flex: none; }
+  .copy { position: absolute; left: 80px; top: 70px; width: 760px; }
+  .brand { display: flex; align-items: center; gap: 14px; font: 500 22px/1 "IBM Plex Mono", monospace; letter-spacing: .22em; color: #98a1b3; }
+  .brand img { width: 40px; height: 40px; }
+  h1 { margin: 26px 0 0; font: 400 188px/.84 "League Gothic", sans-serif; letter-spacing: .01em; text-transform: uppercase; }
+  h1 span { color: #a9adff; }
+  p { margin: 26px 0 0; font-size: 29px; line-height: 1.32; color: #c4cad6; max-width: 700px; }
+  .chips { position: absolute; left: 80px; bottom: 58px; width: 760px; display: flex; flex-wrap: wrap; gap: 10px; }
+  .chip { display: inline-flex; align-items: center; gap: 9px; padding: 8px 15px 8px 13px; border: 1px solid #2a303d; border-radius: 999px; background: #151922; font: 600 19px/1 "Archivo", sans-serif; }
+  .chip::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
+  .rail { position: absolute; right: 86px; top: 64px; bottom: 64px; width: 230px; }
+  .rail::before { content: ""; position: absolute; left: 20px; top: 24px; bottom: 24px; width: 3px; background: #2a303d; }
+  .ev { position: absolute; left: 0; display: flex; align-items: center; gap: 18px; }
+  .node { width: 43px; height: 43px; border-radius: 50%; display: grid; place-items: center; background: var(--c); color: #0c0e13; font: 500 17px/1 "IBM Plex Mono", monospace; box-shadow: 0 0 0 6px #0c0e13; position: relative; }
+  .card { width: 168px; height: 86px; border: 1px solid #2a303d; border-radius: 12px; background: #151922; display: grid; grid-template-columns: 44px 1fr; gap: 12px; padding: 11px; }
+  .card i { border-radius: 6px; background: color-mix(in srgb, var(--c) 45%, #1d222d); }
+  .card b { display: grid; align-content: center; gap: 9px; }
+  .card b::before, .card b::after { content: ""; height: 9px; border-radius: 5px; background: #2a303d; }
+  .card b::after { width: 60%; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="copy">
+    <div class="brand"><img src="icon.svg" alt="">AGAMOTTO</div>
+    <h1>Watch <span>Order</span></h1>
+    <p>Story and release order for eleven film and TV franchises, with IMDb, Douban and Rotten Tomatoes ratings.</p>
+  </div>
+  <div class="chips">
+    <span class="chip" style="--c:#ff5266">Marvel</span><span class="chip" style="--c:#ffc23d">X-Men</span><span class="chip" style="--c:#5aa2ff">DC</span><span class="chip" style="--c:#ffe81f">Star Wars</span><span class="chip" style="--c:#c8e64a">Alien</span><span class="chip" style="--c:#3fd6e3">Godzilla</span><span class="chip" style="--c:#d9a574">Apes</span><span class="chip" style="--c:#ffad5c">Dune</span><span class="chip" style="--c:#6fd39a">Middle-earth</span><span class="chip" style="--c:#c7a6ff">Wizarding World</span><span class="chip" style="--c:#b4c3d4">Westeros</span>
+  </div>
+  <div class="rail">
+    <div class="ev" style="top:0;--c:#ff5266"><span class="node">1</span><span class="card"><i></i><b></b></span></div>
+    <div class="ev" style="top:126px;--c:#ffe81f"><span class="node">2</span><span class="card"><i></i><b></b></span></div>
+    <div class="ev" style="top:252px;--c:#6fd39a"><span class="node">3</span><span class="card"><i></i><b></b></span></div>
+    <div class="ev" style="top:378px;--c:#3fd6e3"><span class="node">4</span><span class="card"><i></i><b></b></span></div>
+  </div>
+</div>
+<script>
+  const sheet = document.querySelector(".sheet");
+  sheet.style.scale = Math.min(innerWidth / 1200, innerHeight / 630);
+</script>
+</body>
+</html>

@@ -1,0 +1,4621 @@
+{
+ "Batman (1989 film)": {
+  "runtime": 126,
+  "runtime_raw": "126 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1989-06-19",
+    "Westwood, Los Angeles"
+   ],
+   [
+    "1989-06-23",
+    "United States"
+   ],
+   [
+    "1989-08-11",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Batman (1966 film)": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1966-07-30",
+    ""
+   ]
+  ]
+ },
+ "Batman Returns": {
+  "runtime": 126,
+  "runtime_raw": "126 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1992-06-16",
+    "Hollywood, California"
+   ],
+   [
+    "1992-06-19",
+    "United States"
+   ]
+  ]
+ },
+ "Batman & Robin (film)": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1997-06-12",
+    "Los Angeles"
+   ],
+   [
+    "1997-06-20",
+    "United States"
+   ]
+  ]
+ },
+ "Batman Forever": {
+  "runtime": 121,
+  "runtime_raw": "121 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1995-06-09",
+    "Mann Village Theater"
+   ],
+   [
+    "1995-06-16",
+    "United States"
+   ]
+  ]
+ },
+ "Batman: The Animated Series": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 2,
+  "episodes": 85,
+  "released": [
+   [
+    "1992-09-05",
+    ""
+   ]
+  ]
+ },
+ "Batman: Mask of the Phantasm": {
+  "runtime": 76,
+  "runtime_raw": "76 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1993-12-25",
+    ""
+   ]
+  ]
+ },
+ "Batman Beyond": {
+  "runtime": 21,
+  "runtime_raw": "21–22 minutes",
+  "seasons": 3,
+  "episodes": 52,
+  "released": [
+   [
+    "1999-01-10",
+    ""
+   ]
+  ]
+ },
+ "Blade (1998 film)": {
+  "runtime": 120,
+  "runtime_raw": "120 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1998-08-21",
+    ""
+   ]
+  ]
+ },
+ "Blade II": {
+  "runtime": 117,
+  "runtime_raw": "117 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-03-22",
+    ""
+   ]
+  ]
+ },
+ "Batman Begins": {
+  "runtime": 140,
+  "runtime_raw": "140 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-05-31",
+    "Tokyo"
+   ],
+   [
+    "2005-06-15",
+    "United States"
+   ],
+   [
+    "2005-06-17",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Catwoman (film)": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-07-19",
+    "Los Angeles"
+   ],
+   [
+    "2004-07-23",
+    "United States"
+   ]
+  ]
+ },
+ "Blade: Trinity": {
+  "runtime": 113,
+  "runtime_raw": "113 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-12-08",
+    ""
+   ]
+  ]
+ },
+ "Daredevil (film)": {
+  "runtime": 103,
+  "runtime_raw": "103 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-02-14",
+    ""
+   ]
+  ]
+ },
+ "Constantine (film)": {
+  "runtime": 120,
+  "runtime_raw": "120 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-02-07",
+    "Paris"
+   ],
+   [
+    "2005-02-18",
+    "United States"
+   ]
+  ]
+ },
+ "Batman v Superman: Dawn of Justice": {
+  "runtime": 151,
+  "runtime_raw": "151 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-03-19",
+    "National Auditorium"
+   ],
+   [
+    "2016-03-25",
+    "United States"
+   ]
+  ]
+ },
+ "Captain America: The First Avenger": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-07-19",
+    "El Capitan Theatre"
+   ],
+   [
+    "2011-07-22",
+    "United States"
+   ]
+  ]
+ },
+ "Arrow (TV series)": {
+  "runtime": 40,
+  "runtime_raw": "40–43 minutes",
+  "seasons": 8,
+  "episodes": 170,
+  "released": [
+   [
+    "2012-10-10",
+    ""
+   ]
+  ]
+ },
+ "Captain America: The Winter Soldier": {
+  "runtime": 136,
+  "runtime_raw": "136 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-03-13",
+    "El Capitan Theatre"
+   ],
+   [
+    "2014-04-04",
+    "United States"
+   ]
+  ]
+ },
+ "Ant-Man (film)": {
+  "runtime": 117,
+  "runtime_raw": "117 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2015-06-29",
+    "Dolby Theatre"
+   ],
+   [
+    "2015-07-17",
+    "United States"
+   ]
+  ]
+ },
+ "Avengers: Age of Ultron": {
+  "runtime": 141,
+  "runtime_raw": "141 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2015-04-13",
+    "Dolby Theatre"
+   ],
+   [
+    "2015-05-01",
+    "United States"
+   ]
+  ]
+ },
+ "Agents of S.H.I.E.L.D.": {
+  "runtime": 41,
+  "runtime_raw": "41–44 minutes",
+  "seasons": 7,
+  "episodes": 136,
+  "released": [
+   [
+    "2013-09-24",
+    ""
+   ]
+  ]
+ },
+ "Black Widow (2021 film)": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-06-29",
+    "world premieres"
+   ],
+   [
+    "2021-07-09",
+    "United States"
+   ]
+  ]
+ },
+ "Black Panther (film)": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-01-29",
+    "Dolby Theatre"
+   ],
+   [
+    "2018-02-16",
+    "United States"
+   ]
+  ]
+ },
+ "Captain America: Civil War": {
+  "runtime": 147,
+  "runtime_raw": "147 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-04-12",
+    "Dolby Theatre"
+   ],
+   [
+    "2016-05-06",
+    "United States"
+   ]
+  ]
+ },
+ "Daredevil (TV series)": {
+  "runtime": 46,
+  "runtime_raw": "46–61 minutes",
+  "seasons": 3,
+  "episodes": 39,
+  "released": [
+   [
+    "2015-04-10",
+    ""
+   ]
+  ]
+ },
+ "Agent Carter (TV series)": {
+  "runtime": 41,
+  "runtime_raw": "41–43 minutes",
+  "seasons": 2,
+  "episodes": 18,
+  "released": [
+   [
+    "2015-01-06",
+    ""
+   ]
+  ]
+ },
+ "Aquaman (film)": {
+  "runtime": 143,
+  "runtime_raw": "143 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-11-26",
+    "Empire, Leicester Square"
+   ],
+   [
+    "2018-12-21",
+    "United States"
+   ]
+  ]
+ },
+ "Captain Marvel (film)": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-02-27",
+    "London"
+   ],
+   [
+    "2019-03-08",
+    "United States"
+   ]
+  ]
+ },
+ "Avengers: Infinity War": {
+  "runtime": 149,
+  "runtime_raw": "149 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-04-23",
+    "Dolby Theatre"
+   ],
+   [
+    "2018-04-27",
+    "United States"
+   ]
+  ]
+ },
+ "Avengers: Endgame": {
+  "runtime": 181,
+  "runtime_raw": "181 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-04-22",
+    "Los Angeles Convention Center"
+   ],
+   [
+    "2019-04-26",
+    "United States"
+   ]
+  ]
+ },
+ "Ant-Man and the Wasp": {
+  "runtime": 118,
+  "runtime_raw": "118 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-06-25",
+    "El Capitan Theatre"
+   ],
+   [
+    "2018-07-06",
+    "United States"
+   ]
+  ]
+ },
+ "Cloak & Dagger (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42–49 minutes",
+  "seasons": 2,
+  "episodes": 20,
+  "released": [
+   [
+    "2018-06-07",
+    ""
+   ]
+  ]
+ },
+ "Black Lightning (TV series)": {
+  "runtime": 39,
+  "runtime_raw": "39–43 minutes",
+  "seasons": 4,
+  "episodes": 58,
+  "released": [
+   [
+    "2018-01-16",
+    ""
+   ]
+  ]
+ },
+ "Black Adam (film)": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-10-03",
+    "Mexico City"
+   ],
+   [
+    "2022-10-21",
+    "United States"
+   ]
+  ]
+ },
+ "Birds of Prey (2020 film)": {
+  "runtime": 109,
+  "runtime_raw": "109 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2020-01-25",
+    "Mexico City"
+   ],
+   [
+    "2020-02-07",
+    "United States"
+   ]
+  ]
+ },
+ "Black Panther: Wakanda Forever": {
+  "runtime": 161,
+  "runtime_raw": "161 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-10-26",
+    "Hollywood, Los Angeles"
+   ],
+   [
+    "2022-11-11",
+    "United States"
+   ]
+  ]
+ },
+ "Batwoman (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42–43 minutes",
+  "seasons": 3,
+  "episodes": 51,
+  "released": [
+   [
+    "2019-10-06",
+    ""
+   ]
+  ]
+ },
+ "Andor": {
+  "runtime": 38,
+  "runtime_raw": "38–60 minutes",
+  "seasons": 2,
+  "episodes": 24,
+  "released": [
+   [
+    "2022-09-21",
+    ""
+   ]
+  ]
+ },
+ "Aquaman and the Lost Kingdom": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": []
+ },
+ "DC League of Super-Pets": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-07-13",
+    "AMC The Grove"
+   ],
+   [
+    "2022-07-29",
+    "United States"
+   ]
+  ]
+ },
+ "Ant-Man and the Wasp: Quantumania": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-02-06",
+    "Fox Theatre, Westwood Village"
+   ],
+   [
+    "2023-02-17",
+    "United States"
+   ]
+  ]
+ },
+ "Blue Beetle (film)": {
+  "runtime": 127,
+  "runtime_raw": "127 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-08-14",
+    "El Paso, Texas"
+   ],
+   [
+    "2023-08-18",
+    "United States"
+   ]
+  ]
+ },
+ "Avengers: Doomsday": {
+  "runtime": 165,
+  "runtime_raw": "{{approx}} 165 minutes{{efn|''[[The Hollywood Reporter]]'' noted that the 165-minute runtime was set to allow for the film's premium format ticket sales in July 2026, adding that the film's final cut was \"unlikely to be locked this far in advance\" and could only change within a small margin given showtimes were being scheduled against the 165-minute runtime.}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-12-18",
+    ""
+   ]
+  ]
+ },
+ "Captain America: Brave New World": {
+  "runtime": 118,
+  "runtime_raw": "118 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-02-11",
+    "TCL Chinese Theatre"
+   ],
+   [
+    "2025-02-14",
+    "United States"
+   ]
+  ]
+ },
+ "Batman: Caped Crusader": {
+  "runtime": 24,
+  "runtime_raw": "24–26 minutes",
+  "seasons": 2,
+  "episodes": 20,
+  "released": [
+   [
+    "2024-08-01",
+    ""
+   ]
+  ]
+ },
+ "Agatha All Along": {
+  "runtime": 29,
+  "runtime_raw": "29–49 minutes",
+  "seasons": 1,
+  "episodes": 9,
+  "released": [
+   [
+    "2024-09-18",
+    ""
+   ]
+  ]
+ },
+ "Daredevil: Born Again": {
+  "runtime": 42,
+  "runtime_raw": "42–60 minutes",
+  "seasons": 2,
+  "episodes": 17,
+  "released": [
+   [
+    "2025-03-04",
+    ""
+   ]
+  ]
+ },
+ "Creature Commandos (TV series)": {
+  "runtime": 22,
+  "runtime_raw": "22–28 minutes",
+  "seasons": 1,
+  "episodes": 7,
+  "released": [
+   [
+    "2024-12-05",
+    ""
+   ]
+  ]
+ },
+ "Clayface (film)": {
+  "runtime": 108,
+  "runtime_raw": "108 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-10-23",
+    ""
+   ]
+  ]
+ },
+ "Hulk (film)": {
+  "runtime": 138,
+  "runtime_raw": "138 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-06-20",
+    ""
+   ]
+  ]
+ },
+ "Justice League (TV series)": {
+  "runtime": 20,
+  "runtime_raw": "20–22 minutes",
+  "seasons": 2,
+  "episodes": 52,
+  "released": [
+   [
+    "2001-11-17",
+    ""
+   ]
+  ]
+ },
+ "Lois & Clark: The New Adventures of Superman": {
+  "runtime": 42,
+  "runtime_raw": "{{plainlist|\n* 42–47 minutes\n* 93 minutes (\"Pilot\")",
+  "seasons": 4,
+  "episodes": 88,
+  "released": [
+   [
+    "1993-09-12",
+    ""
+   ]
+  ]
+ },
+ "Justice League Unlimited": {
+  "runtime": 21,
+  "runtime_raw": "21–23 minutes",
+  "seasons": 3,
+  "episodes": 39,
+  "released": [
+   [
+    "2004-07-31",
+    ""
+   ]
+  ]
+ },
+ "Elektra (2005 film)": {
+  "runtime": 97,
+  "runtime_raw": "97 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-01-14",
+    ""
+   ]
+  ]
+ },
+ "Fantastic Four (2005 film)": {
+  "runtime": 106,
+  "runtime_raw": "106 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-07-08",
+    ""
+   ]
+  ]
+ },
+ "Ghost Rider (2007 film)": {
+  "runtime": 110,
+  "runtime_raw": "110 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2007-01-15",
+    "Ukraine"
+   ],
+   [
+    "2007-02-16",
+    "United States"
+   ]
+  ]
+ },
+ "Fantastic Four: Rise of the Silver Surfer": {
+  "runtime": 92,
+  "runtime_raw": "92 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": []
+ },
+ "Iron Man (2008 film)": {
+  "runtime": 126,
+  "runtime_raw": "126 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2008-04-14",
+    "Sydney"
+   ],
+   [
+    "2008-05-02",
+    "United States"
+   ]
+  ]
+ },
+ "Green Lantern (film)": {
+  "runtime": 123,
+  "runtime_raw": "123 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-06-15",
+    "Grauman's Chinese Theatre"
+   ],
+   [
+    "2011-06-17",
+    "United States"
+   ]
+  ]
+ },
+ "Iron Man 2": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2010-04-26",
+    "El Capitan Theatre"
+   ],
+   [
+    "2010-05-07",
+    "United States"
+   ]
+  ]
+ },
+ "Iron Man 3": {
+  "runtime": 130,
+  "runtime_raw": "130 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2013-04-14",
+    "Grand Rex"
+   ],
+   [
+    "2013-05-03",
+    "United States"
+   ]
+  ]
+ },
+ "Ghost Rider: Spirit of Vengeance": {
+  "runtime": 95,
+  "runtime_raw": "95 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-12-11",
+    "List of films shown at Butt-Numb-A-Thon#Butt-Numb-A-Thon: ThirTEEN WOLF, aka BNAT13WOLF (2011)"
+   ],
+   [
+    "2012-02-17",
+    "United States"
+   ]
+  ]
+ },
+ "Man of Steel (film)": {
+  "runtime": 143,
+  "runtime_raw": "143 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2013-06-10",
+    "Alice Tully Hall"
+   ],
+   [
+    "2013-06-14",
+    "United States"
+   ]
+  ]
+ },
+ "Guardians of the Galaxy (film)": {
+  "runtime": 122,
+  "runtime_raw": "122 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-07-21",
+    "Dolby Theatre"
+   ],
+   [
+    "2014-08-01",
+    "United States"
+   ]
+  ]
+ },
+ "Fantastic Four (2015 film)": {
+  "runtime": 100,
+  "runtime_raw": "100 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2015-08-04",
+    "New York City"
+   ],
+   [
+    "2015-08-07",
+    "United States"
+   ]
+  ]
+ },
+ "Gotham (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42–49 minutes",
+  "seasons": 5,
+  "episodes": 100,
+  "released": [
+   [
+    "2014-09-22",
+    ""
+   ]
+  ]
+ },
+ "Doctor Strange (2016 film)": {
+  "runtime": 115,
+  "runtime_raw": "115 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-10-13",
+    "Hong Kong"
+   ],
+   [
+    "2016-11-04",
+    "United States"
+   ]
+  ]
+ },
+ "Jessica Jones (TV series)": {
+  "runtime": 44,
+  "runtime_raw": "44–56 minutes",
+  "seasons": 3,
+  "episodes": 39,
+  "released": [
+   [
+    "2015-11-20",
+    ""
+   ]
+  ]
+ },
+ "Guardians of the Galaxy Vol. 2": {
+  "runtime": 136,
+  "runtime_raw": "136 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-04-10",
+    "Tokyo"
+   ],
+   [
+    "2017-05-05",
+    "United States"
+   ]
+  ]
+ },
+ "Logan (film)": {
+  "runtime": 137,
+  "runtime_raw": "137 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-02-17",
+    "67th Berlin International Film Festival"
+   ],
+   [
+    "2017-03-03",
+    "United States"
+   ]
+  ]
+ },
+ "Deadpool (film)": {
+  "runtime": 108,
+  "runtime_raw": "108 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-02-08",
+    "Le Grand Rex"
+   ],
+   [
+    "2016-02-12",
+    "United States"
+   ]
+  ]
+ },
+ "Justice League (film)": {
+  "runtime": 120,
+  "runtime_raw": "120 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-11-13",
+    "Dolby Theatre"
+   ],
+   [
+    "2017-11-17",
+    "United States"
+   ]
+  ]
+ },
+ "Iron Fist (TV series)": {
+  "runtime": 49,
+  "runtime_raw": "49–61 minutes",
+  "seasons": 2,
+  "episodes": 23,
+  "released": [
+   [
+    "2017-03-17",
+    ""
+   ]
+  ]
+ },
+ "Luke Cage (TV series)": {
+  "runtime": 44,
+  "runtime_raw": "44–69 minutes",
+  "seasons": 2,
+  "episodes": 26,
+  "released": [
+   [
+    "2016-09-30",
+    ""
+   ]
+  ]
+ },
+ "Lucifer (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42–65 minutes",
+  "seasons": 6,
+  "episodes": 93,
+  "released": [
+   [
+    "2016-01-25",
+    ""
+   ]
+  ]
+ },
+ "Legends of Tomorrow": {
+  "runtime": 42,
+  "runtime_raw": "42–45 minutes",
+  "seasons": 7,
+  "episodes": 110,
+  "released": [
+   [
+    "2016-01-21",
+    ""
+   ]
+  ]
+ },
+ "Deadpool 2": {
+  "runtime": 119,
+  "runtime_raw": "119 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-05-10",
+    "Empire, Leicester Square"
+   ],
+   [
+    "2018-05-18",
+    "United States"
+   ]
+  ]
+ },
+ "Legion (TV series)": {
+  "runtime": 44,
+  "runtime_raw": "44–68 minutes",
+  "seasons": 3,
+  "episodes": 27,
+  "released": [
+   [
+    "2017-02-08",
+    ""
+   ]
+  ]
+ },
+ "Guardians of the Galaxy Vol. 3": {
+  "runtime": 150,
+  "runtime_raw": "150 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-04-22",
+    "Disneyland Paris"
+   ],
+   [
+    "2023-05-05",
+    "United States"
+   ]
+  ]
+ },
+ "Deadpool & Wolverine": {
+  "runtime": 128,
+  "runtime_raw": "128 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-07-22",
+    "David H. Koch Theater"
+   ],
+   [
+    "2024-07-26",
+    "United States"
+   ]
+  ]
+ },
+ "Inhumans (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2017-09-29",
+    ""
+   ]
+  ]
+ },
+ "Dark Phoenix (film)": {
+  "runtime": 114,
+  "runtime_raw": "114 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-06-04",
+    "Grauman's Chinese Theatre"
+   ],
+   [
+    "2019-06-07",
+    "United States"
+   ]
+  ]
+ },
+ "Harley Quinn (TV series)": {
+  "runtime": 23,
+  "runtime_raw": "23 minutes<br>44 minutes (special)",
+  "seasons": 5,
+  "episodes": 57,
+  "released": [
+   [
+    "2019-11-29",
+    ""
+   ]
+  ]
+ },
+ "Doom Patrol (TV series)": {
+  "runtime": 38,
+  "runtime_raw": "38–58 minutes",
+  "seasons": 4,
+  "episodes": 46,
+  "released": [
+   [
+    "2019-02-15",
+    ""
+   ]
+  ]
+ },
+ "Joker (2019 film)": {
+  "runtime": 122,
+  "runtime_raw": "122 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-08-31",
+    "76th Venice International Film Festival"
+   ],
+   [
+    "2019-10-04",
+    "United States"
+   ]
+  ]
+ },
+ "Kraven the Hunter (film)": {
+  "runtime": 127,
+  "runtime_raw": "127 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-12-13",
+    "United States"
+   ]
+  ]
+ },
+ "Loki (TV series)": {
+  "runtime": 41,
+  "runtime_raw": "41–56 minutes",
+  "seasons": 2,
+  "episodes": 12,
+  "released": [
+   [
+    "2021-06-09",
+    ""
+   ]
+  ]
+ },
+ "Doctor Strange in the Multiverse of Madness": {
+  "runtime": 126,
+  "runtime_raw": "126 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-05-02",
+    "Dolby Theatre"
+   ],
+   [
+    "2022-05-06",
+    "United States"
+   ]
+  ]
+ },
+ "Hawkeye (miniseries)": {
+  "runtime": 40,
+  "runtime_raw": "40–62 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2021-11-24",
+    ""
+   ]
+  ]
+ },
+ "Helstrom (TV series)": {
+  "runtime": 44,
+  "runtime_raw": "44–55 minutes",
+  "seasons": 1,
+  "episodes": 10,
+  "released": [
+   [
+    "2020-10-16",
+    ""
+   ]
+  ]
+ },
+ "Eternals (film)": {
+  "runtime": 156,
+  "runtime_raw": "156 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-10-18",
+    "Dolby Theatre"
+   ],
+   [
+    "2021-11-05",
+    "United States"
+   ]
+  ]
+ },
+ "Moon Knight (miniseries)": {
+  "runtime": 45,
+  "runtime_raw": "45–53 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2022-03-30",
+    ""
+   ]
+  ]
+ },
+ "Madame Web (film)": {
+  "runtime": 116,
+  "runtime_raw": "116 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-02-12",
+    "Regency Village Theatre"
+   ],
+   [
+    "2024-02-14",
+    "United States"
+   ]
+  ]
+ },
+ "Joker: Folie à Deux": {
+  "runtime": 138,
+  "runtime_raw": "138 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-09-04",
+    "81st Venice International Film Festival"
+   ],
+   [
+    "2024-10-04",
+    "United States"
+   ]
+  ]
+ },
+ "Lanterns (TV series)": {
+  "runtime": 47,
+  "runtime_raw": "47–57 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2026-08-16",
+    ""
+   ]
+  ]
+ },
+ "Ironheart (miniseries)": {
+  "runtime": 42,
+  "runtime_raw": "42–60 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2025-06-24",
+    ""
+   ]
+  ]
+ },
+ "Echo (miniseries)": {
+  "runtime": 37,
+  "runtime_raw": "37–51 minutes",
+  "seasons": 1,
+  "episodes": 5,
+  "released": [
+   [
+    "2024-01-09",
+    ""
+   ]
+  ]
+ },
+ "Marvel Zombies (TV series)": {
+  "runtime": 31,
+  "runtime_raw": "31–37 minutes",
+  "seasons": 1,
+  "episodes": 4,
+  "released": [
+   [
+    "2025-09-24",
+    ""
+   ]
+  ]
+ },
+ "Eyes of Wakanda": {
+  "runtime": 30,
+  "runtime_raw": "30–32 minutes",
+  "seasons": 1,
+  "episodes": 4,
+  "released": [
+   [
+    "2025-08-01",
+    ""
+   ]
+  ]
+ },
+ "Return of the Jedi": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1983-05-25",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Episode I – The Phantom Menace": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1999-05-16",
+    "Los Angeles"
+   ],
+   [
+    "1999-05-19",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: Episode II – Attack of the Clones": {
+  "runtime": 142,
+  "runtime_raw": "142 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-05-12",
+    "Tribeca Festival"
+   ],
+   [
+    "2002-05-16",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars (film)": {
+  "runtime": 121,
+  "runtime_raw": "121 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1977-05-25",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Episode III – Revenge of the Sith": {
+  "runtime": 140,
+  "runtime_raw": "140 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-05-16",
+    "2005 Cannes Film Festival"
+   ],
+   [
+    "2005-05-19",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man (2002 film)": {
+  "runtime": 121,
+  "runtime_raw": "121 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-04-29",
+    "Fox Westwood Village Theater, Bruin Theater"
+   ],
+   [
+    "2002-05-03",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man 2": {
+  "runtime": 127,
+  "runtime_raw": "127 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-06-25",
+    "Mann Village Theater"
+   ],
+   [
+    "2004-06-30",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man 3": {
+  "runtime": 139,
+  "runtime_raw": "139 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2007-04-16",
+    "Roppongi Hills Mori Tower"
+   ],
+   [
+    "2007-05-04",
+    "United States"
+   ]
+  ]
+ },
+ "Smallville": {
+  "runtime": 40,
+  "runtime_raw": "{{plainlist|\n* 40–60 minutes\n* 50 minutes (\"[[Pilot (Smallville)|Pilot]]\"/[[Smallville season 4|\"Commencement\"]])\n* 84 minutes (\"[[Absolute Justice]]\"/\"[[Finale (Smallville)|Finale]]\")",
+  "seasons": 10,
+  "episodes": 217,
+  "released": [
+   [
+    "2001-10-16",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Clone Wars": {
+  "runtime": 1,
+  "runtime_raw": "{{Plainlist|\n* '''Season 1–2:''' 3–5 minutes\n* '''Season 3:''' 12–15 minutes",
+  "seasons": 3,
+  "episodes": 25,
+  "released": [
+   [
+    "2003-11-07",
+    ""
+   ]
+  ]
+ },
+ "Supergirl (1984 film)": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes (US theatrical cut)<br />124 minutes (international cut)<br />138 minutes (director's cut)",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1984-07-19",
+    "United Kingdom"
+   ],
+   [
+    "1984-11-21",
+    "United States"
+   ]
+  ]
+ },
+ "Punisher: War Zone": {
+  "runtime": 103,
+  "runtime_raw": "103 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2008-12-05",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: The Clone Wars": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 7,
+  "episodes": 133,
+  "released": [
+   [
+    "2008-10-03",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: The Force Awakens": {
+  "runtime": 138,
+  "runtime_raw": "138 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2015-12-14",
+    "Hollywood, Los Angeles"
+   ],
+   [
+    "2015-12-18",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: The Clone Wars (film)": {
+  "runtime": 98,
+  "runtime_raw": "98 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2008-08-10",
+    "Grauman's Egyptian Theatre"
+   ],
+   [
+    "2008-08-15",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars Rebels": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 4,
+  "episodes": 75,
+  "released": [
+   [
+    "2014-10-03",
+    ""
+   ]
+  ]
+ },
+ "Shazam! (film)": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-03-28",
+    "TCL Chinese Theater"
+   ],
+   [
+    "2019-04-05",
+    "United States"
+   ]
+  ]
+ },
+ "Suicide Squad (2016 film)": {
+  "runtime": 123,
+  "runtime_raw": "123 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-08-01",
+    "Beacon Theatre (New York City)"
+   ],
+   [
+    "2016-08-05",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: The Last Jedi": {
+  "runtime": 152,
+  "runtime_raw": "152 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-12-09",
+    "Shrine Auditorium"
+   ],
+   [
+    "2017-12-15",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: The Rise of Skywalker": {
+  "runtime": 141,
+  "runtime_raw": "141 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-12-16",
+    "Dolby Theatre"
+   ],
+   [
+    "2019-12-20",
+    "United States"
+   ]
+  ]
+ },
+ "Rogue One": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-12-10",
+    "Pantages Theatre (Hollywood)"
+   ],
+   [
+    "2016-12-16",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man: Homecoming": {
+  "runtime": 133,
+  "runtime_raw": "133 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-06-28",
+    "TCL Chinese Theatre"
+   ],
+   [
+    "2017-07-07",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man: Into the Spider-Verse": {
+  "runtime": 117,
+  "runtime_raw": "117 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-12-01",
+    "Regency Village Theater"
+   ],
+   [
+    "2018-12-14",
+    "United States"
+   ]
+  ]
+ },
+ "Runaways (TV series)": {
+  "runtime": 43,
+  "runtime_raw": "43–54 minutes",
+  "seasons": 3,
+  "episodes": 33,
+  "released": [
+   [
+    "2017-11-21",
+    ""
+   ]
+  ]
+ },
+ "Spider-Man: Far From Home": {
+  "runtime": 129,
+  "runtime_raw": "129 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-06-26",
+    "TCL Chinese Theatre"
+   ],
+   [
+    "2019-07-02",
+    "United States"
+   ]
+  ]
+ },
+ "Solo: A Star Wars Story": {
+  "runtime": 135,
+  "runtime_raw": "135 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-05-10",
+    "Los Angeles"
+   ],
+   [
+    "2018-05-25",
+    "United States"
+   ]
+  ]
+ },
+ "Spider-Man: No Way Home": {
+  "runtime": 148,
+  "runtime_raw": "148 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-12-13",
+    "Fox Village Theater"
+   ],
+   [
+    "2021-12-17",
+    "United States"
+   ]
+  ]
+ },
+ "Morbius (film)": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-03-10",
+    "Plaza Carso"
+   ],
+   [
+    "2022-04-01",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars Resistance": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 2,
+  "episodes": 40,
+  "released": [
+   [
+    "2018-10-07",
+    ""
+   ]
+  ]
+ },
+ "Pennyworth (TV series)": {
+  "runtime": 47,
+  "runtime_raw": "47–71 minutes",
+  "seasons": 3,
+  "episodes": 30,
+  "released": [
+   [
+    "2019-07-28",
+    ""
+   ]
+  ]
+ },
+ "Stargirl (TV series)": {
+  "runtime": 38,
+  "runtime_raw": "38–53 minutes",
+  "seasons": 3,
+  "episodes": 39,
+  "released": [
+   [
+    "2020-05-18",
+    ""
+   ]
+  ]
+ },
+ "Spider-Man: Across the Spider-Verse": {
+  "runtime": 140,
+  "runtime_raw": "140 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-05-30",
+    "Regency Village Theater"
+   ],
+   [
+    "2023-06-02",
+    "United States"
+   ]
+  ]
+ },
+ "Shang-Chi and the Legend of the Ten Rings": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-08-16",
+    "Hollywood, Los Angeles"
+   ],
+   [
+    "2021-09-03",
+    "United States"
+   ]
+  ]
+ },
+ "Ms. Marvel (miniseries)": {
+  "runtime": 38,
+  "runtime_raw": "38–50 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2022-06-08",
+    ""
+   ]
+  ]
+ },
+ "She-Hulk: Attorney at Law": {
+  "runtime": 30,
+  "runtime_raw": "30–38 minutes",
+  "seasons": 1,
+  "episodes": 9,
+  "released": [
+   [
+    "2022-08-18",
+    ""
+   ]
+  ]
+ },
+ "Obi-Wan Kenobi (miniseries)": {
+  "runtime": 36,
+  "runtime_raw": "36–53 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2022-05-27",
+    ""
+   ]
+  ]
+ },
+ "Shazam! Fury of the Gods": {
+  "runtime": 130,
+  "runtime_raw": "130 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-03-14",
+    "Fox Village Theatre"
+   ],
+   [
+    "2023-03-17",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: The Acolyte": {
+  "runtime": 35,
+  "runtime_raw": "35–43 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2024-06-04",
+    ""
+   ]
+  ]
+ },
+ "Supergirl (2026 film)": {
+  "runtime": 108,
+  "runtime_raw": "108 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-06-22",
+    "Brooklyn Cultural District"
+   ],
+   [
+    "2026-06-26",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: The Bad Batch": {
+  "runtime": 23,
+  "runtime_raw": "23–33 minutes{{efn|Most episodes of the series are 23–33 minutes long, except for the series premiere which is 76 minutes and the series finale which is 51 minutes.}}",
+  "seasons": 3,
+  "episodes": 47,
+  "released": [
+   [
+    "2021-05-04",
+    ""
+   ]
+  ]
+ },
+ "Peacemaker (TV series)": {
+  "runtime": 33,
+  "runtime_raw": "33–58 minutes",
+  "seasons": 2,
+  "episodes": 16,
+  "released": [
+   [
+    "2022-01-13",
+    ""
+   ]
+  ]
+ },
+ "Secret Invasion (miniseries)": {
+  "runtime": 35,
+  "runtime_raw": "35–58 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2023-06-21",
+    ""
+   ]
+  ]
+ },
+ "Spider-Man: Brand New Day": {
+  "runtime": 145,
+  "runtime_raw": "145 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-07-27",
+    "Dolby Theatre"
+   ],
+   [
+    "2026-07-31",
+    "United States"
+   ]
+  ]
+ },
+ "Star Wars: Ahsoka": {
+  "runtime": 37,
+  "runtime_raw": "37–57 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2023-08-22",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Visions": {
+  "runtime": 13,
+  "runtime_raw": "13–22 minutes",
+  "seasons": 3,
+  "episodes": 27,
+  "released": [
+   [
+    "2021-09-22",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Skeleton Crew": {
+  "runtime": 32,
+  "runtime_raw": "32–47 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2024-12-02",
+    ""
+   ]
+  ]
+ },
+ "Star Wars Tales (TV anthology)": {
+  "runtime": 13,
+  "runtime_raw": "13–19 minutes",
+  "seasons": 3,
+  "episodes": 18,
+  "released": [
+   [
+    "2022-10-26",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Young Jedi Adventures": {
+  "runtime": 24,
+  "runtime_raw": "24 minutes",
+  "seasons": 3,
+  "episodes": 55,
+  "released": [
+   [
+    "2023-05-04",
+    ""
+   ]
+  ]
+ },
+ "Spider-Noir": {
+  "runtime": 42,
+  "runtime_raw": "42–49 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2026-05-25",
+    ""
+   ]
+  ]
+ },
+ "Star Wars: Maul – Shadow Lord": {
+  "runtime": 23,
+  "runtime_raw": "23–31 minutes",
+  "seasons": 1,
+  "episodes": 10,
+  "released": [
+   [
+    "2026-04-06",
+    ""
+   ]
+  ]
+ },
+ "The Empire Strikes Back": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1980-05-06",
+    "Dominion Theatre"
+   ],
+   [
+    "1980-05-21",
+    "United States"
+   ]
+  ]
+ },
+ "Superman: The Animated Series": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 4,
+  "episodes": 54,
+  "released": [
+   [
+    "1996-09-06",
+    ""
+   ]
+  ]
+ },
+ "Superman (1978 film)": {
+  "runtime": 143,
+  "runtime_raw": "143 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1978-12-10",
+    "The Kennedy Center"
+   ],
+   [
+    "1978-12-14",
+    "United Kingdom"
+   ],
+   [
+    "1978-12-15",
+    "United States"
+   ]
+  ]
+ },
+ "Superman IV: The Quest for Peace": {
+  "runtime": 90,
+  "runtime_raw": "90 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1987-07-23",
+    "Premiere"
+   ],
+   [
+    "1987-07-24",
+    "United States/United Kingdom"
+   ]
+  ]
+ },
+ "Superman II": {
+  "runtime": 127,
+  "runtime_raw": "127 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1980-12-04",
+    "Australia"
+   ],
+   [
+    "1981-04-09",
+    "UK"
+   ],
+   [
+    "1981-06-19",
+    "US"
+   ]
+  ]
+ },
+ "Superman III": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1983-06-17",
+    "United States"
+   ],
+   [
+    "1983-07-19",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Superman Returns": {
+  "runtime": 154,
+  "runtime_raw": "154 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2006-06-21",
+    "Los Angeles"
+   ],
+   [
+    "2006-06-28",
+    "United States"
+   ]
+  ]
+ },
+ "The Punisher (2004 film)": {
+  "runtime": 123,
+  "runtime_raw": "123 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-04-16",
+    ""
+   ]
+  ]
+ },
+ "The Dark Knight": {
+  "runtime": 152,
+  "runtime_raw": "152 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2008-07-14",
+    "New York City"
+   ],
+   [
+    "2008-07-18",
+    "United States"
+   ],
+   [
+    "2008-07-25",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Watchmen (2009 film)": {
+  "runtime": 162,
+  "runtime_raw": "162 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2009-02-23",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2009-03-06",
+    "United States"
+   ]
+  ]
+ },
+ "The Incredible Hulk (film)": {
+  "runtime": 112,
+  "runtime_raw": "112 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2008-06-08",
+    "Gibson Amphitheatre"
+   ],
+   [
+    "2008-06-13",
+    "United States"
+   ]
+  ]
+ },
+ "Thor (film)": {
+  "runtime": 114,
+  "runtime_raw": "114 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-04-17",
+    "Sydney"
+   ],
+   [
+    "2011-05-06",
+    "United States"
+   ]
+  ]
+ },
+ "The Avengers (2012 film)": {
+  "runtime": 143,
+  "runtime_raw": "143 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2012-04-11",
+    "El Capitan Theatre"
+   ],
+   [
+    "2012-05-04",
+    "United States"
+   ]
+  ]
+ },
+ "The Amazing Spider-Man (film)": {
+  "runtime": 136,
+  "runtime_raw": "136 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2012-06-13",
+    "Tokyo"
+   ],
+   [
+    "2012-07-03",
+    "United States"
+   ]
+  ]
+ },
+ "The Dark Knight Rises": {
+  "runtime": 164,
+  "runtime_raw": "164 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2012-07-16",
+    "New York City"
+   ],
+   [
+    "2012-07-20",
+    "United States and United Kingdom"
+   ]
+  ]
+ },
+ "The Wolverine (film)": {
+  "runtime": 126,
+  "runtime_raw": "126 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2013-07-26",
+    "United States"
+   ]
+  ]
+ },
+ "Thor: The Dark World": {
+  "runtime": 112,
+  "runtime_raw": "112 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2013-10-22",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2013-11-08",
+    "United States"
+   ]
+  ]
+ },
+ "The Amazing Spider-Man 2": {
+  "runtime": 142,
+  "runtime_raw": "142 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-03-31",
+    "Tokyo"
+   ],
+   [
+    "2014-05-02",
+    "United States"
+   ]
+  ]
+ },
+ "The Flash (2014 TV series)": {
+  "runtime": 41,
+  "runtime_raw": "41–45 minutes",
+  "seasons": 9,
+  "episodes": 184,
+  "released": [
+   [
+    "2014-10-07",
+    ""
+   ]
+  ]
+ },
+ "Thor: Ragnarok": {
+  "runtime": 130,
+  "runtime_raw": "130 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-10-10",
+    "El Capitan Theatre"
+   ],
+   [
+    "2017-11-03",
+    "United States"
+   ]
+  ]
+ },
+ "The Flash (film)": {
+  "runtime": 144,
+  "runtime_raw": "144 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-06-12",
+    "Grauman's Chinese Theatre"
+   ],
+   [
+    "2023-06-16",
+    "United States"
+   ]
+  ]
+ },
+ "The Lego Batman Movie": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-01-29",
+    "Dublin"
+   ],
+   [
+    "2017-02-09",
+    "Denmark"
+   ],
+   [
+    "2017-02-10",
+    "United States"
+   ],
+   [
+    "2017-03-30",
+    "Australia"
+   ]
+  ]
+ },
+ "The Defenders (miniseries)": {
+  "runtime": 44,
+  "runtime_raw": "44–55 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2017-08-18",
+    ""
+   ]
+  ]
+ },
+ "Supergirl (TV series)": {
+  "runtime": 38,
+  "runtime_raw": "38–47 minutes",
+  "seasons": 6,
+  "episodes": 126,
+  "released": [
+   [
+    "2015-10-26",
+    ""
+   ]
+  ]
+ },
+ "The New Mutants (film)": {
+  "runtime": 94,
+  "runtime_raw": "94 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2020-08-28",
+    "United States"
+   ]
+  ]
+ },
+ "The Batman (film)": {
+  "runtime": 176,
+  "runtime_raw": "176 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-03-01",
+    "Lincoln Center"
+   ],
+   [
+    "2022-03-04",
+    "United States"
+   ]
+  ]
+ },
+ "The Punisher (TV series)": {
+  "runtime": 49,
+  "runtime_raw": "49–58 minutes",
+  "seasons": 2,
+  "episodes": 26,
+  "released": [
+   [
+    "2017-11-17",
+    ""
+   ]
+  ]
+ },
+ "The Suicide Squad (film)": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-07-30",
+    "United Kingdom"
+   ],
+   [
+    "2021-08-06",
+    "United States"
+   ]
+  ]
+ },
+ "The Gifted (American TV series)": {
+  "runtime": 45,
+  "runtime_raw": "45–47 minutes",
+  "seasons": 2,
+  "episodes": 29,
+  "released": [
+   [
+    "2017-10-02",
+    ""
+   ]
+  ]
+ },
+ "Titans (2018 TV series)": {
+  "runtime": 40,
+  "runtime_raw": "40–55 minutes",
+  "seasons": 4,
+  "episodes": 49,
+  "released": [
+   [
+    "2018-10-12",
+    ""
+   ]
+  ]
+ },
+ "Venom (2018 film)": {
+  "runtime": 112,
+  "runtime_raw": "112 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-10-01",
+    "Fox Theater, Westwood Village"
+   ],
+   [
+    "2018-10-05",
+    "United States"
+   ]
+  ]
+ },
+ "Superman (2025 film)": {
+  "runtime": 129,
+  "runtime_raw": "129 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-07-07",
+    "TCL Chinese Theater"
+   ],
+   [
+    "2025-07-11",
+    "United States"
+   ]
+  ]
+ },
+ "Watchmen (TV series)": {
+  "runtime": 52,
+  "runtime_raw": "52–67 minutes",
+  "seasons": null,
+  "episodes": 9,
+  "released": [
+   [
+    "2019-10-20",
+    ""
+   ]
+  ]
+ },
+ "The Mandalorian": {
+  "runtime": 33,
+  "runtime_raw": "33–59 minutes",
+  "seasons": 3,
+  "episodes": 24,
+  "released": [
+   [
+    "2019-11-12",
+    ""
+   ]
+  ]
+ },
+ "WandaVision": {
+  "runtime": 30,
+  "runtime_raw": "30–50 minutes",
+  "seasons": 1,
+  "episodes": 9,
+  "released": [
+   [
+    "2021-01-15",
+    ""
+   ]
+  ]
+ },
+ "The Falcon and the Winter Soldier": {
+  "runtime": 50,
+  "runtime_raw": "50–61 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2021-03-19",
+    ""
+   ]
+  ]
+ },
+ "Venom: Let There Be Carnage": {
+  "runtime": 97,
+  "runtime_raw": "97 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-09-14",
+    "London"
+   ],
+   [
+    "2021-10-01",
+    "United States"
+   ]
+  ]
+ },
+ "Thor: Love and Thunder": {
+  "runtime": 119,
+  "runtime_raw": "119 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-06-23",
+    "El Capitan Theatre"
+   ],
+   [
+    "2022-07-08",
+    "United States"
+   ]
+  ]
+ },
+ "The Sandman (TV series)": {
+  "runtime": 37,
+  "runtime_raw": "37–70 minutes",
+  "seasons": 2,
+  "episodes": 23,
+  "released": [
+   [
+    "2022-08-05",
+    ""
+   ]
+  ]
+ },
+ "The Marvels": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-11-07",
+    "Las Vegas"
+   ],
+   [
+    "2023-11-10",
+    "United States"
+   ]
+  ]
+ },
+ "The Fantastic Four: First Steps": {
+  "runtime": 114,
+  "runtime_raw": "114 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-07-21",
+    "Dorothy Chandler Pavilion"
+   ],
+   [
+    "2025-07-25",
+    "United States"
+   ]
+  ]
+ },
+ "Superman & Lois": {
+  "runtime": 40,
+  "runtime_raw": "{{Plainlist|\n* 40–45 minutes\n* 63 minutes (pilot)",
+  "seasons": 4,
+  "episodes": 53,
+  "released": [
+   [
+    "2021-02-23",
+    ""
+   ]
+  ]
+ },
+ "The Mandalorian and Grogu": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-05-14",
+    "TCL Chinese Theater"
+   ],
+   [
+    "2026-05-22",
+    "United States"
+   ]
+  ]
+ },
+ "Venom: The Last Dance": {
+  "runtime": 109,
+  "runtime_raw": "109 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-10-21",
+    "New York City"
+   ],
+   [
+    "2024-10-25",
+    "United States"
+   ]
+  ]
+ },
+ "The Book of Boba Fett": {
+  "runtime": 39,
+  "runtime_raw": "39–59 minutes",
+  "seasons": 1,
+  "episodes": 7,
+  "released": [
+   [
+    "2021-12-29",
+    ""
+   ]
+  ]
+ },
+ "The Guardians of the Galaxy Holiday Special": {
+  "runtime": 42,
+  "runtime_raw": "42 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-11-25",
+    ""
+   ]
+  ]
+ },
+ "Thunderbolts*": {
+  "runtime": 127,
+  "runtime_raw": "127 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-04-22",
+    "Cineworld Leicester Square"
+   ],
+   [
+    "2025-05-02",
+    "United States"
+   ]
+  ]
+ },
+ "The Penguin (TV series)": {
+  "runtime": 47,
+  "runtime_raw": "47–68 minutes",
+  "seasons": null,
+  "episodes": 8,
+  "released": [
+   [
+    "2024-09-19",
+    ""
+   ]
+  ]
+ },
+ "VisionQuest": {
+  "runtime": null,
+  "runtime_raw": null,
+  "seasons": null,
+  "episodes": null,
+  "released": []
+ },
+ "The Punisher: One Last Kill": {
+  "runtime": 51,
+  "runtime_raw": "51 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-05-12",
+    ""
+   ]
+  ]
+ },
+ "X-Men: The Animated Series": {
+  "runtime": 22,
+  "runtime_raw": "22 minutes",
+  "seasons": 5,
+  "episodes": 76,
+  "released": [
+   [
+    "1992-10-31",
+    ""
+   ]
+  ]
+ },
+ "X2 (film)": {
+  "runtime": 133,
+  "runtime_raw": "133 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-04-24",
+    "London"
+   ],
+   [
+    "2003-05-02",
+    "United States"
+   ]
+  ]
+ },
+ "X-Men: Evolution": {
+  "runtime": 20,
+  "runtime_raw": "20–22 minutes",
+  "seasons": 4,
+  "episodes": 52,
+  "released": [
+   [
+    "2000-11-04",
+    ""
+   ]
+  ]
+ },
+ "Wonder Woman (TV series)": {
+  "runtime": 42,
+  "runtime_raw": "42–51 minutes",
+  "seasons": 3,
+  "episodes": 59,
+  "released": [
+   [
+    "1975-11-07",
+    ""
+   ]
+  ]
+ },
+ "X-Men: The Last Stand": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2006-05-24",
+    "2006 Cannes Film Festival"
+   ],
+   [
+    "2006-05-26",
+    "United States"
+   ]
+  ]
+ },
+ "X-Men Origins: Wolverine": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2009-04-08",
+    "Sydney"
+   ],
+   [
+    "2009-05-01",
+    "United States"
+   ]
+  ]
+ },
+ "Wolverine and the X-Men (TV series)": {
+  "runtime": 23,
+  "runtime_raw": "23 minutes",
+  "seasons": 1,
+  "episodes": 26,
+  "released": [
+   [
+    "2009-01-23",
+    ""
+   ]
+  ]
+ },
+ "X-Men (film)": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2000-07-12",
+    "Ellis Island"
+   ],
+   [
+    "2000-07-14",
+    "United States"
+   ]
+  ]
+ },
+ "X-Men: First Class": {
+  "runtime": 132,
+  "runtime_raw": "132 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-05-25",
+    "Ziegfeld Theatre (1969)"
+   ],
+   [
+    "2011-06-01",
+    "United Kingdom"
+   ],
+   [
+    "2011-06-03",
+    "United States"
+   ]
+  ]
+ },
+ "X-Men: Days of Future Past": {
+  "runtime": 131,
+  "runtime_raw": "131 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-05-10",
+    "Javits Center"
+   ],
+   [
+    "2014-05-23",
+    "United States"
+   ]
+  ]
+ },
+ "X-Men: Apocalypse": {
+  "runtime": 144,
+  "runtime_raw": "144&nbsp;minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-05-09",
+    "London"
+   ],
+   [
+    "2016-05-27",
+    "United States"
+   ]
+  ]
+ },
+ "Wonder Woman (2017 film)": {
+  "runtime": 141,
+  "runtime_raw": "141 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-05-26",
+    "Pantages Theatre (Hollywood)"
+   ],
+   [
+    "2017-05-30",
+    "Hong Kong"
+   ],
+   [
+    "2017-06-02",
+    "United States and China"
+   ]
+  ]
+ },
+ "Wonder Woman 1984": {
+  "runtime": 151,
+  "runtime_raw": "151 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2020-12-25",
+    "United States"
+   ]
+  ]
+ },
+ "What If...? (TV series)": {
+  "runtime": 30,
+  "runtime_raw": "30–37 minutes",
+  "seasons": 3,
+  "episodes": 26,
+  "released": [
+   [
+    "2021-08-11",
+    ""
+   ]
+  ]
+ },
+ "Zack Snyder's Justice League": {
+  "runtime": 242,
+  "runtime_raw": "242 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-03-18",
+    "U.S."
+   ]
+  ]
+ },
+ "Werewolf by Night (TV special)": {
+  "runtime": 53,
+  "runtime_raw": "53 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-10-07",
+    ""
+   ]
+  ]
+ },
+ "Your Friendly Neighborhood Spider-Man": {
+  "runtime": 29,
+  "runtime_raw": "29–33 minutes",
+  "seasons": 1,
+  "episodes": 10,
+  "released": [
+   [
+    "2025-01-29",
+    ""
+   ]
+  ]
+ },
+ "X-Men '97": {
+  "runtime": 30,
+  "runtime_raw": "30–43 minutes",
+  "seasons": 2,
+  "episodes": 19,
+  "released": [
+   [
+    "2024-03-20",
+    ""
+   ]
+  ]
+ },
+ "Wonder Man (TV series)": {
+  "runtime": 26,
+  "runtime_raw": "26–36 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2026-01-27",
+    ""
+   ]
+  ]
+ },
+ "Ebirah, Horror of the Deep": {
+  "runtime": 87,
+  "runtime_raw": "87 minutes{{sfn|Galbraith IV|2008|p=234}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1966-12-17",
+    "Japan"
+   ]
+  ]
+ },
+ "Destroy All Monsters": {
+  "runtime": 88,
+  "runtime_raw": "88 minutes{{sfn|Galbraith IV|1996|p=150}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1968-08-01",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla vs. Megalon": {
+  "runtime": 81,
+  "runtime_raw": "81 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1973-03-17",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. Biollante": {
+  "runtime": 104,
+  "runtime_raw": "104 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1989-12-16",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. King Ghidorah": {
+  "runtime": 103,
+  "runtime_raw": "103 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1991-12-14",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. Mothra": {
+  "runtime": 102,
+  "runtime_raw": "102 minutes{{sfn|Galbraith IV|2008|p=381}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1992-12-12",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla (1954 film)": {
+  "runtime": 96,
+  "runtime_raw": "96 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1954-10-27",
+    "Nagoya"
+   ],
+   [
+    "1954-11-03",
+    "Japan"
+   ]
+  ]
+ },
+ "Dune (1984 film)": {
+  "runtime": 137,
+  "runtime_raw": "137 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1984-12-03",
+    "John F. Kennedy Center for the Performing Arts#Eisenhower Theater"
+   ],
+   [
+    "1984-12-14",
+    "United States"
+   ]
+  ]
+ },
+ "Beneath the Planet of the Apes": {
+  "runtime": 95,
+  "runtime_raw": "95 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1970-05-26",
+    ""
+   ]
+  ]
+ },
+ "Alien Resurrection": {
+  "runtime": 109,
+  "runtime_raw": "109 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1997-11-06",
+    "Premiere"
+   ],
+   [
+    "1997-11-12",
+    "France"
+   ],
+   [
+    "1997-11-26",
+    "United States"
+   ]
+  ]
+ },
+ "Alien 3": {
+  "runtime": 114,
+  "runtime_raw": "114 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1992-05-22",
+    ""
+   ]
+  ]
+ },
+ "Aliens (film)": {
+  "runtime": 137,
+  "runtime_raw": "137 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1986-07-18",
+    ""
+   ]
+  ]
+ },
+ "Escape from the Planet of the Apes": {
+  "runtime": 98,
+  "runtime_raw": "98 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1971-05-26",
+    ""
+   ]
+  ]
+ },
+ "Frank Herbert's Dune": {
+  "runtime": 265,
+  "runtime_raw": "265 minutes<br />295 minutes ([[Director's cut]])",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2000-12-03",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. Mechagodzilla": {
+  "runtime": 84,
+  "runtime_raw": "84 minutes{{sfn|Galbraith IV|1994|p=352}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1974-03-21",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla vs. Gigan": {
+  "runtime": 89,
+  "runtime_raw": "89 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1972-03-12",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. Hedorah": {
+  "runtime": 85,
+  "runtime_raw": "85 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1971-07-24",
+    ""
+   ]
+  ]
+ },
+ "All Monsters Attack": {
+  "runtime": 70,
+  "runtime_raw": "70 minutes{{sfn|Galbraith IV|2008|p=261}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1969-12-20",
+    ""
+   ]
+  ]
+ },
+ "Ghidorah, the Three-Headed Monster": {
+  "runtime": 93,
+  "runtime_raw": "93 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1964-12-20",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla Raids Again": {
+  "runtime": 81,
+  "runtime_raw": "81 minutes{{sfn|Galbraith IV|2008|p=110}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1955-04-24",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla vs. Destoroyah": {
+  "runtime": 103,
+  "runtime_raw": "103 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1995-12-09",
+    ""
+   ]
+  ]
+ },
+ "Godzilla vs. Mechagodzilla II": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1993-12-11",
+    ""
+   ]
+  ]
+ },
+ "Conquest of the Planet of the Apes": {
+  "runtime": 88,
+  "runtime_raw": "88 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1972-06-14",
+    ""
+   ]
+  ]
+ },
+ "Battle for the Planet of the Apes": {
+  "runtime": 87,
+  "runtime_raw": "87 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1973-06-13",
+    ""
+   ]
+  ]
+ },
+ "Alien vs. Predator (film)": {
+  "runtime": 101,
+  "runtime_raw": "101 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-08-12",
+    "International"
+   ],
+   [
+    "2004-08-13",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla (1998 film)": {
+  "runtime": 139,
+  "runtime_raw": "139 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1998-05-18",
+    "Madison Square Garden"
+   ],
+   [
+    "1998-05-20",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla Against Mechagodzilla": {
+  "runtime": 88,
+  "runtime_raw": "88 minutes{{sfn|Galbraith IV|2008|p=425}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-12-14",
+    "Japan"
+   ]
+  ]
+ },
+ "Frank Herbert's Children of Dune": {
+  "runtime": 266,
+  "runtime_raw": "266 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-03-16",
+    ""
+   ]
+  ]
+ },
+ "Godzilla 2000": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes{{sfn|Kalat|2010|p=230}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1999-11-06",
+    "Tokyo International Film Festival"
+   ],
+   [
+    "1999-12-11",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla vs. Megaguirus": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2000-11-03",
+    "Tokyo International Film Festival"
+   ],
+   [
+    "2000-12-16",
+    "Japan"
+   ]
+  ]
+ },
+ "Aliens vs. Predator: Requiem": {
+  "runtime": 94,
+  "runtime_raw": "94 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2007-11-04",
+    "Los Angeles"
+   ],
+   [
+    "2007-12-25",
+    "United States"
+   ]
+  ]
+ },
+ "Game of Thrones": {
+  "runtime": 49,
+  "runtime_raw": "49–82 minutes",
+  "seasons": 8,
+  "episodes": 73,
+  "released": [
+   [
+    "2011-04-17",
+    ""
+   ]
+  ]
+ },
+ "Alien (film)": {
+  "runtime": 116,
+  "runtime_raw": "116 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1979-05-25",
+    "United States"
+   ],
+   [
+    "1979-09-06",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Dawn of the Planet of the Apes": {
+  "runtime": 130,
+  "runtime_raw": "130 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-06-26",
+    "Palace of Fine Arts"
+   ],
+   [
+    "2014-07-11",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla (2014 film)": {
+  "runtime": 123,
+  "runtime_raw": "123 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-05-08",
+    "Dolby Theatre"
+   ],
+   [
+    "2014-05-16",
+    "United States"
+   ]
+  ]
+ },
+ "Alien: Covenant": {
+  "runtime": 122,
+  "runtime_raw": "122 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-05-04",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2017-05-12",
+    "United Kingdom"
+   ],
+   [
+    "2017-05-19",
+    "United States"
+   ]
+  ]
+ },
+ "Fantastic Beasts: The Crimes of Grindelwald": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-11-08",
+    "Paris"
+   ],
+   [
+    "2018-11-16",
+    "United States and United Kingdom"
+   ]
+  ]
+ },
+ "Fantastic Beasts and Where to Find Them (film)": {
+  "runtime": 133,
+  "runtime_raw": "133 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-11-10",
+    "Alice Tully Hall"
+   ],
+   [
+    "2016-11-18",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Godzilla vs. Kong": {
+  "runtime": 113,
+  "runtime_raw": "113 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-03-24",
+    "International"
+   ],
+   [
+    "2021-03-31",
+    "United States"
+   ]
+  ]
+ },
+ "Fantastic Beasts: The Secrets of Dumbledore": {
+  "runtime": 142,
+  "runtime_raw": "142 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-03-29",
+    "Royal Festival Hall"
+   ],
+   [
+    "2022-04-14",
+    "Worldwide"
+   ],
+   [
+    "2022-04-15",
+    "United States"
+   ]
+  ]
+ },
+ "Dune (2021 film)": {
+  "runtime": 155,
+  "runtime_raw": "155 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2021-09-03",
+    "78th Venice International Film Festival"
+   ],
+   [
+    "2021-10-22",
+    "United States"
+   ]
+  ]
+ },
+ "Dune: Prophecy": {
+  "runtime": 58,
+  "runtime_raw": "58–80 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2024-11-17",
+    ""
+   ]
+  ]
+ },
+ "Dune: Part Two": {
+  "runtime": 165,
+  "runtime_raw": "165 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-02-06",
+    "Auditorio Nacional (Mexico)"
+   ],
+   [
+    "2024-03-01",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla Singular Point": {
+  "runtime": null,
+  "runtime_raw": null,
+  "seasons": null,
+  "episodes": null,
+  "released": []
+ },
+ "Alien: Romulus": {
+  "runtime": 119,
+  "runtime_raw": "119 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-08-12",
+    "Los Angeles"
+   ],
+   [
+    "2024-08-15",
+    "Edinburgh International Film Festival"
+   ],
+   [
+    "2024-08-16",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla Minus One": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2023-10-18",
+    "Shinjuku Toho Building"
+   ],
+   [
+    "2023-11-03",
+    "Japan"
+   ]
+  ]
+ },
+ "Alien: Earth": {
+  "runtime": 45,
+  "runtime_raw": "45–64 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2025-08-12",
+    ""
+   ]
+  ]
+ },
+ "A Knight of the Seven Kingdoms (TV series)": {
+  "runtime": 30,
+  "runtime_raw": "30–42 minutes",
+  "seasons": 1,
+  "episodes": 6,
+  "released": [
+   [
+    "2026-01-18",
+    ""
+   ]
+  ]
+ },
+ "Dune: Part Three": {
+  "runtime": null,
+  "runtime_raw": null,
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-12-18",
+    ""
+   ]
+  ]
+ },
+ "Godzilla Minus Zero": {
+  "runtime": 135,
+  "runtime_raw": "135 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2026-09-26",
+    "2026 New York Film Festival"
+   ],
+   [
+    "2026-11-03",
+    "Japan"
+   ]
+  ]
+ },
+ "King Kong vs. Godzilla": {
+  "runtime": 97,
+  "runtime_raw": "97 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1962-08-11",
+    "Japan"
+   ]
+  ]
+ },
+ "Son of Godzilla": {
+  "runtime": 86,
+  "runtime_raw": "86 minutes{{sfn|Galbraith IV|2008|p=245}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1967-12-16",
+    "Japan"
+   ]
+  ]
+ },
+ "Terror of Mechagodzilla": {
+  "runtime": 83,
+  "runtime_raw": "83 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1975-03-15",
+    ""
+   ]
+  ]
+ },
+ "The Lord of the Rings: The Fellowship of the Ring": {
+  "runtime": 178,
+  "runtime_raw": "178 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2001-12-10",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2001-12-19",
+    "United States"
+   ],
+   [
+    "2001-12-20",
+    "New Zealand"
+   ]
+  ]
+ },
+ "The Lord of the Rings: The Return of the King": {
+  "runtime": 201,
+  "runtime_raw": "201 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-12-01",
+    "Embassy Theatre, Wellington"
+   ],
+   [
+    "2003-12-17",
+    "United States"
+   ],
+   [
+    "2003-12-18",
+    "New Zealand"
+   ]
+  ]
+ },
+ "Predator (film)": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1987-06-12",
+    ""
+   ]
+  ]
+ },
+ "The Lord of the Rings (1978 film)": {
+  "runtime": 133,
+  "runtime_raw": "133 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1978-11-15",
+    "United States"
+   ],
+   [
+    "1979-07-05",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "The Hobbit (1977 film)": {
+  "runtime": 78,
+  "runtime_raw": "78 minutes{{Refn |group=\"lower-alpha\" |The film has a running time of 78 minutes; several Internet sites list the full 90 minute air time.}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1977-11-27",
+    ""
+   ]
+  ]
+ },
+ "Invasion of Astro-Monster": {
+  "runtime": 94,
+  "runtime_raw": "94 minutes{{sfn|Ryfle|1998|p=121}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1965-12-19",
+    "Japan"
+   ],
+   [
+    "1970-07-29",
+    "United States"
+   ]
+  ]
+ },
+ "Mothra vs. Godzilla": {
+  "runtime": 88,
+  "runtime_raw": "88 minutes{{sfn|Galbraith IV|2008|p=210}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1964-04-29",
+    "Japan"
+   ]
+  ]
+ },
+ "Predator 2": {
+  "runtime": 108,
+  "runtime_raw": "108 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1990-11-21",
+    ""
+   ]
+  ]
+ },
+ "Harry Potter and the Philosopher's Stone (film)": {
+  "runtime": 152,
+  "runtime_raw": "152 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2001-11-04",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2001-11-16",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Harry Potter and the Chamber of Secrets (film)": {
+  "runtime": 161,
+  "runtime_raw": "161 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-11-03",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2002-11-15",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Harry Potter and the Prisoner of Azkaban (film)": {
+  "runtime": 141,
+  "runtime_raw": "141 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-05-23",
+    "Radio City Music Hall"
+   ],
+   [
+    "2004-05-31",
+    "United Kingdom"
+   ],
+   [
+    "2004-06-04",
+    "United States"
+   ]
+  ]
+ },
+ "Harry Potter and the Goblet of Fire (film)": {
+  "runtime": 157,
+  "runtime_raw": "157 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2005-11-06",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2005-11-18",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Harry Potter and the Order of the Phoenix (film)": {
+  "runtime": 138,
+  "runtime_raw": "138 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2007-06-28",
+    "Tokyo"
+   ],
+   [
+    "2007-07-11",
+    "United States"
+   ],
+   [
+    "2007-07-12",
+    "United Kingdom"
+   ]
+  ]
+ },
+ "Harry Potter and the Half-Blood Prince (film)": {
+  "runtime": 153,
+  "runtime_raw": "153 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2009-07-07",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2009-07-15",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Godzilla vs. SpaceGodzilla": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1994-12-10",
+    ""
+   ]
+  ]
+ },
+ "Godzilla, Mothra and King Ghidorah: Giant Monsters All-Out Attack": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2001-11-03",
+    "Tokyo International Film Festival"
+   ],
+   [
+    "2001-12-15",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla: Tokyo S.O.S.": {
+  "runtime": 91,
+  "runtime_raw": "91 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2003-12-13",
+    ""
+   ]
+  ]
+ },
+ "Godzilla: Final Wars": {
+  "runtime": 125,
+  "runtime_raw": "125 minutes{{sfn|Kalat|2010|p=249}}",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2004-11-29",
+    "Los Angeles"
+   ],
+   [
+    "2004-12-04",
+    "Japan"
+   ]
+  ]
+ },
+ "Return to the Planet of the Apes": {
+  "runtime": 24,
+  "runtime_raw": "24 minutes without commercials",
+  "seasons": null,
+  "episodes": 13,
+  "released": [
+   [
+    "1975-09-06",
+    ""
+   ]
+  ]
+ },
+ "Godzilla: The Series": {
+  "runtime": 23,
+  "runtime_raw": "23 minutes",
+  "seasons": 2,
+  "episodes": 40,
+  "released": [
+   [
+    "1998-09-12",
+    ""
+   ]
+  ]
+ },
+ "Planet of the Apes (TV series)": {
+  "runtime": 50,
+  "runtime_raw": "50 minutes",
+  "seasons": null,
+  "episodes": 14,
+  "released": [
+   [
+    "1974-09-13",
+    ""
+   ]
+  ]
+ },
+ "Harry Potter and the Deathly Hallows – Part 1": {
+  "runtime": 146,
+  "runtime_raw": "146 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2010-11-11",
+    "Odeon Leicester Square"
+   ],
+   [
+    "2010-11-19",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "Planet of the Apes (1968 film)": {
+  "runtime": 112,
+  "runtime_raw": "112 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1968-02-08",
+    "Capitol Theatre (New York City)"
+   ],
+   [
+    "1968-04-03",
+    "United States"
+   ]
+  ]
+ },
+ "Planet of the Apes (2001 film)": {
+  "runtime": 120,
+  "runtime_raw": "120 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2001-07-27",
+    ""
+   ]
+  ]
+ },
+ "Predators (2010 film)": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2010-07-07",
+    "International"
+   ],
+   [
+    "2010-07-09",
+    "United States"
+   ]
+  ]
+ },
+ "Rise of the Planet of the Apes": {
+  "runtime": 105,
+  "runtime_raw": "105 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-08-05",
+    ""
+   ]
+  ]
+ },
+ "Prometheus (2012 film)": {
+  "runtime": 124,
+  "runtime_raw": "124 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2012-05-31",
+    "Empire, Leicester Square"
+   ],
+   [
+    "2012-06-01",
+    "United Kingdom"
+   ],
+   [
+    "2012-06-08",
+    "United States"
+   ]
+  ]
+ },
+ "Harry Potter and the Deathly Hallows – Part 2": {
+  "runtime": 130,
+  "runtime_raw": "130 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2011-07-07",
+    "Trafalgar Square"
+   ],
+   [
+    "2011-07-15",
+    "United Kingdom and United States"
+   ]
+  ]
+ },
+ "The Hobbit: The Desolation of Smaug": {
+  "runtime": 161,
+  "runtime_raw": "161 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2013-12-02",
+    "Los Angeles premiere"
+   ],
+   [
+    "2013-12-12",
+    "New Zealand"
+   ],
+   [
+    "2013-12-13",
+    "United States"
+   ]
+  ]
+ },
+ "The Hobbit: An Unexpected Journey": {
+  "runtime": 169,
+  "runtime_raw": "169 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2012-11-28",
+    "Wellington premiere"
+   ],
+   [
+    "2012-12-12",
+    "New Zealand"
+   ],
+   [
+    "2012-12-14",
+    "United States"
+   ]
+  ]
+ },
+ "The Hobbit: The Battle of the Five Armies": {
+  "runtime": 144,
+  "runtime_raw": "144 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2014-12-01",
+    "London premiere"
+   ],
+   [
+    "2014-12-11",
+    "New Zealand"
+   ],
+   [
+    "2014-12-17",
+    "United States"
+   ]
+  ]
+ },
+ "Kong: Skull Island": {
+  "runtime": 118,
+  "runtime_raw": "118 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-02-28",
+    "Empire, Leicester Square"
+   ],
+   [
+    "2017-03-10",
+    "United States"
+   ]
+  ]
+ },
+ "Shin Godzilla": {
+  "runtime": 120,
+  "runtime_raw": "120 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2016-07-25",
+    "Shinjuku"
+   ],
+   [
+    "2016-07-29",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla: Planet of the Monsters": {
+  "runtime": 88,
+  "runtime_raw": "88 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-11-17",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla: King of the Monsters (2019 film)": {
+  "runtime": 131,
+  "runtime_raw": "131 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2019-05-13",
+    "Beijing"
+   ],
+   [
+    "2019-05-31",
+    "United States"
+   ]
+  ]
+ },
+ "Godzilla: City on the Edge of Battle": {
+  "runtime": 100,
+  "runtime_raw": "100 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-05-18",
+    "Japan"
+   ]
+  ]
+ },
+ "Godzilla: The Planet Eater": {
+  "runtime": 91,
+  "runtime_raw": "91 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-11-03",
+    "Tokyo International Film Festival"
+   ],
+   [
+    "2018-11-09",
+    "Japan"
+   ]
+  ]
+ },
+ "The Lord of the Rings: The Rings of Power": {
+  "runtime": 61,
+  "runtime_raw": "61–76 minutes",
+  "seasons": 2,
+  "episodes": 16,
+  "released": [
+   [
+    "2022-09-01",
+    ""
+   ]
+  ]
+ },
+ "House of the Dragon": {
+  "runtime": 54,
+  "runtime_raw": "54–71 minutes",
+  "seasons": 3,
+  "episodes": 26,
+  "released": [
+   [
+    "2022-08-21",
+    ""
+   ]
+  ]
+ },
+ "Kingdom of the Planet of the Apes": {
+  "runtime": 145,
+  "runtime_raw": "145 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-05-02",
+    "TCL Chinese Theatre"
+   ],
+   [
+    "2024-05-10",
+    "United States"
+   ]
+  ]
+ },
+ "Prey (2022 film)": {
+  "runtime": 99,
+  "runtime_raw": "99 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2022-07-21",
+    "San Diego Comic-Con"
+   ],
+   [
+    "2022-08-05",
+    "United States"
+   ]
+  ]
+ },
+ "Skull Island (TV series)": {
+  "runtime": 20,
+  "runtime_raw": "20–26 minutes",
+  "seasons": 1,
+  "episodes": 8,
+  "released": [
+   [
+    "2023-06-22",
+    ""
+   ]
+  ]
+ },
+ "Harry Potter (TV series)": {
+  "runtime": null,
+  "runtime_raw": null,
+  "seasons": null,
+  "episodes": null,
+  "released": []
+ },
+ "Monarch: Legacy of Monsters": {
+  "runtime": 40,
+  "runtime_raw": "40–54 minutes",
+  "seasons": 2,
+  "episodes": 20,
+  "released": [
+   [
+    "2023-11-17",
+    ""
+   ]
+  ]
+ },
+ "Godzilla x Kong: The New Empire": {
+  "runtime": 115,
+  "runtime_raw": "115 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-03-25",
+    "Grauman's Chinese Theatre"
+   ],
+   [
+    "2024-03-29",
+    "United States"
+   ]
+  ]
+ },
+ "Predator: Badlands": {
+  "runtime": 107,
+  "runtime_raw": "107 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-11-03",
+    "TCL Chinese Theatre"
+   ],
+   [
+    "2025-11-07",
+    "United States"
+   ]
+  ]
+ },
+ "Predator: Killer of Killers": {
+  "runtime": 85,
+  "runtime_raw": "85 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2025-06-06",
+    ""
+   ]
+  ]
+ },
+ "The Return of Godzilla": {
+  "runtime": 103,
+  "runtime_raw": "103 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1984-12-15",
+    ""
+   ]
+  ]
+ },
+ "The Lord of the Rings: The Two Towers": {
+  "runtime": 179,
+  "runtime_raw": "179 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2002-12-05",
+    "Ziegfeld Theatre (1969)"
+   ],
+   [
+    "2002-12-18",
+    "United States"
+   ],
+   [
+    "2002-12-19",
+    "New Zealand"
+   ]
+  ]
+ },
+ "The Return of the King (1980 film)": {
+  "runtime": 98,
+  "runtime_raw": "98 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "1980-05-11",
+    ""
+   ]
+  ]
+ },
+ "War for the Planet of the Apes": {
+  "runtime": 140,
+  "runtime_raw": "140 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2017-07-10",
+    "School of Visual Arts"
+   ],
+   [
+    "2017-07-14",
+    "United States"
+   ]
+  ]
+ },
+ "The Predator (film)": {
+  "runtime": 108,
+  "runtime_raw": "108 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2018-09-06",
+    "2018 Toronto International Film Festival"
+   ],
+   [
+    "2018-09-14",
+    "United States"
+   ]
+  ]
+ },
+ "The Lord of the Rings: The War of the Rohirrim": {
+  "runtime": 134,
+  "runtime_raw": "134 minutes",
+  "seasons": null,
+  "episodes": null,
+  "released": [
+   [
+    "2024-12-03",
+    ""
+   ]
+  ]
+ }
+}
