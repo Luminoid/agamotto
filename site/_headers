@@ -1,6 +1,6 @@
 # Written by pipeline/build.py on every build: the CSP carries the hash of the page's one inline script.
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'sha256-1EL0lY+3W3h4zSNx18tPeGBT0wX5vfzuQIOcvxTCbRo='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+  Content-Security-Policy: default-src 'self'; script-src 'sha256-PYMIVwYLpfVs0RtMCZe4IcFoVNy99k6bAqCMsPHza2Y='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin

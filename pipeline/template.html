@@ -460,6 +460,7 @@ html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
     <p id="foot3"></p>
     <!-- IMDb's required credit for its non-commercial datasets, word for word, so it stays in English in both languages -->
     <p lang="en">Information courtesy of IMDb (<a href="https://www.imdb.com" target="_blank" rel="noopener noreferrer">https://www.imdb.com</a>). Used with permission.</p>
+    <p id="foot5"></p>
     <p id="foot4"></p>
   </footer>
 </div>
@@ -585,6 +586,7 @@ html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
       foot1: "Story order: the MCU follows Marvel's official Disney+ timeline (June 2026), Star Wars follows StarWars.com and Middle-earth uses the years in Tolkien's appendices; other continuities follow their own in-story chronology, and section notes say where an order works differently. Series that the official order splits by season appear once per season.",
       foot2: "Ratings: IMDb from IMDb's public datasets, Douban from douban.com (series are rated per season there; the card shows season 1 unless a season is named), Rotten Tomatoes Tomatometer from rottentomatoes.com. Runtimes and episode counts from Wikipedia, IMDb and Douban; posters from Wikipedia and TMDB.",
       foot3: "Unofficial fan index, not affiliated with any studio or rights holder. Posters belong to their owners.",
+      foot5: "Privacy: this is a static site served by Cloudflare, which processes your IP address and request metadata to deliver and protect it (<a href='https://www.cloudflare.com/privacypolicy/' target='_blank' rel='noopener noreferrer'>Cloudflare's privacy policy</a>). The page loads its fonts from Google Fonts, so Google receives your IP address and standard request headers when it opens (<a href='https://policies.google.com/privacy' target='_blank' rel='noopener noreferrer'>Google's privacy policy</a>). Your language, franchise and sort settings, and the ratings you import from IMDb or Douban, stay in your browser's local storage and never leave your device. No cookies, no analytics.",
       tbd: "TBA",
       k: (n) => n >= 1e6 ? (n / 1e6).toFixed(1).replace(/\.0$/, "") + "M" : n >= 1e3 ? Math.round(n / 1e3) + "K" : String(n),
     },
@@ -670,6 +672,7 @@ html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
       foot1: "剧情时间线：漫威电影宇宙按漫威 Disney+ 官方时间线（2026年6月），星球大战按 StarWars.com 官方顺序，中土世界按托尔金附录年份，其余宇宙按各自剧情年表，排序方式不同的分区会单独注明。官方顺序中按季拆分的剧集，每季单独出现。",
       foot2: "评分：IMDb 来自 IMDb 公开数据集，豆瓣来自豆瓣（剧集按季评分，未标注季数时显示第一季），烂番茄为新鲜度。片长与集数来自维基百科、IMDb 与豆瓣；海报来自维基百科与 TMDB。",
       foot3: "非官方影迷索引，与任何片方及版权方无关。海报版权归各自所有者。",
+      foot5: "隐私：本站是由 Cloudflare 托管的静态网站，Cloudflare 为交付和保护本站会处理你的 IP 地址和请求元数据（<a href='https://www.cloudflare.com/privacypolicy/' target='_blank' rel='noopener noreferrer'>Cloudflare 隐私政策</a>）。页面从 Google Fonts 加载字体，因此打开页面时 Google 会收到你的 IP 地址和标准请求标头（<a href='https://policies.google.com/privacy' target='_blank' rel='noopener noreferrer'>Google 隐私政策</a>）。你的语言、所选系列与排序设置，以及你从 IMDb 或豆瓣导入的评分，都保存在浏览器的本地存储中，不会离开你的设备。本站不使用 Cookie，也没有任何统计分析。",
       tbd: "待定",
       k: (n) => n >= 1e4 ? (n / 1e4).toFixed(1).replace(/\.0$/, "") + "万" : String(n),
     },
@@ -925,6 +928,7 @@ html[lang="zh-Hans"] .egg-stinger { font-family: var(--display-zh); }
     $("foot1").textContent = L_.foot1;
     $("foot2").textContent = L_.foot2;
     $("foot3").textContent = L_.foot3;
+    $("foot5").innerHTML = L_.foot5;
     $("foot4").innerHTML = `© ${new Date().getFullYear()} Luminoid · <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license noopener noreferrer" target="_blank">CC BY-NC-SA 4.0</a>`;
     $("foot-egg").textContent = L_.egg.hints[state.tab] || "";
     if (state.tab !== "marvel") creditsTab = null;

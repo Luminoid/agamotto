@@ -50,17 +50,17 @@ make icons       # redraw the favicons, touch icon and social card from pipeline
 make data        # full refresh: fetch, douban, enrich, build (slow, needs network)
 ```
 
-The steps behind `make data`, run from `pipeline/`:
+The steps behind `make data`, run from `pipeline/`. The fetch, Douban and enrich scripts are not in the repository: they drive third-party sites and stay on the maintainer's machine under `pipeline/local/`, so a clone can edit titles and rebuild the site from the committed JSON, but not refresh the data.
 
 | Step | Command | Writes |
 |---|---|---|
 | Edit titles, story order and settings | `seed.py`; Chinese names in `zh_titles.py` | |
-| Resolve titles on Wikipedia and Wikidata, download posters (a 200×300 card crop and the whole poster for the zoom) | `python3 fetch.py` | `data.json`, `../site/posters/` |
-| Queue Douban lookups for new titles | `python3 douban_add_jobs.py` | `douban_jobs.json`, `douban_split.json` |
-| Match films through their Douban pages | `node douban_subj.mjs` | `douban_subj.json` |
-| Match series seasons, and films without a Douban ID | `node douban_m.mjs` | `douban_m.json` |
-| Read every later-season page those found, to check its IMDb ID and votes | `node douban_check.mjs` | `douban_check.json` |
-| Add ratings, runtimes and seasons, and cross-check sources | `python3 enrich.py` | `data_enriched.json`, `report.txt`, `rt.json`, `wiki_infobox.json`, `imdb/subset.json` |
+| Resolve titles on Wikipedia and Wikidata, download posters (a 200×300 card crop and the whole poster for the zoom) | `python3 local/fetch.py` | `data.json`, `../site/posters/` |
+| Queue Douban lookups for new titles | `python3 local/douban_add_jobs.py` | `douban_jobs.json`, `douban_split.json` |
+| Match films through their Douban pages | `node local/douban_subj.mjs` | `douban_subj.json` |
+| Match series seasons, and films without a Douban ID | `node local/douban_m.mjs` | `douban_m.json` |
+| Read every later-season page those found, to check its IMDb ID and votes | `node local/douban_check.mjs` | `douban_check.json` |
+| Add ratings, runtimes and seasons, and cross-check sources | `python3 local/enrich.py` | `data_enriched.json`, `report.txt`, `rt.json`, `wiki_infobox.json`, `imdb/subset.json` |
 | Build the site | `python3 build.py` | `../site/index.html`, `404.html`, `_headers`, `robots.txt`, `sitemap.xml` |
 
 A Douban match counts only when the Douban page lists the title's IMDb ID; a later season counts when its page lists the series or one of its episodes. `report.txt` lists every place where the sources disagree.
@@ -70,6 +70,7 @@ A Douban match counts only when the Douban page lists the title's IMDb ID; a lat
 Nothing here expires, so a rerun reuses everything it already has.
 
 Not committed:
+- **`pipeline/local/`**: `fetch.py`, `enrich.py` and the `douban_*` scripts (see above).
 - **`pipeline/cache/`** holds every HTTP response, named by a hash of its URL. Files starting with `c_` are Rotten Tomatoes pages (and Douban responses from an older version of the scripts); the rest are Wikipedia, Wikidata, TMDB and poster downloads.
 - **`pipeline/imdb/`** holds IMDb's `title.basics`, `title.episode` and `title.ratings` files, downloaded by hand from https://datasets.imdbws.com/, and `subset.json`, the slice of them the site uses (rebuilt when it lacks an ID).
 

@@ -26,7 +26,7 @@ test-live: build ## the same, plus the Douban bookmarklet on a public profile (n
 icons: ## redraw the favicons, touch icon and social card from pipeline/brand/ (needs network for fonts)
 	cd pipeline && node brand.mjs
 
-# The data steps reuse everything already cached; README's "Caches and refreshing ratings" says what to delete first.
+# The data steps live in pipeline/local/ (not in the repository) and reuse everything already cached; README's "Caches and refreshing ratings" says what to delete first.
 data: ## full data refresh: fetch, douban, enrich, build (slow, needs network)
 	$(MAKE) fetch
 	$(MAKE) douban
@@ -34,13 +34,13 @@ data: ## full data refresh: fetch, douban, enrich, build (slow, needs network)
 	$(MAKE) build
 
 fetch: ## titles, dates and posters from Wikipedia and Wikidata
-	cd pipeline && python3 fetch.py
+	cd pipeline && python3 local/fetch.py
 
 douban: ## match new titles on Douban by IMDb id (headless Chrome, paced)
-	cd pipeline && python3 douban_add_jobs.py && node douban_subj.mjs && node douban_m.mjs && node douban_check.mjs
+	cd pipeline && python3 local/douban_add_jobs.py && node local/douban_subj.mjs && node local/douban_m.mjs && node local/douban_check.mjs
 
 enrich: ## ratings, runtimes and seasons; writes pipeline/report.txt (REFRESH_RT=1 refetches Rotten Tomatoes)
-	cd pipeline && python3 enrich.py
+	cd pipeline && python3 local/enrich.py
 
 clean: ## remove test screenshots and Python bytecode (caches stay)
 	rm -f pipeline/tests/*.png

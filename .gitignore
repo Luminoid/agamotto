@@ -5,6 +5,10 @@ pipeline/imdb/
 # headless Chrome profiles the Douban scripts create; they hold cookies
 pipeline/chrome-profile*/
 
+# the fetch, Douban and enrich scripts drive third-party sites and stay local;
+# the site builds from the committed JSON with `make build`
+pipeline/local/
+
 # test screenshots
 pipeline/tests/*.png
 
