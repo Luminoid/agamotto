@@ -1,12 +1,7 @@
-# fetch/enrich caches: Wikipedia, Wikidata, Douban and RT responses plus IMDb datasets (~550 MB, rebuildable)
-pipeline/cache/
-pipeline/imdb/
-
-# headless Chrome profiles the Douban scripts create; they hold cookies
-pipeline/chrome-profile*/
-
-# the fetch, Douban and enrich scripts drive third-party sites and stay local;
-# the site builds from the committed JSON with `make build`
+# everything that stays on the maintainer's machine; the site builds from the committed JSON with `make build`
+#   fetch.py, enrich.py   drive third-party sites
+#   douban/              the Douban scripts, their job queue and match files, and the headless Chrome profile (cookies)
+#   cache/, imdb/        HTTP responses and IMDb datasets (~550 MB, rebuildable)
 pipeline/local/
 
 # test screenshots

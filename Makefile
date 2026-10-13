@@ -37,7 +37,7 @@ fetch: ## titles, dates and posters from Wikipedia and Wikidata
 	cd pipeline && python3 local/fetch.py
 
 douban: ## match new titles on Douban by IMDb id (headless Chrome, paced)
-	cd pipeline && python3 local/douban_add_jobs.py && node local/douban_subj.mjs && node local/douban_m.mjs && node local/douban_check.mjs
+	cd pipeline && python3 local/douban/add_jobs.py && node local/douban/subj.mjs && node local/douban/m.mjs && node local/douban/check.mjs
 
 enrich: ## ratings, runtimes and seasons; writes pipeline/report.txt (REFRESH_RT=1 refetches Rotten Tomatoes)
 	cd pipeline && python3 local/enrich.py

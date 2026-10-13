@@ -29,6 +29,7 @@ site/            the built site: index.html, posters/, icons, 404.html, _headers
 pipeline/        the scripts, template and data that build it
   brand/         sources for the icons and the social card
   tests/         headless Chrome checks and a screenshot tool
+  local/         the data scripts, Douban matches and caches; not in the repository (see Caches)
 ```
 
 ## Building
@@ -50,17 +51,17 @@ make icons       # redraw the favicons, touch icon and social card from pipeline
 make data        # full refresh: fetch, douban, enrich, build (slow, needs network)
 ```
 
-The steps behind `make data`, run from `pipeline/`. The fetch, Douban and enrich scripts are not in the repository: they drive third-party sites and stay on the maintainer's machine under `pipeline/local/`, so a clone can edit titles and rebuild the site from the committed JSON, but not refresh the data.
+The steps behind `make data`, run from `pipeline/`. Everything under `pipeline/local/` (the fetch, Douban and enrich scripts, the Douban match files and the caches) is not in the repository: the scripts drive third-party sites and stay on the maintainer's machine, so a clone can edit titles and rebuild the site from the committed JSON, but not refresh the data.
 
 | Step | Command | Writes |
 |---|---|---|
 | Edit titles, story order and settings | `seed.py`; Chinese names in `zh_titles.py` | |
 | Resolve titles on Wikipedia and Wikidata, download posters (a 200×300 card crop and the whole poster for the zoom) | `python3 local/fetch.py` | `data.json`, `../site/posters/` |
-| Queue Douban lookups for new titles | `python3 local/douban_add_jobs.py` | `douban_jobs.json`, `douban_split.json` |
-| Match films through their Douban pages | `node local/douban_subj.mjs` | `douban_subj.json` |
-| Match series seasons, and films without a Douban ID | `node local/douban_m.mjs` | `douban_m.json` |
-| Read every later-season page those found, to check its IMDb ID and votes | `node local/douban_check.mjs` | `douban_check.json` |
-| Add ratings, runtimes and seasons, and cross-check sources | `python3 local/enrich.py` | `data_enriched.json`, `report.txt`, `rt.json`, `wiki_infobox.json`, `imdb/subset.json` |
+| Queue Douban lookups for new titles | `python3 local/douban/add_jobs.py` | `local/douban/jobs.json`, `local/douban/split.json` |
+| Match films through their Douban pages | `node local/douban/subj.mjs` | `local/douban/subj.json` |
+| Match series seasons, and films without a Douban ID | `node local/douban/m.mjs` | `local/douban/m.json` |
+| Read every later-season page those found, to check its IMDb ID and votes | `node local/douban/check.mjs` | `local/douban/check.json` |
+| Add ratings, runtimes and seasons, and cross-check sources | `python3 local/enrich.py` | `data_enriched.json`, `report.txt`, `rt.json`, `wiki_infobox.json`, `local/imdb/subset.json` |
 | Build the site | `python3 build.py` | `../site/index.html`, `404.html`, `_headers`, `robots.txt`, `sitemap.xml` |
 
 A Douban match counts only when the Douban page lists the title's IMDb ID; a later season counts when its page lists the series or one of its episodes. `report.txt` lists every place where the sources disagree.
@@ -69,21 +70,20 @@ A Douban match counts only when the Douban page lists the title's IMDb ID; a lat
 
 Nothing here expires, so a rerun reuses everything it already has.
 
-Not committed:
-- **`pipeline/local/`**: `fetch.py`, `enrich.py` and the `douban_*` scripts (see above).
-- **`pipeline/cache/`** holds every HTTP response, named by a hash of its URL. Files starting with `c_` are Rotten Tomatoes pages (and Douban responses from an older version of the scripts); the rest are Wikipedia, Wikidata, TMDB and poster downloads.
-- **`pipeline/imdb/`** holds IMDb's `title.basics`, `title.episode` and `title.ratings` files, downloaded by hand from https://datasets.imdbws.com/, and `subset.json`, the slice of them the site uses (rebuilt when it lacks an ID).
+Not committed, all under `pipeline/local/`:
+- **`fetch.py`, `enrich.py` and `douban/`**: the scripts (see above); `douban/` also holds the job queue, the matched subject and season pages, and the headless Chrome profile. The Douban scripts skip any title or page that already has an entry.
+- **`cache/`** holds every HTTP response, named by a hash of its URL. Files starting with `c_` are Rotten Tomatoes pages (and Douban responses from an older version of the scripts); the rest are Wikipedia, Wikidata, TMDB and poster downloads.
+- **`imdb/`** holds IMDb's `title.basics`, `title.episode` and `title.ratings` files, downloaded by hand from https://datasets.imdbws.com/, and `subset.json`, the slice of them the site uses (rebuilt when it lacks an ID).
 
 Committed, and reused the same way:
-- **`douban_subj.json`, `douban_m.json` and `douban_check.json`**: the Douban scripts skip any title or page that already has an entry.
 - **`rt.json`**: Rotten Tomatoes scores; `enrich.py` fetches only titles missing from it.
 - **`wiki_infobox.json`**: runtimes, seasons and episode counts parsed from Wikipedia infoboxes.
 
 To refresh:
-- **IMDb:** download the three files again, delete `imdb/subset.json`, then `make enrich build`.
+- **IMDb:** download the three files again, delete `local/imdb/subset.json`, then `make enrich build`.
 - **Rotten Tomatoes:** `REFRESH_RT=1 make enrich`, then `make build`. It refetches every page.
-- **Douban:** remove the titles you want refreshed from `douban_subj.json` and `douban_m.json` (and their season pages from `douban_check.json`), then `make douban enrich build`. Each title takes a few seconds, and Douban throttles long runs.
-- **Wikipedia counts:** delete `wiki_infobox.json` and the files in `cache/` whose names don't start with `c_`, then `make enrich build`. The next `make fetch` downloads Wikidata and posters again too.
+- **Douban:** remove the titles you want refreshed from `local/douban/subj.json` and `local/douban/m.json` (and their season pages from `local/douban/check.json`), then `make douban enrich build`. Each title takes a few seconds, and Douban throttles long runs.
+- **Wikipedia counts:** delete `wiki_infobox.json` and the files in `local/cache/` whose names don't start with `c_`, then `make enrich build`. The next `make fetch` downloads Wikidata and posters again too.
 
 ### Checks
 
